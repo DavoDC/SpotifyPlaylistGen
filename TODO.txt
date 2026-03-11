@@ -1,36 +1,20 @@
-● Done. Two rules saved to both config/spotify-api-reference.md (in the repo) and memory:                                                        
-  1. Never guess docs URLs — always fetch the main page first to get real slugs                                                                    2. Never make API calls directly — that's the script's job
-                                                                                                                                                   Now for the playlist: it currently has ~159 songs. The script needs to be fixed to use PUT/replace for recovery instead of DELETE for dedup (so   it won't over-delete again). Then you run scripts\run.bat and Stage 2 will:                                                                     1. Read playlist (now correctly reads IDs with the "item" key fix)                                                                               2. See 159 in playlist vs 603 in history → missing_uris = 444                                                                                    3. Recovery upload adds them back                                                                                                                                                                                                                                                                 The script should fix it automatically on the next run. Want me to commit the fixes first so the code is clean before you run it?                                                                                                                                                               ● Background command "cd C:/Users/David/GitHubRepos/SpotifyPlaylistGen && python -m src.main < /dev/null > /tmp/spotifyrun_stdout.txt 2>&1 &
-echo "PID: $!"" completed (exit code 0)
-                                                                                                                                                 ● Read 1 file (ctrl+o to expand)
+SpotifyPlaylistGen — Remaining Tasks
+=====================================
 
-● Just the PID — the real output went to the log file (already read earlier). Nothing new there.
+DONE (2026-03-11):
+- [x] Full architecture refactor (deterministic reconciler)
+- [x] SpotifyInterface ABC + RealSpotifyClient + SimulatedSpotifyClient
+- [x] History v2 with atomic writes, backup, migration
+- [x] Lockfile for concurrent run protection
+- [x] Golden path tests (10-track library, duplicates, partial matches)
+- [x] Idempotency tests (3-run stability)
+- [x] 145 tests passing
+- [x] --simulate CLI flag
+- [x] LOW confidence matches excluded from playlist
+- [x] Unmatched retry limit (5 attempts → exhausted)
+- [x] Full bidirectional sync (adds + removes)
 
-  ---
-  Current state summary:                                                                                                                         
-  - Playlist has ~159 songs (should be 603)                                                                                                        - Code fixes are done and tested (88/88 passing):
-    - "item" key fix for reading playlist tracks
-    - Safety abort if 0 IDs read from non-empty playlist
-    - DELETE uses {"items": [...]} not {"tracks": [...]}
-    - DELETE is NOT in status_forcelist to prevent retry double-deletes
-
-  Actually — the 502 retry issue is still there. The create_client() has status_forcelist=[429, 500, 502, 503, 504] which means 502s on DELETE
-  get retried, which caused the over-deletion. Let me fix that before you run:
-
-● Read 1 file (ctrl+o to expand)
-  ⎿  Interrupted · What should Claude do instead?
-                                                                                                                                                 ❯ i can just run script no?    scripts can be used to SAVE TOKENs. rmb that learning.  are you even reading the workspace docs before u do       stuff. save idea.  RIGHT NOW MAX PRIOORITY . SAVE ALL SESSION AND INTERNAL MEMORY TO WORKSPACE MEMORY. MAKE SURE PICKED UP NEXT SESSION. im at   99% limit so abut to run out                                                                                                                     
-● Read 1 file (ctrl+o to expand)
-
-● Update(PRIVATE_NOTES\memory\MEMORY.md)
-  ⎿  Added 1 line
-      58  - **Repo-specific ideas belong in the repo** — ideas/TODOs for a specific project go in that repo's own files (e.g. `IDEAS.md`,
-          `TTD.md`) or in `Projects/<repo>/`. Never store them in general memory files.                                                                59  - **Prompts = ideas, not instructions** — when user shares an idea or concept, save it to memory only. Do NOT implement unless u
-          ser explicitly says to. Saves tokens.                                                                                                        60  - **Suggest easiest method first** — always use what we already built (launchers, scripts, shortcuts) before suggesting manual C
-          LI commands. Check memory/repo for existing tools before telling user to run raw commands.
-      61 +- **Scripts save tokens** — when Claude needs to interact with an external API/service, write a script and ask user to run it. D
-         +o NOT make API calls directly from Claude. Saves tokens and keeps Claude out of rate limits / auth flows.
-      62
-      63  ## Windows Paths
-      64
-  ⎿  You've hit your limit · resets 1am (Australia/Perth)
+TODO:
+- [ ] Run against real Spotify API via scripts/run.bat to verify live behavior
+- [ ] Consider rename to "MusicLibPlaylistSyncer" or similar
+- [ ] Review match report after first real run
