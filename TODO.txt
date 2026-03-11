@@ -18,3 +18,7 @@ TODO:
 - [ ] Run against real Spotify API via scripts/run.bat to verify live behavior
 - [ ] Consider rename to "MusicLibPlaylistSyncer" or similar
 - [ ] Review match report after first real run
+- [ ] Improve CLI output: rename "NONE" to "NOT FOUND" (clearer meaning)
+- [ ] Investigate high NONE rate for popular artists (Eminem, Dr. Dre, DJ Khaled) — search query may need tuning
+- [ ] Logs should have as much info as terminal but terminal has more. Logs should be even more detailed. put as much info in terminal as possible every retry, every API call. log everything so figuring out what wrong is easy and claude can scan. 
+- [ ] Scan over recent files in logs folder for for more info 
