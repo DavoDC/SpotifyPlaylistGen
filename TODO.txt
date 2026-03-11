@@ -15,6 +15,9 @@ DONE (2026-03-11):
 - [x] Full bidirectional sync (adds + removes)
 
 TODO:
+- [ ] FIX BUG: Major issue found — every single track is returning NONE, even well-known songs like "Ariana Grande - No Tears Left To Cry" and "Calvin Harris
+  - Blame". This is clearly a search/matching bug, not genuine results. 
+- [ ] Script should never get stuck or show nothing, at least let usser what last attempted action was. and any errors. 
 - [ ] Run against real Spotify API via scripts/run.bat to verify live behavior
 - [ ] Consider rename to "MusicLibPlaylistSyncer" or similar
 - [ ] Review match report after first real run
