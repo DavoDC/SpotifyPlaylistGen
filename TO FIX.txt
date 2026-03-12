@@ -1,0 +1,16 @@
+EWW I see ancient require() statement instead of import in your js files
+
+
+Basically require() is synchronous and loads the entire module when called and import {} is async and lets you do tree shaking which enables just the exact functions/constants to be used during execution instead of loading the entire module
+
+
+Your _wait_for_exit() looks like it’s recursive..? So it’ll eventually crash
+
+
+See history_store.set_track()
+you're recording stuff as added here before Spotify confirms they're actually added
+
+
+
+Pylance is reporting 900+ errors *whip* use stricter types!!
+
