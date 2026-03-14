@@ -1,0 +1,45 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Tuesday 10 Mar 2026 ####
+
+David@RAPHAEL ../SpotifyPlaylistGen: python scripts/diagnose.py
+
+=== Spotify Diagnostics ===
+
+[1] Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+
+[2] Your playlists (first 20):
+     50W1xpWQPLVDSFeeBqpjSp  Local Music Library <-- TARGET
+     7hJfYpKLDQwmeHIPTmNS5y  chill songs everyone knows 🌙 relaxing music
+     3Leb8IHqeMTn7VPa6BTym6  R and B
+     43YWZpjBBePojqL0zA7Qe5  RnB late night drive 💗🚗
+     5vImPKH5smp2ifK34N6XTd  Energetic Upbeat lofi 🍉 Jazzhop Beats & Chillhop Music
+     3cnkhyqinMpD5O6f6qh5l4  productive work lofi 🍉 focus & study music
+     3kC7iG6lAToFeaxbwBeTj3  High Vibes
+     7oVf45YS1DwC1UihyYKPVi  Japanese/Anime
+     5LytIA94ArJz6I6cAI7cLG  Love
+     6woWIKmgcLi2oe4qxlwkxn  Motivation
+     5BMAb8a4FE3phY8y2jgYrf  Chill
+     69v3OY3j8X8hJp2ykKFUUr  The Deed
+     7oOMzDmYpDjhOOcgzkph6l  Hype
+     20Vl1UUmx8otnuC9PComST  Down
+     3zoqmUBZ3sAvaAo979U4q1  GET AFTER IT! 💪 Gym, Workout, Motivation Meaningwave
+     478alGhyQHxcJZu65LzKIg  Jordan Peterson Musivation
+     0Bw11jT4InHm9ART1wAcPW  Favourite Akira Albums
+     321LEomVmFIYZR0GZgpz1z  Best Akira Musivation
+     0lAhs4fC4jpuHH4tfinGPw  Powerful Tracks
+     2L6YBWTARom109lyPzcBiv  Earl Nightingale Compilation
+
+[3] Fetching playlist metadata for 50W1xpWQPLVDSFeeBqpjSp...
+     Name:   Local Music Library
+     Owner:  Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+     Public: True
+
+[4] Fetching tracks...
+HTTP Error for GET to https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks with Params: {'limit': 1, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track,episode'} returned 403 due to Forbidden
+     ERROR: http status: 403, code:-1 - https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks?limit=1&offset=0&additional_types=track%2Cepisode:
+ Forbidden, reason: None
+
+Done.
+
+Press Enter to exit...

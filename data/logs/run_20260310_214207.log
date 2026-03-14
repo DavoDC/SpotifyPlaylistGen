@@ -1,0 +1,10 @@
+2026-03-10 21:42:07,340 === SpotifyPlaylistGen started ===
+2026-03-10 21:42:07,341 Stage 1: Parsing XML library
+2026-03-10 21:42:08,661   Found 5471 tracks
+2026-03-10 21:42:08,664   Classified: matched=603 to_search=4868 custom=0
+2026-03-10 21:42:08,664 Stage 2: Connecting to Spotify
+2026-03-10 21:42:09,483   Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-10 21:42:09,751   Playlist currently has 0 tracks
+2026-03-10 21:42:09,752   Sync: in_playlist=0 missing=603 to_search=4868
+2026-03-10 21:42:12,135   Uploaded 603 tracks (recovery) — playlist total: 603
+2026-03-10 21:42:12,135 Stage 3: Searching 4868 tracks

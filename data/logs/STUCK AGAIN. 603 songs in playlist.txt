@@ -1,0 +1,73 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Tuesday 10 Mar 2026 ####
+
+2026-03-10 22:35:09,667 === SpotifyPlaylistGen started ===
+
+============================================================
+  SpotifyPlaylistGen
+  Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\run_20260310_223509.log
+============================================================
+
+[Stage 1/4] Reading local music library...
+2026-03-10 22:35:09,668 Stage 1: Parsing XML library
+2026-03-10 22:35:10,369   Found 5471 tracks — matched=603 to_search=4868 custom=0
+  Found 5471 tracks in library
+  Already matched :   603  (saved in history, should be in playlist)
+  Need searching  :  4868  (new tracks or previous 'not found')
+  Custom / skip   :     0  (manually marked as not on Spotify)
+
+[Stage 2/4] Connecting to Spotify...
+2026-03-10 22:35:10,369   Found 5471 tracks — matched=603 to_search=486
+8 custom=0
+  Found 5471 tracks in library
+  Already matched :   603  (saved in history, should be in playlist)
+  Need searching  :  4868  (new tracks or previous 'not found')
+  Custom / skip   :     0  (manually marked as not on Spotify)
+
+[Stage 2/4] Connecting to Spotify...
+2026-03-10 22:35:10,370 Stage 2: Connecting to Spotify
+2026-03-10 22:35:10,931   Authenticated as: Spotify Connect (31t7akeeck
+gzo6iqwnon4jsrpuqa)
+  Logged in as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+  Reading playlist contents...2026-03-10 22:35:11,332   Playlist API: t
+otal=159 first_page_count=100 has_next=True
+2026-03-10 22:35:11,333   Paginating: page=1 items=100 running_total=0
+2026-03-10 22:35:11,651   Paginating: page=2 items=59 running_total=53
+2026-03-10 22:35:11,651   Read 53 unique track IDs (API reported total=
+159)
+2026-03-10 22:35:11,652   Playlist currently has 53 tracks
+ 53 unique tracks found
+  Checking for duplicates...2026-03-10 22:35:13,138   Removed 106 dupli
+cate track entries from playlist
+ found 106 — removing...2026-03-10 22:35:13,376   Playlist API: total=0
+ first_page_count=0 has_next=False
+2026-03-10 22:35:13,376   Paginating: page=1 items=0 running_total=0
+2026-03-10 22:35:13,376   Read 0 unique track IDs (API reported total=0
+)
+ done. Playlist now has 0 tracks.
+2026-03-10 22:35:13,376   Deduplication: removed 106, now 0 tracks
+
+  Sync diff:
+        0  already in playlist  (no action needed)
+      603  matched but missing  (will upload now)
+     4868  not yet searched     (will search in Stage 3)
+2026-03-10 22:35:13,377   Sync: in_playlist=0 missing=603 to_search=486
+8
+
+  --> Uploading 603 tracks to Spotify playlist... done. Playlist now ha
+s 603 tracks.
+2026-03-10 22:35:15,594   Uploaded 603 tracks (recovery) — playlist tot
+al: 603
+  Waiting 15s before searching (prevents rate limiting after bulk uploa
+d)...
+  Ready.
+
+[Stage 3/4] Searching Spotify for 4868 tracks...
+  (EXACT/HIGH/LOW = added to playlist | NONE = not found, retried next
+run)
+  Each track shown as it's searched. Progress auto-saves every 25 track
+s.
+
+2026-03-10 22:35:30,600 Stage 3: Searching 4868 tracks
+  [   1/4868] 24kGoldn - Empty

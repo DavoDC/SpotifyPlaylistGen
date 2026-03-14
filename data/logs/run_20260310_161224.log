@@ -1,0 +1,5 @@
+2026-03-10 16:12:24,157 === SpotifyPlaylistGen started ===
+2026-03-10 16:12:24,158 Stage 1: Parsing XML library
+2026-03-10 16:12:24,956   Found 5471 tracks
+2026-03-10 16:12:24,956 Stage 2: Connecting to Spotify
+2026-03-10 16:12:25,796 HTTP Error for GET to https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks with Params: {'limit': 100, 'offset': 0, 'fields': 'items(track(id)),next', 'market': None, 'additional_types': 'track'} returned 403 due to Forbidden

@@ -1,0 +1,15 @@
+2026-03-11 20:52:38,292 === SpotifyPlaylistGen started ===
+2026-03-11 20:52:38,543 History backup created: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\history.json.bak
+2026-03-11 20:52:38,544 Stage 1: Parsing XML library
+2026-03-11 20:52:39,236   Found 5471 tracks in library
+2026-03-11 20:52:39,237 Stage 2: Connecting to Spotify
+2026-03-11 20:52:39,813   Authenticated as: Spotify Connect
+2026-03-11 20:52:40,210 Playlist API: total=603
+2026-03-11 20:52:42,341 Read 603 unique track URIs (API reported total=603)
+2026-03-11 20:52:45,581 Reconciliation plan: search=4868 add=0 remove=0 recover=0 synced=603 custom=0 exhausted=0
+2026-03-11 20:52:45,582 Stage 3: Searching 4868 tracks
+2026-03-11 20:54:35,780 Added batch of 100 tracks
+2026-03-11 20:55:41,399 Added batch of 100 tracks
+2026-03-11 20:56:48,847 Added batch of 100 tracks
+2026-03-11 20:57:53,140 Added batch of 100 tracks
+2026-03-11 20:59:03,225 Added batch of 100 tracks

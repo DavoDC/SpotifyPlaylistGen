@@ -1,0 +1,19 @@
+2026-03-10 16:37:07,079 === SpotifyPlaylistGen started ===
+2026-03-10 16:37:07,080 Stage 1: Parsing XML library
+2026-03-10 16:37:07,864   Found 5471 tracks
+2026-03-10 16:37:07,864 Stage 2: Connecting to Spotify
+2026-03-10 16:37:08,413   Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-10 16:37:08,638   Playlist already has 0 tracks
+2026-03-10 16:37:08,638 Stage 3: Matching tracks
+2026-03-10 16:37:08,638 Processing: 21 Savage — Mr. Right Now
+2026-03-10 16:37:15,651 Processing: 24kGoldn — 3, 2, 1
+2026-03-10 16:37:16,096 Processing: 24kGoldn — Breath Away
+2026-03-10 16:37:16,502 Processing: 24kGoldn — Butterflies
+2026-03-10 16:37:16,979 Processing: 24kGoldn — Cut It Off
+2026-03-10 16:37:17,439 Processing: 24kGoldn — Don't Sleep
+2026-03-10 16:37:17,887 Processing: 24kGoldn — Love Or Lust
+2026-03-10 16:37:18,431 Processing: 24kGoldn — Mistakes
+2026-03-10 16:37:27,133 Processing: 24kGoldn — More Than Friends
+2026-03-10 16:37:30,251 User quit. Progress saved.
+2026-03-10 16:37:30,251 Stage 4: Adding 8 tracks to playlist
+2026-03-10 16:37:30,450 HTTP Error for POST to https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks with Params: {'position': None} returned 403 due to Forbidden

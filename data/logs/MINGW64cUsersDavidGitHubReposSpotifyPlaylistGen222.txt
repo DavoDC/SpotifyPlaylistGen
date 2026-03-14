@@ -1,0 +1,126 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Tuesday 10 Mar 2026 ####
+
+2026-03-10 16:37:07,079 === SpotifyPlaylistGen started ===
+
+=== SpotifyPlaylistGen ===
+Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\run_20260310_163707.log
+
+Stage 1/4: Reading AudioMirror library...
+2026-03-10 16:37:07,080 Stage 1: Parsing XML library
+2026-03-10 16:37:07,864   Found 5471 tracks
+  Found 5471 tracks
+
+Stage 2/4: Connecting to Spotify...
+2026-03-10 16:37:07,864 Stage 2: Connecting to Spotify
+2026-03-10 16:37:08,413   Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+  Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-10 16:37:08,638   Playlist already has 0 tracks
+  Playlist already has 0 tracks
+
+Stage 3/4: Matching tracks...
+2026-03-10 16:37:08,638 Stage 3: Matching tracks
+2026-03-10 16:37:08,638 Processing: 21 Savage — Mr. Right Now
+
+[6/5471]
+  Track: 21 Savage — Mr. Right Now (SAVAGE MODE II)
+  Best match [LOW]: 21 Savage — Mr. Right Now (feat. Drake) (SAVAGE MODE II)
+  Alternatives:
+    1. [LOW] 21 Savage — Mr. Right Now (feat. Drake) (SAVAGE MODE II)
+    2. [LOW] 21 Savage — Mr. Right Now (feat. Drake) (SAVAGE MODE II [CHOPPED NOT SLOPPED])
+    3. [NONE] 21 Savage — Mr. Right Now [ChopNotSlop Remix] (feat. Drake) (SAVAGE MODE II [CHOPPED NOT SLOPPED])
+
+  Options: [y] accept best  [1-4] pick alternative  [c] custom track  [s] skip/reject  [q] quit & save
+  > y
+2026-03-10 16:37:15,651 Processing: 24kGoldn — 3, 2, 1
+
+[7/5471] AUTO: 24kGoldn — 3, 2, 1
+2026-03-10 16:37:16,096 Processing: 24kGoldn — Breath Away
+
+[8/5471] AUTO: 24kGoldn — Breath Away
+2026-03-10 16:37:16,502 Processing: 24kGoldn — Butterflies
+
+[9/5471] AUTO: 24kGoldn — Butterflies
+2026-03-10 16:37:16,979 Processing: 24kGoldn — Cut It Off
+
+[10/5471] AUTO: 24kGoldn — Cut It Off
+2026-03-10 16:37:17,439 Processing: 24kGoldn — Don't Sleep
+
+[11/5471] AUTO: 24kGoldn — Don't Sleep
+2026-03-10 16:37:17,887 Processing: 24kGoldn — Love Or Lust
+
+[12/5471] AUTO: 24kGoldn — Love Or Lust
+2026-03-10 16:37:18,431 Processing: 24kGoldn — Mistakes
+
+[13/5471]
+  Track: 24kGoldn — Mistakes (El Dorado)
+  Best match [HIGH]: 24kGoldn — Mistakes (Mistakes)
+  Alternatives:
+    1. [HIGH] 24kGoldn — Mistakes (El Dorado (Deluxe))
+
+  Options: [y] accept best  [1-4] pick alternative  [c] custom track  [s] skip/reject  [q] quit & save
+  > y
+2026-03-10 16:37:27,133 Processing: 24kGoldn — More Than Friends
+
+[14/5471]
+  Track: 24kGoldn — More Than Friends (El Dorado)
+  Best match [HIGH]: 24kGoldn — More Than Friends (More Than Friends)
+  Alternatives:
+    1. [HIGH] 24kGoldn — More Than Friends (El Dorado (Deluxe))
+
+  Options: [y] accept best  [1-4] pick alternative  [c] custom track  [s] skip/reject  [q] quit & save
+  > q
+2026-03-10 16:37:30,251 User quit. Progress saved.
+
+Progress saved. Re-run to continue from where you left off.
+
+Stage 4/4: Adding 8 new tracks to playlist...
+2026-03-10 16:37:30,251 Stage 4: Adding 8 tracks to playlist
+2026-03-10 16:37:30,450 HTTP Error for POST to https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks with Params: {'position': None}
+ returned 403 due to Forbidden
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 275, in _internal_call
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\main.py", line 206, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\main.py", line 183, in main
+    add_tracks_to_playlist(sp, config["spotify_playlist_id"], to_add_uris)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\spotify.py", line 76, in add_tracks_to_playlist
+    sp.playlist_add_items(playlist_id, track_uris[i:i+100])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 1100, in playlist_add_items
+    return self._post(
+           ~~~~~~~~~~^
+        f"playlists/{plid}/tracks",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        payload=ftracks,
+        ^^^^^^^^^^^^^^^^
+        position=position,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 332, in _post
+    return self._internal_call("POST", url, payload, kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 297, in _internal_call
+    raise SpotifyException(
+    ...<5 lines>...
+    )
+spotipy.exceptions.SpotifyException: http status: 403, code:-1 - https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks:
+ Forbidden, reason: None
+
+David@RAPHAEL MINGW64 ~/GitHubRepos/SpotifyPlaylistGen (main)
+$

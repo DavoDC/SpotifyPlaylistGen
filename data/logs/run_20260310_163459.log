@@ -1,0 +1,9 @@
+2026-03-10 16:34:59,170 === SpotifyPlaylistGen started ===
+2026-03-10 16:34:59,170 Stage 1: Parsing XML library
+2026-03-10 16:34:59,961   Found 5471 tracks
+2026-03-10 16:34:59,961 Stage 2: Connecting to Spotify
+2026-03-10 16:35:00,494   Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-10 16:35:00,788   Playlist already has 0 tracks
+2026-03-10 16:35:00,788 Stage 3: Matching tracks
+2026-03-10 16:35:00,788 Processing: 21 Savage — a lot
+2026-03-10 16:35:01,322 Processing: 21 Savage — Mr. Right Now

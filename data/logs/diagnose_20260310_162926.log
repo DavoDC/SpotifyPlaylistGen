@@ -1,0 +1,20 @@
+
+=== Spotify Diagnostics (2026-03-10 16:29:26) ===
+
+[1] Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+
+[2] Checking target playlist (50W1xpWQPLVDSFeeBqpjSp)...
+     Found in your playlists: True
+
+[3] Fetching playlist metadata...
+     Name:   Local Music Library
+     Owner:  Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+     Public: True
+
+[4] Fetching tracks via sp.playlist()...
+     ERROR: 'tracks'
+
+[5] Fetching tracks from second playlist (321LEomVmFIYZR0GZgpz1z)...
+     ERROR: 'tracks'
+
+Log saved to: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\diagnose_20260310_162926.log

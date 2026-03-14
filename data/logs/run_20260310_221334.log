@@ -1,0 +1,25 @@
+2026-03-10 22:13:34,746 === SpotifyPlaylistGen started ===
+2026-03-10 22:13:34,747 Stage 1: Parsing XML library
+2026-03-10 22:13:35,440   Found 5471 tracks — matched=603 to_search=4868 custom=0
+2026-03-10 22:13:35,441 Stage 2: Connecting to Spotify
+2026-03-10 22:13:36,315   Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-10 22:13:36,694   Playlist API: total=1206 first_page_count=100 has_next=True
+2026-03-10 22:13:36,694   Paginating: page=1 items=100 running_total=0
+2026-03-10 22:13:37,172   Paginating: page=2 items=100 running_total=0
+2026-03-10 22:13:37,613   Paginating: page=3 items=100 running_total=0
+2026-03-10 22:13:38,013   Paginating: page=4 items=100 running_total=0
+2026-03-10 22:13:38,467   Paginating: page=5 items=100 running_total=0
+2026-03-10 22:13:38,896   Paginating: page=6 items=100 running_total=0
+2026-03-10 22:13:39,258   Paginating: page=7 items=100 running_total=0
+2026-03-10 22:13:39,639   Paginating: page=8 items=100 running_total=0
+2026-03-10 22:13:40,026   Paginating: page=9 items=100 running_total=0
+2026-03-10 22:13:40,402   Paginating: page=10 items=100 running_total=0
+2026-03-10 22:13:40,877   Paginating: page=11 items=100 running_total=0
+2026-03-10 22:13:41,339   Paginating: page=12 items=100 running_total=0
+2026-03-10 22:13:41,661   Paginating: page=13 items=6 running_total=0
+2026-03-10 22:13:41,661   Read 0 unique track IDs (API reported total=1206)
+2026-03-10 22:13:41,661   WARNING: API says 1206 tracks but read 0 IDs — possible API pagination issue
+2026-03-10 22:13:41,661   Playlist currently has 0 tracks
+2026-03-10 22:13:46,809   Sync: in_playlist=0 missing=603 to_search=4868
+2026-03-10 22:13:49,244   Uploaded 603 tracks (recovery) — playlist total: 603
+2026-03-10 22:14:04,248 Stage 3: Searching 4868 tracks

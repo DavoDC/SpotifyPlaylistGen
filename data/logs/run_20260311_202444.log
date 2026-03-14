@@ -1,0 +1,38 @@
+2026-03-11 20:24:44,650 === SpotifyPlaylistGen started ===
+2026-03-11 20:24:44,653 Migrating history from v1 to v2 (682 entries)
+2026-03-11 20:24:44,654 Migration complete: 682 tracks migrated
+2026-03-11 20:24:44,655 History backup created: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\history.json.bak
+2026-03-11 20:24:44,655 Stage 1: Parsing XML library
+2026-03-11 20:24:45,359   Found 5471 tracks in library
+2026-03-11 20:24:45,359 Stage 2: Connecting to Spotify
+2026-03-11 20:24:45,359   Authenticated as: Test User
+2026-03-11 20:24:45,359 [SIM] get_playlist_uris() -> 0 URIs
+2026-03-11 20:24:45,361 Reconciliation plan: search=4868 add=0 remove=0 recover=603 synced=0 custom=0 exhausted=0
+2026-03-11 20:24:45,363 [SIM] add_tracks(603 URIs)
+2026-03-11 20:24:45,363   Recovery: 603 succeeded, 0 failed
+2026-03-11 20:24:45,363 Stage 3: Searching 4868 tracks
+2026-03-11 20:24:45,363 [SIM] search_track(24kGoldn|Empty) -> 0 results
+2026-03-11 20:24:45,363 [SIM] search_track(24kGoldn|Coco) -> 0 results
+2026-03-11 20:24:45,363 [SIM] search_track(24kGoldn|Company) -> 0 results
+2026-03-11 20:24:45,363 [SIM] search_track(24kGoldn|Dawn to Dusk) -> 0 results
+2026-03-11 20:24:45,363 [SIM] search_track(2Pac|Baby Don't Cry) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(2Pac|Me and My Girlfriend) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(2Pac|Staring Through My Rearview) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Ace Hood|Tryna Come Up) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Akon|Prolly Fuck) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Ariana Grande|No Tears Left To Cry) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Ariana Grande|boyfriend) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Arizona Zervas|HOLY TRINITY) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Avicii|I Could Be The One) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(B.o.B|Airplanes Part 2) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(B.o.B|Airplanes Part 1) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(B.o.B|Magic) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(B.o.B|Nigga Now) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(B.o.B|Castles) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Basshunter|DotA) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Basshunter|Now You're Gone) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Bebe Rexha|Going To Be Alright (Edit)) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Berner|Prevail) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Bliss|Coolin') -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Bliss|Tear The Roof Off) -> 0 results
+2026-03-11 20:24:45,364 [SIM] search_track(Bliss|Reach the Heavens) -> 0 results

@@ -1,0 +1,242 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Thursday 12 Mar 2026 ####
+
+2026-03-12 21:31:20,029 === SpotifyPlaylistGen started ===
+
+============================================================
+  SpotifyPlaylistGen
+  Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\run_20260312_213120.log
+============================================================
+2026-03-12 21:31:20,520 Removing stale lockfile (PID 35412 no longer running)
+2026-03-12 21:31:20,525 History backup created: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\history.json.bak
+
+[Stage 1/4] Reading local music library...
+2026-03-12 21:31:20,525 Stage 1: Parsing XML library
+2026-03-12 21:31:22,353   Found 5471 tracks in library
+  Found 5471 tracks in library
+
+[Stage 2/4] Reading playlist & computing sync plan...
+2026-03-12 21:31:22,353 Stage 2: Connecting to Spotify
+2026-03-12 21:31:22,918   Authenticated as: Spotify Connect
+  Logged in as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-12 21:31:23,338 Playlist API: total=1103
+2026-03-12 21:31:27,770 Read 1103 unique track URIs (API reported total=1103)
+  Playlist has 1103 unique tracks
+2026-03-12 21:31:32,843 Reconciliation plan: search=4368 add=0 remove=0 recover=0 synced=1103 custom=0 exhausted=0
+
+  Sync plan:
+     1103  already in sync
+        0  matched but missing from playlist (will recover)
+     4368  need searching
+        0  in playlist but not in library (will remove)
+        0  custom/skipped
+        0  exhausted (gave up after 5 attempts)
+
+[Stage 3/4] Searching Spotify for 4368 tracks...
+2026-03-12 21:31:32,844 Stage 3: Searching 4368 tracks
+  [   1/4368] 24kGoldn - Empty
+  [   2/4368] 24kGoldn - Coco
+  [   3/4368] 24kGoldn - Company
+  [   4/4368] 24kGoldn - Dawn to Dusk
+  [   4/4368] 24kGoldn - Dawn to Dusk
+- NONE
+  [   5/4368] 2Pac - Baby Don't Cry
+- NONE
+  [   6/4368] 2Pac - Me and My Girlfriend
+- NONE
+  [   7/4368] 2Pac - Staring Through My Rearview
+- NONE
+  [   8/4368] Ace Hood - Tryna Come Up
+  [   9/4368] Akon - Prolly Fuck
+  [   9/4368] Akon - Prolly Fuck
+- NONE
+  [  10/4368] Ariana Grande - No Tears Left To Cry
+  [  11/4368] Ariana Grande - boyfriend
+  [  11/4368] Ariana Grande - boyfriend
+  [  12/4368] Arizona Zervas - HOLY TRINITY
+  [  12/4368] Arizona Zervas - HOLY TRINITY
+  [  13/4368] Avicii - I Could Be The One
+  [  13/4368] Avicii - I Could Be The One
+- NONE
+  [  14/4368] B.o.B - Airplanes Part 2
+- NONE
+  [  15/4368] B.o.B - Airplanes Part 1
+- NONE
+  [  16/4368] B.o.B - Magic
+  [  17/4368] B.o.B - Nigga Now
+  [  17/4368] B.o.B - Nigga Now
+  [  18/4368] B.o.B - Castles
+  [  19/4368] Basshunter - DotA
+  [  19/4368] Basshunter - DotA
+- NONE
+  [  20/4368] Basshunter - Now You're Gone
+- LOW    (partial: Basshunter - Now You're Gone (
+  [   4/4368] 24kGoldn - Dawn to Dusk
+- NONE
+  [   5/4368] 2Pac - Baby Don't Cry
+- NONE
+  [   6/4368] 2Pac - Me and My Girlfriend
+- NONE
+  [   7/4368] 2Pac - Staring Through My Rearview                       - NONE         [   9/4368] Akon - Prolly Fuck                                       - NONE         [  13/4368] Avicii - I Could Be The One                              - NONE         [  14/4368] B.o.B - Ai  [  14/4368] B.o.B - Airplane  [  14/4368] B.o.B - Airplanes Part 2                                 - NONE
+  [  15/4368] B.o.B - Airplanes Part 1                                 - NONE
+  [  19/4368] Basshunter - DotA                                        - NONE
+  [  20/4368] Basshunter - Now You're Gone                             - LOW    (partial: Basshunter - Now You're Gone (feat. DJ Mental Theo's Bazzheadz) - Video Edit)
+  [  14/4368] B.o.B - Airplanes Part 2                                 - NONE
+  [  15/4368] B.o.B - Airplanes Part 1                                 - NONE
+  [  19/4368] Basshunter - DotA                                        - NONE
+  [  20/4368] Basshunter - Now You're Gone                             - LOW    (partial: Basshunter - Now You're Gone (feat. DJ Mental Theo's Bazzheadz) - Video Edit)
+  [  21/4368] Bebe Rexha - Going To Be Alright (Edit)                  - LOW    (partial: Bebe Rexha - Meant to Be (feat. Florida Georgia Line))
+  [  23/4368] Bliss - Coolin'                                          - NONE
+  [  24/4368] Bliss - Tear The Roof Off                                - NONE
+  [  25/4368] Bliss - Reach the Heavens                                - NONE
+  [  26/4368] Bliss - Home                                             - NONE
+  [  27/4368] Bliss - Chemical Heart (GEED UP)                         - NONE
+  [  29/4368] Boney M - Exodus                                         - NONE
+  [  30/4368] Boney M - Mary's Boy Child                               - NONE
+  [  31/4368] Calvin Harris - Bounce                                   - NONE
+  [  32/4368] Calvin Harris - Love Now                                   [  33/4368] Calvin Harris - Open Wide                                  [  34/4368] Calvin Harris -
+ Outside                           [  41/4368] Chris Brown - Deuces                [  45/4368] Counting Crows - The Ghost In You                        - NONE
+  [  46/4368] DaBaby - GO                                              - NONE
+  [  51/4368] DaBaby - 'Essence' Freestyle                             - NONE
+  [  54/4368] David Massengill - Fireball                              - NONE
+  [  55/4368] David Massengill - Jesus's Birthday                      - NONE
+  [  56/4368] David Massengill - Noah                                  - NONE
+  [  57/4368] David Massengill - Sight See-er                          - NONE
+  [  58/4368] David Massengill - You and Me                            - NONE
+  [  60/4368] Dax - TOXIC (Remix)                                      - NONE
+  [  61/4368] DC The Don - Tonight's The Night                         - NONE
+  [  62/4368] Diddy - Coming Home                                      - NONE
+  [  63/4368] Diddy - Hello Good Morning                               - NONE
+  [  64/4368] Diddy - I Need a Girl - Part 2                           - LOW    (partial: Diddy - I Need a Girl (Pt. 2) [feat. Loon, Ginuwine, Mario Winans])
+  [  72/4368] DJ Khaled - USE THIS GOSPEL                              - LOW    (partial: DJ Khaled - USE THIS GOSPEL (feat. Kanye West & Eminem) - REMIX)
+  [  76/4368] Dr. Dre - New Day                                        - NONE
+  [  82/4368] Dual Core - My Girlfriend is a Hacker                    - NONE
+  [  83/4368] Dual Core - 10 Hack Commandments                         - NONE
+  [  84/4368] Dual Core - The Children's Machine                       - LOW    (partial: Dual Core - The Children's Machine (Olpc))
+  [  92/4368] Ellie Goulding - Still Falling For You                   - LOW    (partial: Ellie Goulding - Still Falling For You - From "Bridget Jones's Baby")
+  [  94/4368] Eminem - Drop the World                                  - NONE
+  [  95/4368] Eminem - Forever                                         - NONE
+  [  96/4368] Eminem - Venom                                           - LOW    (partial: Eminem - Venom - Remix)
+  [ 103/4368] Eminem - Any Man                                         - NONE
+  [ 104/4368] Eminem - Car Freestyle                                   - NONE
+  [ 105/4368] Eminem - Eminem vs Papa Doc                              - NONE
+  [ 106/4368] Eminem - I Miss You                                      - NONE
+  [ 108/4368] Eminem - Emulate                                         - NONE
+  [ 109/4368] Eminem - Bad Guys Always Die                             - LOW    (partial: Eminem - Bad Guys Always Die - From "Wild Wild West" Soundtrack)
+  [ 110/4368] Eminem - Get You Mad                                     - NONE
+  [ 111/4368] Esoterik - Welcome                                       - LOW    (partial: Esoterik - Welcome - Intro)
+  [ 114/4368] Fergie - Big Girls Don't Cry                             - LOW    (partial: Fergie - Big Girls Don't Cry (Personal))
+  [ 115/4368] Fetty Wap - Queen                                        - LOW    (partial: Fetty Wap - Trap Queen)
+  [ 118/4368] Flo Rida - Magic                                         - NONE
+  [ 121/4368] Flo Rida - Let It Roll Part 1                            - NONE
+  [ 125/4368] Foreigner - White Lie                                    - LOW    (partial: Foreigner - White Lie - Single Version)
+  [ 129/4368] Foster Ebayy - Cici Eko                                  - NONE
+  [ 130/4368] Foster Ebayy - 4th February                              - LOW    (partial: Foster Ebayy - 4th February - Freestyyle Cover)
+  [ 131/4368] Foster Ebayy - Senseless                                 - NONE
+  [ 132/4368] Foster Ebayy - Sounds From The Stereo                    - NONE
+  [ 133/4368] Foster Ebayy - Tempo (69)                                - NONE
+  [ 134/4368] Frank Sinatra - Bad Leroy Brown                          - LOW    (partial: Frank Sinatra - Bad, Bad Leroy Brown)
+  [ 135/4368] Frank Sinatra - New York                                 - LOW    (partial: Frank Sinatra - New York, New York)
+  [ 136/4368] Frank Sinatra - Something Stupid                         - LOW    (partial: Frank Sinatra - Somethin' Stupid)
+  [ 137/4368] Frank Sinatra - The Girl From Ipanema                    - LOW    (partial: Frank Sinatra - The Girl From Ipanema - 2008 Remastered)
+  [ 138/4368] Frank Sinatra - Let It Snow                              - LOW    (partial: Frank Sinatra - Let It Snow, Let It Snow!)
+  [ 152/4368] Gym Class Heroes - Cupid's Chokehold                     - NONE
+  [ 154/4368] Hopsin - Tell'em Who You Got It From                     - LOW    (partial: Hopsin - Tell em Who You Got it From)
+  [ 157/4368] Hopsin - Marcus's Gospel                                 - LOW    (partial: Hopsin - Marcus' Gospel (Feat. Michael Speaks))
+  [ 160/4368] Hopsin - Have You Seen Me                                - NONE
+  [ 161/4368] Hopsin - Nocturnal Rainbows                              - LOW    (partial: Hopsin - Noctournal Rainbows)
+  [ 168/4368] iann dior - First Time                                   - NONE
+  [ 170/4368] iann dior - gone girl                                    + HIGH
+2026-03-12 21:33:13,705 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-12 21:33:14,076 Added batch of 100 tracks
+2026-03-12 21:33:14,076 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 170/4368 | 100 matched | 70 unmatched | ETA ~41m 40s
+  [ 171/4368] Ice Cube - Super OG                                      - LOW    (partial: Ice Cube - Super OG (Intro))
+  [ 186/4368] Illrotic - Beyond the Words                              - NONE
+  [ 187/4368] Illrotic - Blindfold                                     - NONE
+  [ 188/4368] Illrotic - I'll Dream On                                 - NONE
+  [ 189/4368] Illrotic - OMFG                                          - NONE
+  [ 222/4368] Iyaz - Breathe                                           - NONE
+  [ 276/4368] Jack Harlow - Same Guy                                   + EXACT
+2026-03-12 21:34:11,660 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-12 21:34:11,996 Added batch of 100 tracks
+2026-03-12 21:34:11,997 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 276/4368 | 200 matched | 76 unmatched | ETA ~39m 19s
+  [ 313/4368] Jay-Z - Song Cry                                         - NONE
+  [ 314/4368] Jay-Z - Renegade                                         - NONE
+  [ 315/4368] Jay-Z - Young Forever                                    - NONE
+  [ 316/4368] Jay-Z - Encore                                           - NONE
+  [ 317/4368] Jay-Z - Hard Knock Life                                  - NONE
+  [ 318/4368] Jay-Z - Run This Town                                    - NONE
+  [ 319/4368] Jay-Z - Empire State Of Mind                             - NONE
+  [ 320/4368] Jersey Boys - Big Girls Don't Cry                        - NONE
+  [ 321/4368] Jersey Boys - December, 1963                             - NONE
+  [ 322/4368] Jersey Boys - Fallen Angel                               - NONE
+  [ 323/4368] Jersey Boys - I Make A Fool Of Myself                    - NONE
+  [ 325/4368] Jersey Boys - Our Day Will Come                          - NONE
+  [ 327/4368] Jersey Boys - Swearin' to God                            - NONE
+  [ 328/4368] Jersey Boys - The Proud One                              - NONE
+  [ 329/4368] Jersey Boys - To Give                                    - NONE
+  [ 330/4368] Jersey Boys - We're All Alone                            - NONE
+  [ 350/4368] Joey Bada$$ - Blast Off                                  - NONE
+  [ 352/4368] Joey Bada$$ - Like Water                                 - NONE
+  [ 389/4368] John Williamson - The Breaker                            - NONE
+  [ 391/4368] John Williamson - Bush Barber                            - NONE
+  [ 392/4368] John Williamson - Bushtown                               - NONE
+  [ 393/4368] John Williamson - Dad's Flowers                          - NONE
+  [ 398/4368] Johnny Cash - I Love You Tonite                          + EXACT
+2026-03-12 21:35:21,800 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-12 21:35:22,127 Added batch of 100 tracks
+2026-03-12 21:35:22,127 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 398/4368 | 300 matched | 98 unmatched | ETA ~38m 7s
+  [ 432/4368] Juice WRLD - Ring Ring                                   - NONE
+  [ 473/4368] Juice WRLD - Back in Chicago                             - NONE
+  [ 474/4368] Juice WRLD - Lotti Lotti                                 - NONE
+  [ 477/4368] Juice WRLD - Graduation                                  - NONE
+  [ 478/4368] Juice WRLD - Vacation                                    - NONE
+  [ 503/4368] Justin Bieber - 2U                                       - NONE
+  [ 504/4368] Justin Bieber - Cold Water                               - NONE
+  [ 505/4368] Justin Bieber - Let Me Love You                          - NONE
+  [ 506/4368] Justin Bieber - Yummy                                    + EXACT
+2026-03-12 21:36:21,264 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-12 21:36:21,604 Added batch of 100 tracks
+2026-03-12 21:36:21,605 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 506/4368 | 400 matched | 106 unmatched | ETA ~36m 44s
+  [ 510/4368] Justin Timberlake - LoveStoned                           - NONE
+  [ 511/4368] Justin Timberlake - What Goes Around, Comes Around       - LOW    (partial: Justin Timberlake - What Goes Around...Comes Around - Radio Edit)
+  [ 516/4368] Kanye West - BEAUTY AND THE BEAST                        - NONE
+  [ 517/4368] Kanye West - DAMN                                        - NONE
+  [ 518/4368] Kanye West - PREACHER MAN                                - NONE
+  [ 519/4368] Kanye West - BROKEN ROAD                                 - NONE
+  [ 521/4368] Kanye West - WE DID IT KID                               - NONE
+  [ 522/4368] Kanye West - CITY OF GODS                                - NONE
+  [ 523/4368] Kanye West - EAZY                                        - NONE
+  [ 542/4368] Kanye West - Diamonds From Sierra Leone                  - LOW    (partial: Kanye West - Diamonds From Sierra Leone - Remix)
+  [ 562/4368] Kanye West - Eyes Closed                                 - NONE
+  [ 563/4368] Kanye West - Never See Me Again                          - NONE
+  [ 564/4368] Kanye West - Whoopy Doo                                  - NONE
+  [ 565/4368] Kanye West - Downtown                                    - NONE
+  [ 568/4368] Kanye West - HALLELUJAH                                  - NONE
+  [ 571/4368] Kanye West - Petals                                      - NONE
+  [ 572/4368] Kanye West - WW3                                         - NONE
+  [ 580/4368] Kanye West - Slow Jamz                                   - NONE
+  [ 587/4368] Kanye West - BACK TO ME                                  - NONE
+  [ 588/4368] Kanye West - BURN                                        - NONE
+  [ 589/4368] Kanye West - CARNIVAL                                    - NONE
+  [ 590/4368] Kanye West - DO IT                                       - NONE
+  [ 591/4368] Kanye West - HOODRAT                                     - NONE
+  [ 592/4368] Kanye West - KEYS TO MY LIFE                             - NONE
+  [ 593/4368] Kanye West - KING                                        - NONE
+  [ 594/4368] Kanye West - PAID                                        - NONE
+  [ 595/4368] Kanye West - PAPERWORK                                   - NONE
+  [ 596/4368] Kanye West - PROBLEMATIC                                 - NONE
+  [ 597/4368] Kanye West - STARS                                       - NONE
+  [ 598/4368] Kanye West - TALKING                                     - NONE
+  [ 599/4368] Kanye West - VULTURES                                    - NONE
+  [ 637/4368] Kevin Gates - Let It Go                                  + EXACT
+2026-03-12 21:37:33,994 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-12 21:37:34,365 Added batch of 100 tracks
+2026-03-12 21:37:34,365 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 637/4368 | 500 matched | 137 unmatched | ETA ~35m 17s
+  [ 649/4368] Kevin Gates - See Me                                     + EXACT

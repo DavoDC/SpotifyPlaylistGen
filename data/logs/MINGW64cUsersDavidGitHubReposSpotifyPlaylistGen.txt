@@ -1,0 +1,64 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Tuesday 10 Mar 2026 ####
+
+2026-03-10 16:12:24,157 === SpotifyPlaylistGen started ===
+
+=== SpotifyPlaylistGen ===
+Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\run_20260310_161224.log
+
+Stage 1/4: Reading AudioMirror library...
+2026-03-10 16:12:24,158 Stage 1: Parsing XML library
+2026-03-10 16:12:24,956   Found 5471 tracks
+  Found 5471 tracks
+
+Stage 2/4: Connecting to Spotify...
+2026-03-10 16:12:24,956 Stage 2: Connecting to Spotify
+2026-03-10 16:12:25,796 HTTP Error for GET to https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks with Params: {'limit': 100, 'offset': 0, 'fields': 'items(track(id)),next', 'market': None, 'additional_types': 'track'} returned 403 due to Forbidden
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 275, in _internal_call
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks?limit=100&offset=0&fields=items%28track%28id%29%29%2Cnext&additional_types=track
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\main.py", line 203, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\main.py", line 112, in main
+    existing_ids = get_playlist_track_ids(sp, config["spotify_playlist_id"])
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\spotify.py", line 61, in get_playlist_track_ids
+    results = sp.playlist_tracks(playlist_id, fields="items(track(id)),next")
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 698, in playlist_tracks
+    return self.playlist_items(playlist_id, fields, limit, offset,
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               market, additional_types)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 722, in playlist_items
+    return self._get(
+           ~~~~~~~~~^
+        f"playlists/{plid}/tracks",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        additional_types=",".join(additional_types)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 327, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 297, in _internal_call
+    raise SpotifyException(
+    ...<5 lines>...
+    )
+spotipy.exceptions.SpotifyException: http status: 403, code:-1 - https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks?limit=100&offset=0&fields=items%28track%28id%29%29%2Cnext&additional_types=track:
+ Forbidden, reason: None
+
+David@RAPHAEL MINGW64 ~/GitHubRepos/SpotifyPlaylistGen (main)
+$

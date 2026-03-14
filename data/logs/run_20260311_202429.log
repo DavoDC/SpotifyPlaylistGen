@@ -1,0 +1,14 @@
+2026-03-11 20:24:29,177 === SpotifyPlaylistGen started ===
+2026-03-11 20:24:29,181 Migrating history from v1 to v2 (682 entries)
+2026-03-11 20:24:29,182 Migration complete: 682 tracks migrated
+2026-03-11 20:24:29,183 History backup created: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\history.json.bak
+2026-03-11 20:24:29,183 Stage 1: Parsing XML library
+2026-03-11 20:24:30,697   Found 5471 tracks in library
+2026-03-11 20:24:30,697 Stage 2: Connecting to Spotify
+2026-03-11 20:24:30,697   Authenticated as: Test User
+2026-03-11 20:24:30,698 [SIM] get_playlist_uris() -> 0 URIs
+2026-03-11 20:24:30,700 Reconciliation plan: search=4868 add=0 remove=0 recover=603 synced=0 custom=0 exhausted=0
+2026-03-11 20:24:30,701 [SIM] add_tracks(603 URIs)
+2026-03-11 20:24:30,701   Recovery: 603 succeeded, 0 failed
+2026-03-11 20:24:30,701 Stage 3: Searching 4868 tracks
+2026-03-11 20:24:30,701 [SIM] search_track(24kGoldn|Empty) -> 0 results

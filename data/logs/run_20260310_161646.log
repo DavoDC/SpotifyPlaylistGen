@@ -1,0 +1,8 @@
+2026-03-10 16:16:46,467 === SpotifyPlaylistGen started ===
+2026-03-10 16:16:46,468 Stage 1: Parsing XML library
+2026-03-10 16:16:47,154   Found 5471 tracks
+2026-03-10 16:16:47,154 Stage 2: Connecting to Spotify
+2026-03-10 16:16:47,155 User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2026-03-10 16:16:47,221 Opened https://accounts.spotify.com/authorize?client_id=fce771f8d07948a998d3aaff5f722928&response_type=code&redirect_uri=http%3A%2F%2F127.0.0.1%3A8888%2Fcallback&scope=playlist-modify-public+playlist-modify-private+playlist-read-private+playlist-read-collaborative in your browser
+2026-03-10 16:16:50,228   Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-10 16:16:50,409 HTTP Error for GET to https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp/tracks with Params: {'limit': 100, 'offset': 0, 'fields': 'items(track(id)),next', 'market': None, 'additional_types': 'track'} returned 403 due to Forbidden

@@ -1,0 +1,18 @@
+=== Spotify Diagnostics (2026-03-10 16:33:42) ===
+
+[1] Auth check
+     OK: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+
+[2] Playlist ownership
+     OK: Found: Local Music Library
+
+[3] Playlist metadata (GET /playlists/{id})
+     OK: name='Local Music Library' public=True track_key='items' top_level_keys=['collaborative', 'description', 'external_urls', 'followers', 'href', 'id', 'images', 'name', 'owner', 'primary_color', 'public', 'snapshot_id', 'items', 'type', 'uri']
+
+[4] Read tracks via sp.playlist() (app method)
+     OK: total=0 sample=[]
+
+[5] Add endpoint check (GET playlist only, not writing)
+     OK: Owner matches authenticated user (31t7akeeckgzo6iqwnon4jsrpuqa)
+
+Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\diagnose_20260310_163342.log

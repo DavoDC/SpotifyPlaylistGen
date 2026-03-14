@@ -1,0 +1,12 @@
+2026-03-14 20:55:19,078 === SpotifyPlaylistGen started ===
+2026-03-14 20:55:19,683 Removing stale lockfile (PID 12464 no longer running)
+2026-03-14 20:55:19,692 History backup created: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\history.json.bak
+2026-03-14 20:55:19,692 Stage 1: Parsing XML library
+2026-03-14 20:55:21,079   Found 5471 tracks in library
+2026-03-14 20:55:21,079 Stage 2: Connecting to Spotify
+2026-03-14 20:55:21,079 Sending GET to https://api.spotify.com/v1/me/ with Params: {} Headers: {'Authorization': 'Bearer BQBLzp813duba5IuuEdbh3DE0J9J1YJqdMa9k66y-ATuSg2BifEhHeHxvHjaHJSZrtFJ1NbKEt0VovbIrqZ9FUIkiMOxE8XYLXMnnZq9Zy_dcPBaftI3FHrFyMaDXFkBSQsL_QqXK5LGJSXL4A1359Du-S0r7yHr2qk5cQEm8xyYz2TmH-jaeN38vnZoTSdwf4mY-657LXPr1zyoiXLprO8Ezyre6Qjrxq5tJdZKQeAo9HWxFudS8ufoAr68hCMU1nBQ8N2ywscP4IWGS1KeMJmrGCtot3vTiMMOqpkAQ5U1gbbOuzr06z5PwA-89dI1', 'Content-Type': 'application/json'} and Body: None 
+2026-03-14 20:55:21,083 Starting new HTTPS connection (1): api.spotify.com:443
+2026-03-14 20:55:21,654 https://api.spotify.com:443 "GET /v1/me/ HTTP/1.1" 200 None
+2026-03-14 20:55:21,655 RESULTS: {'display_name': 'Spotify Connect', 'external_urls': {'spotify': 'https://open.spotify.com/user/31t7akeeckgzo6iqwnon4jsrpuqa'}, 'followers': {'href': None, 'total': 0}, 'href': 'https://api.spotify.com/v1/users/31t7akeeckgzo6iqwnon4jsrpuqa', 'id': '31t7akeeckgzo6iqwnon4jsrpuqa', 'images': [{'height': 300, 'url': 'https://i.scdn.co/image/ab6775700000ee855dfa0b5e94c29507ade9b3d1', 'width': 300}, {'height': 64, 'url': 'https://i.scdn.co/image/ab67757000003b825dfa0b5e94c29507ade9b3d1', 'width': 64}], 'type': 'user', 'uri': 'spotify:user:31t7akeeckgzo6iqwnon4jsrpuqa'}
+2026-03-14 20:55:21,655   Authenticated as: Spotify Connect
+2026-03-14 20:55:21,655 Sending GET to https://api.spotify.com/v1/playlists/50W1xpWQPLVDSFeeBqpjSp with Params: {'fields': None, 'market': None, 'additional_types': 'track'} Headers: {'Authorization': 'Bearer BQBLzp813duba5IuuEdbh3DE0J9J1YJqdMa9k66y-ATuSg2BifEhHeHxvHjaHJSZrtFJ1NbKEt0VovbIrqZ9FUIkiMOxE8XYLXMnnZq9Zy_dcPBaftI3FHrFyMaDXFkBSQsL_QqXK5LGJSXL4A1359Du-S0r7yHr2qk5cQEm8xyYz2TmH-jaeN38vnZoTSdwf4mY-657LXPr1zyoiXLprO8Ezyre6Qjrxq5tJdZKQeAo9HWxFudS8ufoAr68hCMU1nBQ8N2ywscP4IWGS1KeMJmrGCtot3vTiMMOqpkAQ5U1gbbOuzr06z5PwA-89dI1', 'Content-Type': 'application/json'} and Body: None 

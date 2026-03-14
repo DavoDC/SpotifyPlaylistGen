@@ -1,0 +1,713 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Tuesday 10 Mar 2026 ####
+
+2026-03-10 16:41:58,156 === SpotifyPlaylistGen started ===
+
+=== SpotifyPlaylistGen ===
+Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\run_20260310_164158.log
+
+Stage 1/4: Reading AudioMirror library...
+2026-03-10 16:41:58,156 Stage 1: Parsing XML library
+2026-03-10 16:41:58,943   Found 5471 tracks
+  Found 5471 tracks
+
+Stage 2/4: Connecting to Spotify...
+2026-03-10 16:41:58,943 Stage 2: Connecting to Spotify
+2026-03-10 16:41:59,487   Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+  Authenticated as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-10 16:41:59,797   Playlist already has 0 tracks
+  Playlist already has 0 tracks
+
+Stage 3/4: Matching tracks...
+2026-03-10 16:41:59,797 Stage 3: Matching tracks
+2026-03-10 16:42:00,161 [HIGH] 24kGoldn - More Than Friends
+2026-03-10 16:42:00,585 [EXACT] 24kGoldn - Outta Pocket
+2026-03-10 16:42:00,974 [EXACT] 24kGoldn - The Top
+2026-03-10 16:42:01,469 [EXACT] 24kGoldn - Yellow Lights
+2026-03-10 16:42:01,863 [LOW] 24kGoldn - Mood
+2026-03-10 16:42:02,327 [HIGH] 24kGoldn - Prada
+2026-03-10 16:42:02,755 [NONE] 24kGoldn - Empty
+2026-03-10 16:42:03,222 [HIGH] 24kGoldn - In My Head
+2026-03-10 16:42:03,639 [NONE] 24kGoldn - Coco
+2026-03-10 16:42:04,086 [NONE] 24kGoldn - Company
+2026-03-10 16:42:04,912 [NONE] 24kGoldn - Dawn to Dusk
+2026-03-10 16:42:05,354 [EXACT] 24kGoldn - Good Intentions
+2026-03-10 16:42:05,754 [EXACT] 2Pac - Ambitionz Az A Ridah
+2026-03-10 16:42:06,221 [EXACT] 2Pac - Check Out Time
+2026-03-10 16:42:06,589 [LOW] 2Pac - All Eyez On Me
+2026-03-10 16:42:07,018 [LOW] 2Pac - What's Ya Phone #
+2026-03-10 16:42:07,415 [HIGH] 2Pac - Only God Can Judge Me
+2026-03-10 16:42:07,866 [LOW] 2Pac - Ratha Be Ya Nigga
+2026-03-10 16:42:08,347 [LOW] 2Pac - Thugz Mansion
+2026-03-10 16:42:08,821 [EXACT] 2Pac - Better Dayz
+2026-03-10 16:42:09,259 [LOW] 2Pac - Never Call U Bitch Again
+2026-03-10 16:42:09,769 [EXACT] 2Pac - Dear Mama
+2026-03-10 16:42:10,491 [EXACT] 2Pac - Hail Mary
+2026-03-10 16:42:10,860 [EXACT] 2Pac - Keep Ya Head Up
+2026-03-10 16:42:11,265 [EXACT] 2Pac - Life Goes On2026-03-10 16:42:11,742 [EXACT] 2Pac - So Many Tears
+2026-03-10 16:42:12,131 [EXACT] 2Pac - To Live & Die In L.A.
+2026-03-10 16:42:12,510 [EXACT] 2Pac - Unconditional Love
+2026-03-10 16:42:12,934 [EXACT] 2Pac - I Ain't Mad At Cha
+2026-03-10 16:42:13,341 [EXACT] 2Pac - Picture Me Rollin'
+2026-03-10 16:42:13,764 [EXACT] 2Pac - How Do U Want It
+2026-03-10 16:42:14,157 [EXACT] 2Pac - How Long Will They Mourn Me?
+2026-03-10 16:42:14,560 [LOW] 2Pac - California Love
+2026-03-10 16:42:14,958 [EXACT] 2Pac - I Get Around
+2026-03-10 16:42:15,342 [EXACT] 2Pac - 2 Of Amerikaz Most Wanted
+2026-03-10 16:42:15,739 [EXACT] 2Pac - All About U
+2026-03-10 16:42:16,138 [EXACT] 2Pac - Changes
+2026-03-10 16:42:16,517 [HIGH] 2Pac - Hit 'Em Up
+2026-03-10 16:42:16,948 [EXACT] 2Pac - Ghetto Gospel
+2026-03-10 16:42:17,388 [EXACT] 2Pac - Thugs Get Lonely Too
+2026-03-10 16:42:17,762 [EXACT] 2Pac - Can U Get Away
+2026-03-10 16:42:18,204 [EXACT] 2Pac - If I Die 2Nite
+2026-03-10 16:42:18,603 [EXACT] 2Pac - Old School
+2026-03-10 16:42:19,164 [EXACT] 2Pac - Me Against The World
+2026-03-10 16:42:19,587 [EXACT] 2Pac - Do For Love
+2026-03-10 16:42:19,987 [EXACT] 2Pac - Hold On Be Strong
+2026-03-10 16:42:20,400 [EXACT] 2Pac - Nothing To Lose
+2026-03-10 16:42:20,764 [EXACT] 2Pac - Only Fear Of Death
+2026-03-10 16:42:21,172 [EXACT] 2Pac - Pac's Life
+2026-03-10 16:42:21,558 [EXACT] 2Pac - Runnin' (Dying to Live)
+2026-03-10 16:42:21,971 [NONE] 2Pac - Baby Don't Cry
+2026-03-10 16:42:22,432 [EXACT] 2Pac - Black Jesuz
+2026-03-10 16:42:23,006 [EXACT] 2Pac - High Speed
+2026-03-10 16:42:23,385 [EXACT] 2Pac - Killuminati
+2026-03-10 16:42:23,812 [EXACT] 2Pac - Tattoo Tears
+2026-03-10 16:42:24,270 [EXACT] 2Pac - Teardrops And Closed Caskets
+2026-03-10 16:42:24,755 [EXACT] 2Pac - The Good Die Young
+2026-03-10 16:42:25,205 [EXACT] 2Pac - U Can Be Touched
+2026-03-10 16:42:25,587 [EXACT] 2Pac - Still I Rise
+2026-03-10 16:42:26,394 [NONE] 2Pac - Me and My Girlfriend
+2026-03-10 16:42:27,151 [NONE] 2Pac - Staring Through My Rearview
+2026-03-10 16:42:27,547 [EXACT] 2Pac - Letter 2 My Unborn
+2026-03-10 16:42:28,136 [EXACT] 2Pac - Until The End Of Time
+2026-03-10 16:42:28,563 [EXACT] 3 Doors Down - Be Like That
+2026-03-10 16:42:29,011 [EXACT] 3 Doors Down - Here Without You
+2026-03-10 16:42:29,443 [EXACT] 3 Doors Down - Kryptonite
+2026-03-10 16:42:29,872 [EXACT] 3 Doors Down - Let Me Go
+2026-03-10 16:42:30,271 [EXACT] 3 Doors Down - There's A Life
+2026-03-10 16:42:30,668 [EXACT] 50 Cent - Back Down
+2026-03-10 16:42:31,066 [EXACT] 50 Cent - Gotta Make It To Heaven
+2026-03-10 16:42:31,546 [EXACT] 50 Cent - Heat
+2026-03-10 16:42:31,948 [EXACT] 50 Cent - High All The Time
+2026-03-10 16:42:32,402 [EXACT] 50 Cent - If I Can't
+2026-03-10 16:42:32,989 [EXACT] 50 Cent - In Da Club
+2026-03-10 16:42:33,874 [EXACT] 50 Cent - Lifes On The Line
+2026-03-10 16:42:34,277 [EXACT] 50 Cent - Many Men (Wish Death)
+2026-03-10 16:42:34,861 [EXACT] 50 Cent - Poor Lil Rich
+2026-03-10 16:42:35,303 [EXACT] 50 Cent - U Not Like Me
+2026-03-10 16:42:35,668 [EXACT] 50 Cent - Wanksta
+2026-03-10 16:42:36,137 [EXACT] 50 Cent - What Up Gangsta
+2026-03-10 16:42:36,533 [EXACT] 50 Cent - Patiently Waiting
+2026-03-10 16:42:37,001 [EXACT] 50 Cent - Don't Push Me
+2026-03-10 16:42:37,426 [EXACT] 50 Cent - 21 Questions
+2026-03-10 16:42:37,818 [HIGH] 50 Cent - P.I.M.P. (Snoop Dogg Remix)
+2026-03-10 16:42:38,237 [EXACT] 50 Cent - Like My Style
+2026-03-10 16:42:38,738 [EXACT] 50 Cent - Blood Hound
+  [100/5471] Processing...
+2026-03-10 16:42:39,170 [HIGH] 50 Cent - Best Friend
+2026-03-10 16:42:39,606 [HIGH] 50 Cent - Hustler's Ambition
+2026-03-10 16:42:40,044 [HIGH] 50 Cent - Window Shopper
+2026-03-10 16:42:40,433 [EXACT] 50 Cent - My Life
+2026-03-10 16:42:40,833 [EXACT] 50 Cent - God Gave Me Style
+2026-03-10 16:42:41,271 [EXACT] 50 Cent - Just A Lil Bit
+2026-03-10 16:42:41,677 [EXACT] 50 Cent - Position Of Power
+2026-03-10 16:42:42,092 [EXACT] 50 Cent - GATman And Robbin
+2026-03-10 16:42:42,577 [EXACT] 50 Cent - Candy Shop
+2026-03-10 16:42:43,009 [EXACT] 50 Cent - So Amazing
+2026-03-10 16:42:43,358 [EXACT] Aaron May - Chase
+2026-03-10 16:42:43,890 [EXACT] Aaron May - Closed Hands
+2026-03-10 16:42:44,249 [EXACT] Aaron May - Cream
+2026-03-10 16:42:44,675 [EXACT] Aaron May - Dreams
+2026-03-10 16:42:45,071 [EXACT] Aaron May - Focus (Interlude)
+2026-03-10 16:42:45,697 [EXACT] Aaron May - I'm Good Luv, Enjoy.
+2026-03-10 16:42:46,079 [EXACT] Aaron May - In Love
+2026-03-10 16:42:46,472 [EXACT] Aaron May - Let Go
+2026-03-10 16:42:46,833 [EXACT] Aaron May - Make It
+2026-03-10 16:42:47,219 [EXACT] Aaron May - One For Me
+2026-03-10 16:42:47,624 [EXACT] Aaron May - Understood
+2026-03-10 16:42:48,046 [EXACT] Ace Hood - Big Fish
+2026-03-10 16:42:48,420 [EXACT] Ace Hood - Look In My Eyes
+2026-03-10 16:42:48,856 [EXACT] Ace Hood - Popovitch
+2026-03-10 16:42:49,270 [EXACT] Ace Hood - We Ball
+2026-03-10 16:42:49,683 [LOW] Ace Hood - 12 O'Clock
+2026-03-10 16:42:50,093 [EXACT] Ace Hood - Finding My Way
+2026-03-10 16:42:50,478 [EXACT] Ace Hood - Glory
+2026-03-10 16:42:50,866 [NONE] Ace Hood - Tryna Come Up
+2026-03-10 16:42:51,303 [HIGH] Akala - Find No Enemy
+2026-03-10 16:42:51,652 [HIGH] Akala - Something inside My Head
+2026-03-10 16:42:52,041 [EXACT] Akala - Yours and My Children
+2026-03-10 16:42:52,516 [EXACT] Akon - Be With You
+2026-03-10 16:42:52,957 [EXACT] Akon - Birthmark
+2026-03-10 16:42:53,444 [EXACT] Akon - Freedom
+2026-03-10 16:42:53,880 [EXACT] Akon - Keep You Much Longer
+2026-03-10 16:42:54,310 [EXACT] Akon - Over The Edge
+2026-03-10 16:42:54,731 [EXACT] Akon - Right Now (Na Na Na)
+2026-03-10 16:42:55,151 [EXACT] Akon - We Don't Care
+2026-03-10 16:42:55,627 [EXACT] Akon - Beautiful
+2026-03-10 16:42:56,045 [EXACT] Akon - I'm So Paid
+2026-03-10 16:42:56,455 [EXACT] Akon - Against The Grain
+2026-03-10 16:42:56,911 [EXACT] Akon - Troublemaker
+2026-03-10 16:42:57,294 [EXACT] Akon - Holla Holla
+2026-03-10 16:42:57,739 [EXACT] Akon - Sunny Day
+2026-03-10 16:42:58,200 [EXACT] Akon - Don't Matter
+2026-03-10 16:42:58,585 [HIGH] Akon - Sorry, Blame It On Me
+2026-03-10 16:42:59,045 [EXACT] Akon - Smack That
+2026-03-10 16:42:59,446 [EXACT] Akon - I Wanna Love You
+2026-03-10 16:42:59,964 [EXACT] Akon - Akon's Beautiful Day
+2026-03-10 16:43:00,391 [EXACT] Akon - Enjoy That
+2026-03-10 16:43:00,816 [EXACT] Akon - Ghetto
+2026-03-10 16:43:01,229 [EXACT] Akon - Lonely
+2026-03-10 16:43:02,143 [NONE] Akon - Prolly Fuck
+2026-03-10 16:43:02,573 [EXACT] Akon - Never Really Mattered
+2026-03-10 16:43:02,978 [EXACT] Aminé - Charmander
+2026-03-10 16:43:03,422 [EXACT] Aminé - REEL IT IN
+2026-03-10 16:43:03,802 [EXACT] Aminé - Spice Girl
+2026-03-10 16:43:04,271 [EXACT] Ariana Grande - 34+35
+2026-03-10 16:43:04,727 [EXACT] Ariana Grande - positions
+2026-03-10 16:43:05,123 [HIGH] Ariana Grande - God is a Woman
+2026-03-10 16:43:05,520 [NONE] Ariana Grande - No Tears Left To Cry
+2026-03-10 16:43:05,921 [NONE] Ariana Grande - boyfriend
+2026-03-10 16:43:06,355 [EXACT] Ariana Grande - Side To Side
+2026-03-10 16:43:06,769 [EXACT] Ariana Grande - 7 rings
+2026-03-10 16:43:07,199 [EXACT] Ariana Grande - thank u, next
+2026-03-10 16:43:07,591 [EXACT] Aries - BOUNTY HUNTER
+2026-03-10 16:43:07,965 [EXACT] Aries - EASY
+2026-03-10 16:43:08,411 [EXACT] Aries - ETA
+2026-03-10 16:43:08,890 [EXACT] Aries - FOOL'S GOLD
+2026-03-10 16:43:09,487 [EXACT] Aries - ONE PUNCH
+2026-03-10 16:43:09,887 [EXACT] Aries - RIDING
+2026-03-10 16:43:10,428 [EXACT] Aries - SNAKE EYES
+2026-03-10 16:43:10,859 [EXACT] Arizona Zervas - ROXANNE
+2026-03-10 16:43:11,263 [LOW] Arizona Zervas - OH MY LORD
+2026-03-10 16:43:11,741 [NONE] Arizona Zervas - HOLY TRINITY
+2026-03-10 16:43:12,135 [EXACT] Austin Awake - All in
+2026-03-10 16:43:12,558 [EXACT] Austin Awake - CALIFORNIA SHORE
+2026-03-10 16:43:13,090 [EXACT] Austin Awake - SMALL TOWN GIRL
+2026-03-10 16:43:13,518 [EXACT] Austin Awake - Coast
+2026-03-10 16:43:13,985 [HIGH] Avicii - Hey Brother
+2026-03-10 16:43:14,460 [HIGH] Avicii - The Nights
+2026-03-10 16:43:14,863 [NONE] Avicii - I Could Be The One
+2026-03-10 16:43:15,393 [EXACT] Avril Lavigne - Complicated
+2026-03-10 16:43:15,862 [EXACT] Avril Lavigne - I'm with You
+2026-03-10 16:43:16,314 [EXACT] Avril Lavigne - Sk8er Boi
+2026-03-10 16:43:16,864 [HIGH] Avril Lavigne - Bite Me
+2026-03-10 16:43:17,285 [EXACT] Avril Lavigne - Fall To Pieces
+2026-03-10 16:43:17,728 [EXACT] Avril Lavigne - Girlfriend
+2026-03-10 16:43:18,126 [EXACT] Avril Lavigne - My Happy Ending
+2026-03-10 16:43:18,582 [EXACT] Avril Lavigne - When You're Gone
+2026-03-10 16:43:18,975 [EXACT] Avril Lavigne - Wish You Were Here
+2026-03-10 16:43:19,434 [EXACT] B.o.B - Don't Let Me Fall
+2026-03-10 16:43:19,922 [NONE] B.o.B - Airplanes Part 2
+2026-03-10 16:43:20,693 [NONE] B.o.B - Airplanes Part 1
+2026-03-10 16:43:21,141 [EXACT] B.o.B - Beast Mode
+2026-03-10 16:43:21,585 [EXACT] B.o.B - So Good
+2026-03-10 16:43:22,008 [EXACT] B.o.B - Headband
+2026-03-10 16:43:22,490 [HIGH] B.o.B - Nothin On You
+2026-03-10 16:43:22,924 [EXACT] B.o.B - Roll Up
+  [200/5471] Processing...
+2026-03-10 16:43:23,392 [NONE] B.o.B - Magic
+2026-03-10 16:43:23,852 [EXACT] B.o.B - I'll Be in the Sky
+2026-03-10 16:43:24,289 [HIGH] B.o.B - Middle Of The Day
+2026-03-10 16:43:24,748 [NONE] B.o.B - Nigga Now
+2026-03-10 16:43:25,176 [EXACT] B.o.B - Play for Keeps
+2026-03-10 16:43:25,633 [HIGH] B.o.B - Strange Clouds
+2026-03-10 16:43:26,077 [LOW] B.o.B - Both of Us
+2026-03-10 16:43:26,538 [NONE] B.o.B - Castles
+2026-03-10 16:43:26,946 [LOW] Backstreet Boys - Everybody (Backstreet's
+ Back)
+2026-03-10 16:43:27,369 [HIGH] Backstreet Boys - I Want It That Way
+2026-03-10 16:43:27,785 [EXACT] Backstreet Boys - Inconsolable
+2026-03-10 16:43:28,324 [HIGH] Backstreet Boys - Shape of My Heart
+2026-03-10 16:43:28,790 [EXACT] Bad Meets Evil - Fast Lane
+2026-03-10 16:43:29,161 [HIGH] Bad Meets Evil - Scary Movies
+2026-03-10 16:43:29,647 [HIGH] Bad Meets Evil - Lighters
+2026-03-10 16:43:30,032 [HIGH] Basshunter - Angel In The Night
+2026-03-10 16:43:30,419 [NONE] Basshunter - DotA
+2026-03-10 16:43:30,856 [HIGH] Basshunter - I Can Walk On Water
+2026-03-10 16:43:31,247 [NONE] Basshunter - Now You're Gone
+2026-03-10 16:43:31,645 [EXACT] Bebe Rexha - Sacrifice
+2026-03-10 16:43:32,064 [HIGH] Bebe Rexha - Die For a Man
+2026-03-10 16:43:32,945 [NONE] Bebe Rexha - Going To Be Alright (Edit)
+2026-03-10 16:43:33,429 [EXACT] Belinda Carlisle - Heaven Is A Place On
+ Earth
+2026-03-10 16:43:33,843 [EXACT] Belinda Carlisle - Leave a Light On
+2026-03-10 16:43:34,276 [HIGH] Belinda Carlisle - Summer Rain
+2026-03-10 16:43:34,672 [EXACT] Berner - Cold Champagne for Lunch
+2026-03-10 16:43:35,084 [EXACT] Berner - Elon
+2026-03-10 16:43:35,450 [EXACT] Berner - Stories
+2026-03-10 16:43:35,859 [NONE] Berner - Prevail
+2026-03-10 16:43:36,279 [LOW] Berner - Lonely At The Top
+2026-03-10 16:43:36,704 [EXACT] Beyoncé - Halo
+2026-03-10 16:43:37,136 [EXACT] Beyoncé - If I Were A Boy
+2026-03-10 16:43:37,558 [EXACT] Beyoncé - Single Ladies (Put A Ring On
+It)
+2026-03-10 16:43:37,927 [EXACT] Beyoncé - Sweet Dreams
+2026-03-10 16:43:38,427 [HIGH] Beyoncé - Irreplaceable
+2026-03-10 16:43:38,876 [EXACT] Beyoncé - Love On Top
+2026-03-10 16:43:39,326 [HIGH] Big Sean - Moves
+2026-03-10 16:43:39,730 [EXACT] Big Sean - Precision
+2026-03-10 16:43:40,137 [EXACT] Big Sean - Single Again
+2026-03-10 16:43:40,548 [EXACT] Big Sean - One Man Can Change The World
+
+2026-03-10 16:43:40,949 [HIGH] Big Sean - I Know
+2026-03-10 16:43:41,411 [EXACT] Big Sean - Into It
+2026-03-10 16:43:41,768 [EXACT] Big Sean - The One
+2026-03-10 16:43:42,193 [EXACT] Big Sean - What A Life
+2026-03-10 16:43:42,639 [HIGH] Big Sean - Loyal To A Fault
+2026-03-10 16:43:43,012 [EXACT] BigXthaPlug - Levels
+2026-03-10 16:43:43,407 [EXACT] BigXthaPlug - Mmhmm
+2026-03-10 16:43:43,852 [EXACT] BigXthaPlug - Texas
+2026-03-10 16:43:44,349 [EXACT] blink-182 - All The Small Things
+2026-03-10 16:43:44,909 [EXACT] blink-182 - Always
+2026-03-10 16:43:45,386 [EXACT] blink-182 - Dammit
+2026-03-10 16:43:45,806 [EXACT] blink-182 - Feeling This
+2026-03-10 16:43:46,199 [HIGH] blink-182 - I Miss You
+2026-03-10 16:43:46,584 [EXACT] blink-182 - The Rock Show
+2026-03-10 16:43:47,188 [HIGH] blink-182 - What's My Age Again?
+2026-03-10 16:43:47,625 [EXACT] blink-182 - First Date
+2026-03-10 16:43:47,979 [NONE] Bliss - Coolin'
+2026-03-10 16:43:48,333 [NONE] Bliss - Tear The Roof Off
+2026-03-10 16:43:48,833 [HIGH] Bliss - Addicted
+2026-03-10 16:43:49,267 [NONE] Bliss - Reach the Heavens
+2026-03-10 16:43:49,662 [NONE] Bliss - Home
+2026-03-10 16:43:50,088 [NONE] Bliss - Chemical Heart (GEED UP)
+2026-03-10 16:43:50,575 [EXACT] Blitzen Trapper - Astronaut
+2026-03-10 16:43:50,973 [EXACT] Blitzen Trapper - Fletcher
+2026-03-10 16:43:51,317 [EXACT] Blitzen Trapper - Girl In a Coat
+2026-03-10 16:43:51,738 [EXACT] Blueface - Respect My Cryppin’
+2026-03-10 16:43:52,137 [EXACT] Blueface - TikTok
+2026-03-10 16:43:52,561 [HIGH] Blueface - Daddy
+2026-03-10 16:43:53,014 [EXACT] Blueface - Patience
+2026-03-10 16:43:54,172 [HIGH] Blueface - Thotiana
+2026-03-10 16:43:54,637 [EXACT] Bob Dylan - Dignity
+2026-03-10 16:43:55,075 [EXACT] Bob Dylan - Duquesne Whistle
+2026-03-10 16:43:55,464 [EXACT] Bob Dylan - Hurricane
+2026-03-10 16:43:55,827 [EXACT] Bob Sinclar - Rock This Party (Everybod
+y Dance Now)
+2026-03-10 16:43:56,298 [HIGH] Bob Sinclar - Love Generation
+2026-03-10 16:43:56,697 [EXACT] Bob Sinclar - Sound of Freedom
+2026-03-10 16:43:57,072 [EXACT] Bone Thugs-N-Harmony - Tha Crossroads
+2026-03-10 16:43:57,482 [EXACT] Bone Thugs-N-Harmony - I Tried
+2026-03-10 16:43:58,438 [NONE] Bone Thugs-N-Harmony - Never Forget Me (
+Album Version Explicit)
+2026-03-10 16:43:58,873 [HIGH] Boney M - Baby, Do You Wanna Bump
+2026-03-10 16:43:59,395 [HIGH] Boney M - Bahama Mama
+2026-03-10 16:43:59,799 [HIGH] Boney M - Brown Girl in the Ring
+2026-03-10 16:44:00,510 [HIGH] Boney M - Dreadlock Holiday
+2026-03-10 16:44:00,898 [NONE] Boney M - Exodus
+2026-03-10 16:44:01,286 [HIGH] Boney M - Eye Dance
+2026-03-10 16:44:01,764 [HIGH] Boney M - Future World
+2026-03-10 16:44:02,191 [HIGH] Boney M - Got Cha Loco
+2026-03-10 16:44:02,660 [HIGH] Boney M - Gotta Go Home
+2026-03-10 16:44:03,062 [HIGH] Boney M - Have You Ever Seen The Rain
+2026-03-10 16:44:03,534 [HIGH] Boney M - Heart of Gold
+2026-03-10 16:44:03,999 [LOW] Boney M - Hooray! Hooray! Its a Holiday!
+2026-03-10 16:44:04,458 [HIGH] Boney M - I Feel Good
+2026-03-10 16:44:04,862 [HIGH] Boney M - I'm Born Again
+2026-03-10 16:44:05,271 [HIGH] Boney M - Love For Sale
+2026-03-10 16:44:05,719 [HIGH] Boney M - Ma Baker
+2026-03-10 16:44:06,135 [NONE] Boney M - Mary's Boy Child
+2026-03-10 16:44:06,564 [HIGH] Boney M - My Cherie Amour
+2026-03-10 16:44:07,042 [HIGH] Boney M - Oceans of Fantasy
+2026-03-10 16:44:07,477 [HIGH] Boney M - Painter Man
+2026-03-10 16:44:07,857 [HIGH] Boney M - Ribbons of Blue
+  [300/5471] Processing...
+2026-03-10 16:44:08,403 [HIGH] Boney M - Somewhere in the World
+2026-03-10 16:44:08,911 [HIGH] Boney M - When a Child is Born
+2026-03-10 16:44:09,360 [LOW] Boney M - Young, Free and Single
+2026-03-10 16:44:09,805 [HIGH] Boney M. - Daddy Cool
+2026-03-10 16:44:10,272 [HIGH] Boney M. - El Lute
+2026-03-10 16:44:10,723 [HIGH] Boney M. - Kalimba De Luna
+2026-03-10 16:44:11,167 [HIGH] Boney M. - Nightflight to Venus
+2026-03-10 16:44:11,609 [HIGH] Boney M. - No Woman No Cry
+2026-03-10 16:44:12,018 [HIGH] Boney M. - Rasputin
+2026-03-10 16:44:12,458 [HIGH] Boney M. - Rivers of Babylon
+2026-03-10 16:44:12,896 [HIGH] Boney M. - Sunny
+2026-03-10 16:44:13,311 [EXACT] Bowling for Soup - 1985
+2026-03-10 16:44:13,784 [EXACT] Bowling for Soup - Almost
+2026-03-10 16:44:14,164 [EXACT] Bowling for Soup - Down For The Count
+2026-03-10 16:44:14,561 [EXACT] Bowling for Soup - Emily
+2026-03-10 16:44:14,956 [EXACT] Bowling for Soup - Girl All the Bad Guy
+s Want
+2026-03-10 16:44:15,414 [EXACT] Bowling for Soup - I Don't Wanna Rock
+2026-03-10 16:44:15,797 [EXACT] Bowling for Soup - I Ran (So Far Away)
+2026-03-10 16:44:16,272 [EXACT] Bowling for Soup - Life After Lisa
+2026-03-10 16:44:16,700 [EXACT] Bowling for Soup - Punk Rock 101
+2026-03-10 16:44:17,109 [EXACT] Bowling for Soup - Star Song
+2026-03-10 16:44:17,576 [EXACT] Bowling for Soup - Surf Colorado
+2026-03-10 16:44:17,961 [EXACT] Bowling for Soup - Girls In America
+2026-03-10 16:44:18,416 [EXACT] Bowling for Soup - Graduation Trip
+2026-03-10 16:44:18,767 [LOW] Bowling for Soup - Guard My Heart
+2026-03-10 16:44:19,159 [EXACT] Bowling for Soup - Here's Your Freakin'
+ Song
+2026-03-10 16:44:19,566 [EXACT] Bowling for Soup - S-S-S-Saturday
+2026-03-10 16:44:19,991 [EXACT] Bowling for Soup - Turbulence
+2026-03-10 16:44:20,419 [EXACT] Bowling for Soup - I've Never Done Anyt
+hing Like This
+2026-03-10 16:44:20,828 [EXACT] Bowling for Soup - Stacy's Mom
+2026-03-10 16:44:21,187 [HIGH] Bowling for Soup - The Bitch Song
+2026-03-10 16:44:21,583 [EXACT] Bowling for Soup - I Gotchoo
+2026-03-10 16:44:21,983 [EXACT] Bowling for Soup - Love Goes Boom
+2026-03-10 16:44:22,414 [EXACT] Bowling for Soup - Me With No You
+2026-03-10 16:44:22,855 [EXACT] Bowling for Soup - My Wena
+2026-03-10 16:44:23,234 [EXACT] Bowling for Soup - No Hablo Inglés
+2026-03-10 16:44:23,640 [EXACT] Bowling for Soup - Epiphany
+2026-03-10 16:44:24,240 [EXACT] Bowling for Soup - High School Never En
+ds
+2026-03-10 16:44:24,642 [EXACT] Bowling for Soup - When We Die
+2026-03-10 16:44:25,059 [HIGH] Britney Spears - Baby One More Time
+2026-03-10 16:44:25,485 [EXACT] Britney Spears - Criminal
+2026-03-10 16:44:25,892 [EXACT] Britney Spears - Everytime
+2026-03-10 16:44:26,283 [EXACT] Britney Spears - Gimme More
+2026-03-10 16:44:26,738 [HIGH] Britney Spears - Hold It Against Me
+2026-03-10 16:44:27,171 [HIGH] Britney Spears - I Wanna Go
+2026-03-10 16:44:27,592 [HIGH] Britney Spears - Lucky
+2026-03-10 16:44:28,018 [EXACT] Britney Spears - Piece of Me
+2026-03-10 16:44:28,435 [HIGH] Britney Spears - Till the World Ends
+2026-03-10 16:44:28,862 [HIGH] Britney Spears - Toxic
+2026-03-10 16:44:29,306 [HIGH] Bruce Springsteen - The Wrestler
+2026-03-10 16:44:29,793 [HIGH] Bruce Springsteen - American Land
+2026-03-10 16:44:30,205 [HIGH] Bruce Springsteen - Mrs. McGrath
+2026-03-10 16:44:30,774 [HIGH] Bruce Springsteen - Old Dan Tucker
+2026-03-10 16:44:31,230 [EXACT] Bruno Mars - Count on Me
+2026-03-10 16:44:31,650 [EXACT] Bruno Mars - Grenade
+2026-03-10 16:44:32,126 [HIGH] Bruno Mars - Just the Way You Are
+2026-03-10 16:44:32,519 [EXACT] Bruno Mars - The Lazy Song
+2026-03-10 16:44:32,932 [HIGH] Bruno Mars - The Other Side
+2026-03-10 16:44:33,352 [EXACT] Bruno Mars - Treasure
+2026-03-10 16:44:33,867 [EXACT] Bruno Mars - When I Was Your Man
+2026-03-10 16:44:34,259 [HIGH] Bryan Adams - Heaven
+2026-03-10 16:44:34,684 [EXACT] Bryan Adams - Somebody
+2026-03-10 16:44:35,163 [EXACT] Bryan Adams - Summer Of '69
+2026-03-10 16:44:35,555 [EXACT] C5 - Different Route
+2026-03-10 16:44:35,979 [EXACT] C5 - It All Worked Out
+2026-03-10 16:44:36,420 [EXACT] C5 - Miracle
+2026-03-10 16:44:36,811 [EXACT] C5 - Truth Hurt
+2026-03-10 16:44:37,282 [EXACT] C5 - Grateful (Freestyle)
+2026-03-10 16:44:37,644 [EXACT] C5 - Can't Stop Me (Too Godly)
+2026-03-10 16:44:38,020 [EXACT] C5 - Dream Girl
+2026-03-10 16:44:38,592 [EXACT] C5 - God Been Good to Me
+2026-03-10 16:44:39,035 [LOW] Calvin Harris - Feel So Close
+2026-03-10 16:44:39,426 [HIGH] Calvin Harris - I Need Your Love
+2026-03-10 16:44:39,870 [LOW] Calvin Harris - We'll Be Coming Back
+2026-03-10 16:44:40,266 [NONE] Calvin Harris - Bounce
+2026-03-10 16:44:40,668 [EXACT] Calvin Harris - Faith
+2026-03-10 16:44:41,181 [EXACT] Calvin Harris - Slow Acid
+2026-03-10 16:44:41,615 [EXACT] Calvin Harris - Summer
+2026-03-10 16:44:42,023 [LOW] Calvin Harris - Under Control
+2026-03-10 16:44:42,424 [NONE] Calvin Harris - Love Now
+2026-03-10 16:44:42,859 [NONE] Calvin Harris - Open Wide
+2026-03-10 16:44:43,300 [NONE] Calvin Harris - Outside
+2026-03-10 16:44:43,779 [EXACT] Calvin Harris - It Was You
+2026-03-10 16:44:44,262 [NONE] Calvin Harris - Together
+2026-03-10 16:44:44,749 [LOW] Calvin Harris - Pray to God
+2026-03-10 16:44:45,143 [NONE] Calvin Harris - Ecstasy
+2026-03-10 16:44:45,542 [NONE] Calvin Harris - Blame
+2026-03-10 16:44:45,970 [EXACT] Calvin Harris - Burnin
+2026-03-10 16:44:46,381 [LOW] Calvin Harris - Dollar Signs
+2026-03-10 16:44:46,793 [EXACT] Calvin Harris - Overdrive
+2026-03-10 16:44:47,214 [EXACT] Camila Cabello - Never Be the Same
+2026-03-10 16:44:47,637 [LOW] Camila Cabello - Havana
+2026-03-10 16:44:48,015 [LOW] Camila Cabello - My Oh My
+2026-03-10 16:44:48,495 [EXACT] Charlie Puth - Dangerously
+2026-03-10 16:44:48,969 [EXACT] Charlie Puth - Losing My Mind
+2026-03-10 16:44:49,499 [EXACT] Charlie Puth - My Gospel
+2026-03-10 16:44:49,910 [EXACT] Charlie Puth - One Call Away
+2026-03-10 16:44:50,347 [EXACT] Charlie Puth - Some Type of Love
+2026-03-10 16:44:50,778 [EXACT] Charlie Puth - Then There's You
+2026-03-10 16:44:51,254 [NONE] Charlie Puth - Marvin Gaye
+  [400/5471] Processing...
+2026-03-10 16:44:51,752 [HIGH] Charlie Puth - We Don't Talk Anymore
+2026-03-10 16:44:52,153 [HIGH] Charlie Puth - Attention
+2026-03-10 16:44:52,665 [HIGH] Cher Lloyd - Want U Back
+2026-03-10 16:44:53,015 [HIGH] Cher Lloyd - With Ur Love
+2026-03-10 16:44:53,430 [LOW] Cher Lloyd - I Wish
+2026-03-10 16:44:53,871 [EXACT] Chris Brown - Angel Numbers / Ten Toes
+2026-03-10 16:44:54,290 [EXACT] Chris Brown - Bouncing / G5
+2026-03-10 16:44:54,746 [EXACT] Chris Brown - Closer
+2026-03-10 16:44:55,224 [EXACT] Chris Brown - Feel Something
+2026-03-10 16:44:55,723 [EXACT] Chris Brown - Feelings Don't Lie
+2026-03-10 16:44:56,131 [EXACT] Chris Brown - Go Girlfriend
+2026-03-10 16:44:56,565 [EXACT] Chris Brown - Midnight Freak
+2026-03-10 16:44:56,978 [EXACT] Chris Brown - Need A Friend
+2026-03-10 16:44:57,382 [EXACT] Chris Brown - Press Me
+2026-03-10 16:44:57,789 [EXACT] Chris Brown - Residuals
+2026-03-10 16:44:58,180 [EXACT] Chris Brown - Views
+2026-03-10 16:44:58,596 [HIGH] Chris Brown - Run Away
+2026-03-10 16:44:58,986 [NONE] Chris Brown - Sensational
+2026-03-10 16:44:59,408 [LOW] Chris Brown - That's On You
+2026-03-10 16:44:59,839 [EXACT] Chris Brown - Iffy
+2026-03-10 16:45:00,276 [HIGH] Chris Brown - Petty
+2026-03-10 16:45:00,717 [EXACT] Chris Brown - Psychic
+2026-03-10 16:45:01,160 [NONE] Chris Brown - Possessive
+2026-03-10 16:45:01,599 [LOW] Chris Brown - Call Me Every Day
+2026-03-10 16:45:01,987 [EXACT] Chris Brown - Beautiful People
+2026-03-10 16:45:02,446 [NONE] Chris Brown - Deuces
+2026-03-10 16:45:03,117 [EXACT] Chris Brown - Dear God
+2026-03-10 16:45:03,576 [EXACT] Chris Brown - Indigo
+2026-03-10 16:45:04,193 [HIGH] Chris Brown - Overtime
+2026-03-10 16:45:04,672 [EXACT] Chris Brown - Part Of The Plan
+2026-03-10 16:45:05,065 [EXACT] Chris Brown - Undecided
+2026-03-10 16:45:05,502 [HIGH] Chris Brown - Under The Influence
+2026-03-10 16:45:05,910 [EXACT] Chris Brown - You Like That
+2026-03-10 16:45:06,313 [LOW] Chris Brown - No Guidance
+2026-03-10 16:45:06,730 [EXACT] Chris Brown - With You
+2026-03-10 16:45:07,164 [HIGH] Chris Brown - Yeah 3x
+2026-03-10 16:45:07,869 [NONE] Chris Brown - Undrunk
+2026-03-10 16:45:08,347 [EXACT] Chris Brown - Go Crazy
+2026-03-10 16:45:08,752 [EXACT] Christina Aguilera - Candyman
+2026-03-10 16:45:09,198 [EXACT] Christina Aguilera - Fighter
+2026-03-10 16:45:09,582 [EXACT] Christina Aguilera - Keeps Gettin' Bett
+er
+2026-03-10 16:45:10,194 [EXACT] Classified - Cold Love
+2026-03-10 16:45:10,639 [EXACT] Classified - 10 Years
+2026-03-10 16:45:11,167 [EXACT] Classified - Beastie Boy
+2026-03-10 16:45:11,567 [EXACT] Classified - Changes
+2026-03-10 16:45:12,005 [EXACT] Classified - Damn Right
+2026-03-10 16:45:12,437 [EXACT] Classified - Don't Stop
+2026-03-10 16:45:12,816 [EXACT] Classified - Fallen
+2026-03-10 16:45:13,437 [EXACT] Classified - Finish It
+2026-03-10 16:45:13,868 [EXACT] Classified - Legal Marijuana
+2026-03-10 16:45:14,274 [EXACT] Classified - She Ain't Gotta Do Much
+2026-03-10 16:45:14,670 [EXACT] Classified - Super Nova Scotian
+2026-03-10 16:45:15,103 [NONE] Clean Bandit - Solo
+2026-03-10 16:45:15,620 [HIGH] Clean Bandit - Rather Be
+2026-03-10 16:45:16,099 [HIGH] Clean Bandit - Symphony
+2026-03-10 16:45:16,496 [EXACT] Coldplay - Every Teardrop Is a Waterfal
+l
+2026-03-10 16:45:16,930 [HIGH] Coldplay - Paradise
+2026-03-10 16:45:17,360 [EXACT] Coldplay - A Sky Full of Stars
+2026-03-10 16:45:17,824 [EXACT] Coldplay - Fix You
+2026-03-10 16:45:18,359 [EXACT] Coldplay - Viva La Vida
+2026-03-10 16:45:18,756 [LOW] Coldplay - Something Just Like This
+2026-03-10 16:45:19,137 [EXACT] Connor Price - Mula
+2026-03-10 16:45:19,583 [EXACT] Connor Price - Push
+2026-03-10 16:45:19,934 [EXACT] Connor Price - BENJAMIN BUTTON
+2026-03-10 16:45:20,292 [EXACT] Connor Price - RUNAWAY
+2026-03-10 16:45:20,681 [EXACT] Connor Price - Marathon
+2026-03-10 16:45:21,032 [EXACT] Connor Price - Miss You (When You’re Go
+ne)
+2026-03-10 16:45:21,404 [EXACT] Connor Price - Too Easy
+2026-03-10 16:45:21,821 [EXACT] Coolio - Gangsta's Paradise
+2026-03-10 16:45:22,304 [HIGH] Coolio - Gangsta Walk (Urban Version)
+2026-03-10 16:45:22,678 [EXACT] Coolio - Gangsta Walk
+2026-03-10 16:45:23,099 [HIGH] Cordae - Today
+2026-03-10 16:45:23,524 [NONE] Cordae - Chronicles
+2026-03-10 16:45:23,957 [HIGH] Cordae - Super
+2026-03-10 16:45:24,355 [LOW] Cordae - No Bad News
+2026-03-10 16:45:24,742 [HIGH] Counting Crows - Accidentally In Love
+2026-03-10 16:45:25,290 [NONE] Counting Crows - The Ghost In You
+2026-03-10 16:45:25,746 [HIGH] Counting Crows - Big Yellow Taxi
+2026-03-10 16:45:26,229 [EXACT] D12 - How Come
+2026-03-10 16:45:26,605 [EXACT] D12 - My Band
+2026-03-10 16:45:27,057 [EXACT] D12 - Purple Hills
+2026-03-10 16:45:27,456 [EXACT] DaBaby - Suge
+2026-03-10 16:45:27,905 [HIGH] DaBaby - Baby Sitter
+2026-03-10 16:45:28,388 [HIGH] DaBaby - Best Friend
+2026-03-10 16:45:28,771 [EXACT] DaBaby - AMAZING GRACE
+2026-03-10 16:45:29,164 [EXACT] DaBaby - BLAME IT ON BABY
+2026-03-10 16:45:29,614 [HIGH] DaBaby - CALL IT EVEN
+2026-03-10 16:45:30,008 [EXACT] DaBaby - CAN'T STOP
+2026-03-10 16:45:30,465 [EXACT] DaBaby - FIND MY WAY
+2026-03-10 16:45:30,922 [NONE] DaBaby - GO
+2026-03-10 16:45:31,342 [HIGH] DaBaby - PEEP HOLE
+2026-03-10 16:45:31,785 [EXACT] DaBaby - SAD SH*T
+2026-03-10 16:45:32,255 [EXACT] DaBaby - TALK ABOUT IT
+2026-03-10 16:45:32,738 [HIGH] DaBaby - TROUBLE
+2026-03-10 16:45:33,149 [NONE] DaBaby - DROP
+2026-03-10 16:45:33,624 [NONE] DaBaby - LIGHTSKIN SH*T
+2026-03-10 16:45:34,059 [NONE] DaBaby - TLC
+2026-03-10 16:45:34,561 [HIGH] DaBaby - ROCKSTAR
+2026-03-10 16:45:35,010 [HIGH] DaBaby - BLIND
+2026-03-10 16:45:35,490 [EXACT] DaBaby - INTRO
+  [500/5471] Processing...
+2026-03-10 16:45:35,963 [EXACT] DaBaby - VIBEZ
+2026-03-10 16:45:36,433 [HIGH] DaBaby - TOES
+2026-03-10 16:45:36,898 [NONE] DaBaby - iPHONE
+2026-03-10 16:45:37,333 [HIGH] DaBaby - POP STAR
+2026-03-10 16:45:38,207 [NONE] DaBaby - 'Essence' Freestyle
+2026-03-10 16:45:38,708 [EXACT] DaBaby - 21
+2026-03-10 16:45:39,110 [EXACT] DaBaby - Red Light Green Light
+2026-03-10 16:45:39,571 [EXACT] DaBaby - TOUGH SKIN
+2026-03-10 16:45:39,949 [EXACT] DaBaby - Who Working Harder
+2026-03-10 16:45:40,419 [LOW] DaBaby - SHOWING OFF HER BODY
+2026-03-10 16:45:40,896 [EXACT] DaBaby - Turbo
+2026-03-10 16:45:41,331 [LOW] Daniel Caesar - Best Part
+2026-03-10 16:45:41,737 [LOW] Daniel Caesar - Get You
+2026-03-10 16:45:42,130 [HIGH] Daniel Caesar - Japanese Denim
+2026-03-10 16:45:42,560 [NONE] David Guetta - I Can Only Imagine
+2026-03-10 16:45:43,023 [HIGH] David Guetta - Turn Me On
+2026-03-10 16:45:43,419 [HIGH] David Guetta - Titanium
+2026-03-10 16:45:43,883 [LOW] David Guetta - Without You
+2026-03-10 16:45:44,367 [HIGH] David Guetta - Play Hard
+2026-03-10 16:45:44,848 [LOW] David Guetta - Where Them Girls
+2026-03-10 16:45:45,365 [HIGH] David Guetta - Hey Mama
+2026-03-10 16:45:45,806 [LOW] David Guetta - I'm Good
+2026-03-10 16:45:46,189 [HIGH] David Guetta - Gettin' Over You
+2026-03-10 16:45:46,824 [NONE] David Guetta - Memories
+2026-03-10 16:45:47,645 [NONE] David Massengill - Fireball
+2026-03-10 16:45:48,425 [NONE] David Massengill - Jesus's Birthday
+2026-03-10 16:45:49,241 [NONE] David Massengill - Noah
+2026-03-10 16:45:50,089 [NONE] David Massengill - Sight See-er
+2026-03-10 16:45:50,932 [NONE] David Massengill - You and Me
+2026-03-10 16:45:51,308 [EXACT] Dax - Lonely Dirt Road
+2026-03-10 16:45:51,703 [EXACT] Dax - Place Of Peace
+2026-03-10 16:45:52,058 [HIGH] Dax - To Be A Man
+2026-03-10 16:45:52,451 [NONE] Dax - Soldier
+2026-03-10 16:45:52,819 [EXACT] Dax - Battles with Faith
+2026-03-10 16:45:53,210 [EXACT] Dax - Does God Cry?
+2026-03-10 16:45:53,635 [EXACT] Dax - Eternity
+2026-03-10 16:45:54,016 [EXACT] Dax - My Eyes Bleed
+2026-03-10 16:45:54,397 [EXACT] Dax - Pain Paints Paintings
+2026-03-10 16:45:54,775 [EXACT] Dax - PTSD
+2026-03-10 16:45:55,141 [EXACT] Dax - Searching For a Reason
+2026-03-10 16:45:55,544 [EXACT] Dax - Stadiums
+2026-03-10 16:45:56,079 [EXACT] Dax - Suffocating
+2026-03-10 16:45:56,431 [EXACT] Dax - The Devil's Calling
+2026-03-10 16:45:56,801 [EXACT] Dax - Wounded
+2026-03-10 16:45:57,294 [EXACT] Dax - 40 Days 40 Nights
+2026-03-10 16:45:57,778 [EXACT] Dax - A Lot At Stake
+2026-03-10 16:45:58,148 [EXACT] Dax - Propaganda
+2026-03-10 16:45:58,568 [EXACT] Dax - Fame
+2026-03-10 16:45:58,917 [EXACT] Dax - Child of God
+2026-03-10 16:45:59,457 [EXACT] Dax - God's Eyes
+2026-03-10 16:45:59,886 [EXACT] Dax - GRINCH GOES VIRAL
+2026-03-10 16:46:00,274 [EXACT] Dax - Self Proclaimed 3
+2026-03-10 16:46:00,672 [EXACT] Dax - SELF PROCLAIMED 4
+2026-03-10 16:46:01,028 [EXACT] Dax - The Next Rap God 2
+2026-03-10 16:46:01,414 [EXACT] Dax - The Next Rap God
+2026-03-10 16:46:01,789 [NONE] Dax - TOXIC (Remix)
+2026-03-10 16:46:02,173 [EXACT] Dax - YourWorthIt.org
+2026-03-10 16:46:02,644 [EXACT] DC The Don - EMOTIONS POUR
+2026-03-10 16:46:03,041 [HIGH] DC The Don - Free Falling!
+2026-03-10 16:46:03,476 [HIGH] DC The Don - Light Speed <3
+2026-03-10 16:46:03,929 [EXACT] DC The Don - Nascar Racer
+2026-03-10 16:46:04,370 [EXACT] DC The Don - Next Week!
+2026-03-10 16:46:05,227 [NONE] DC The Don - Tonight's The Night
+2026-03-10 16:46:05,612 [HIGH] DC The Don - Wait Your Turn
+2026-03-10 16:46:05,997 [EXACT] DC The Don - Going Stuck
+2026-03-10 16:46:06,353 [HIGH] DC The Don - Let's Pretend?
+2026-03-10 16:46:06,788 [EXACT] DC The Don - LUV
+2026-03-10 16:46:07,258 [HIGH] DC The Don - melatonin
+2026-03-10 16:46:07,679 [HIGH] DC The Don - OUT OF MY BODY
+2026-03-10 16:46:08,082 [EXACT] DC The Don - 7 Knights
+2026-03-10 16:46:08,470 [EXACT] DC The Don - Arrest Me
+2026-03-10 16:46:08,840 [EXACT] DC The Don - DONATELLO
+2026-03-10 16:46:09,416 [EXACT] DC The Don - Dr. Strange...
+2026-03-10 16:46:09,840 [EXACT] DC The Don - FUTURAMA 2099
+2026-03-10 16:46:10,262 [EXACT] DC The Don - Heartbreak Summer 3
+2026-03-10 16:46:10,616 [EXACT] DC The Don - HOMICID3
+2026-03-10 16:46:11,026 [EXACT] DC The Don - i want you <3
+2026-03-10 16:46:11,449 [EXACT] DC The Don - iCarly :/
+2026-03-10 16:46:11,802 [EXACT] DC The Don - ILY
+2026-03-10 16:46:12,196 [EXACT] DC The Don - IMY :(
+2026-03-10 16:46:12,580 [EXACT] DC The Don - MANIAC
+2026-03-10 16:46:12,992 [EXACT] DC The Don - PSA
+2026-03-10 16:46:13,548 [EXACT] DC The Don - Scott Pilgrim </3
+2026-03-10 16:46:13,922 [EXACT] DC The Don - REROUT3
+2026-03-10 16:46:14,293 [EXACT] DC The Don - All I Know
+2026-03-10 16:46:14,748 [EXACT] DC The Don - TBH YuR CooL RaTe 8
+2026-03-10 16:46:15,159 [NONE] Diddy - Coming Home
+2026-03-10 16:46:15,580 [NONE] Diddy - Hello Good Morning
+2026-03-10 16:46:16,015 [NONE] Diddy - I Need a Girl - Part 2
+2026-03-10 16:46:16,490 [NONE] Diddy - Victory
+2026-03-10 16:46:16,880 [LOW] Diddy - I Need a Girl - Part 1
+2026-03-10 16:46:17,310 [EXACT] Dizzy Wright - 2 Up
+2026-03-10 16:46:17,795 [LOW] Dizzy Wright - If You Love Me
+2026-03-10 16:46:18,197 [EXACT] Dizzy Wright - Me and Mine
+2026-03-10 16:46:18,612 [NONE] Dizzy Wright - Way Up
+2026-03-10 16:46:19,000 [LOW] Dizzy Wright - Dope Talent
+2026-03-10 16:46:19,401 [EXACT] Dizzy Wright - Assumptions
+2026-03-10 16:46:19,878 [EXACT] Dizzy Wright - F*ck Your Opinion
+2026-03-10 16:46:20,283 [EXACT] Dizzy Wright - Frustrated
+2026-03-10 16:46:20,835 [EXACT] Dizzy Wright - Get It Together
+  [600/5471] Processing...
+2026-03-10 16:46:21,225 [EXACT] Dizzy Wright - Local Weed Man
+2026-03-10 16:46:21,613 [EXACT] Dizzy Wright - Remembered
+2026-03-10 16:46:22,003 [EXACT] Dizzy Wright - Taking My Time
+2026-03-10 16:46:22,377 [EXACT] Dizzy Wright - SmokeOut Conversations
+2026-03-10 16:46:22,884 [NONE] Dizzy Wright - God Body Brothers
+2026-03-10 16:46:23,324 [LOW] Dizzy Wright - I Couldn't Do It Alone
+2026-03-10 16:46:23,854 [EXACT] Dizzy Wright - Better Sheep
+2026-03-10 16:46:24,227 [EXACT] Dizzy Wright - Brick by Brick
+2026-03-10 16:46:24,611 [EXACT] Dizzy Wright - Day Ones
+2026-03-10 16:46:25,041 [EXACT] Dizzy Wright - Fake Fanbase
+2026-03-10 16:46:25,432 [EXACT] Dizzy Wright - Father Son Relationship
+2026-03-10 16:46:25,824 [EXACT] Dizzy Wright - God Ain't Missing No Cal
+ls
+2026-03-10 16:46:26,178 [EXACT] Dizzy Wright - Hold It Down
+2026-03-10 16:46:26,604 [EXACT] Dizzy Wright - My Way
+2026-03-10 16:46:27,078 [EXACT] Dizzy Wright - Shine Your Light
+2026-03-10 16:46:27,496 [HIGH] Dizzy Wright - Soul Searching (Intro)
+2026-03-10 16:46:27,868 [EXACT] Dizzy Wright - Think This Through
+2026-03-10 16:46:28,280 [NONE] Dizzy Wright - The Matrix
+2026-03-10 16:46:28,646 [LOW] Dizzy Wright - All I Wanna Be
+2026-03-10 16:46:29,061 [EXACT] Dizzy Wright - Fly High
+2026-03-10 16:46:29,443 [EXACT] Dizzy Wright - The First Agreement (Int
+ro)
+2026-03-10 16:46:29,814 [EXACT] Dizzy Wright - Killem with Kindness
+2026-03-10 16:46:30,198 [EXACT] Dizzy Wright - New History
+2026-03-10 16:46:30,605 [EXACT] Dizzy Wright - Progression
+2026-03-10 16:46:31,021 [EXACT] Dizzy Wright - Still Movin
+2026-03-10 16:46:31,379 [EXACT] Dizzy Wright - World Peace
+2026-03-10 16:46:31,764 [EXACT] Dizzy Wright - The Perspective
+2026-03-10 16:46:32,114 [EXACT] Dizzy Wright - Daddy Daughter Relations
+hip
+2026-03-10 16:46:32,472 [HIGH] Dizzy Wright - Higher Learning (Intro)
+2026-03-10 16:46:32,935 [EXACT] Dizzy Wright - Train Your Mind
+2026-03-10 16:46:33,300 [LOW] Dizzy Wright - I Can Tell You Needed It
+2026-03-10 16:46:33,814 [NONE] Dizzy Wright - God Bless America
+2026-03-10 16:46:34,254 [LOW] Dizzy Wright - Will It Last
+2026-03-10 16:46:34,625 [LOW] DJ Khaled - Juice WRLD DID
+2026-03-10 16:46:35,089 [NONE] DJ Khaled - GOD DID
+2026-03-10 16:46:35,510 [NONE] DJ Khaled - GRATEFUL
+2026-03-10 16:46:35,898 [NONE] DJ Khaled - USE THIS GOSPEL
+2026-03-10 16:46:36,465 [HIGH] DJ Khaled - SUPPOSED TO BE LOVED
+2026-03-10 16:46:36,924 [NONE] DJ Khaled - I'm the One
+2026-03-10 16:46:37,311 [NONE] DJ Khaled - Brother
+2026-03-10 16:46:37,750 [EXACT] DMX - Ready To Meet Him
+2026-03-10 16:46:38,195 [HIGH] DMX - Ruff Ryders' Anthem
+2026-03-10 16:46:38,635 [HIGH] DMX - What's My Name
+2026-03-10 16:46:39,011 [EXACT] DMX - Where The Hood At
+2026-03-10 16:46:39,437 [HIGH] DMX - X Gon' Give It To Ya
+2026-03-10 16:46:39,888 [EXACT] DMX - Right/Wrong
+2026-03-10 16:46:40,358 [EXACT] DMX - I Miss You
+2026-03-10 16:46:40,857 [EXACT] Doja Cat - Agora Hills
+2026-03-10 16:46:41,252 [EXACT] Doja Cat - Say So
+2026-03-10 16:46:41,669 [EXACT] Doja Cat - Woman
+2026-03-10 16:46:42,068 [LOW] Doja Cat - Kiss Me More
+2026-03-10 16:46:42,519 [EXACT] Don Toliver - Do It Right
+2026-03-10 16:46:43,009 [EXACT] Don Toliver - Get Throwed
+2026-03-10 16:46:43,386 [NONE] Don Toliver - Flocky Flocky
+2026-03-10 16:46:43,863 [EXACT] Dr. Dre - Fuck You
+2026-03-10 16:46:44,283 [EXACT] Dr. Dre - Forgot About Dre
+2026-03-10 16:46:44,683 [EXACT] Dr. Dre - The Watcher
+2026-03-10 16:46:45,132 [EXACT] Dr. Dre - What's The Difference
+2026-03-10 16:46:45,534 [EXACT] Dr. Dre - Ackrite
+2026-03-10 16:46:45,959 [EXACT] Dr. Dre - Big Ego's
+2026-03-10 16:46:46,505 [EXACT] Dr. Dre - Bang Bang
+2026-03-10 16:46:46,952 [EXACT] Dr. Dre - Housewife
+2026-03-10 16:46:47,323 [EXACT] Dr. Dre - Some L.A. Niggaz
+2026-03-10 16:46:48,057 [EXACT] Dr. Dre - Xxplosive
+2026-03-10 16:46:48,499 [EXACT] Dr. Dre - Bitch Niggaz
+2026-03-10 16:46:48,973 [EXACT] Dr. Dre - The Message
+2026-03-10 16:46:49,344 [EXACT] Dr. Dre - Still D.R.E.
+2026-03-10 16:46:49,716 [EXACT] Dr. Dre - The Next Episode
+2026-03-10 16:46:50,130 [EXACT] Dr. Dre - Been There Done That
+2026-03-10 16:46:50,592 [EXACT] Dr. Dre - Keep Their Heads Ringin'
+2026-03-10 16:46:51,108 [NONE] Dr. Dre - New Day
+2026-03-10 16:46:51,490 [EXACT] Dr. Dre - I Need A Doctor
+2026-03-10 16:46:52,217 [EXACT] Dr. Dre - Nuthin' But A "G" Thang
+2026-03-10 16:46:52,731 [LOW] Dr. Dre - Kush
+2026-03-10 16:46:53,553 [LOW] Dr. Dre - Medicine Man (Edit)
+2026-03-10 16:46:53,970 [NONE] Dr. Dre - Gospel
+2026-03-10 16:46:54,361 [NONE] Dr. Dre - Diamond Mind
+2026-03-10 16:46:54,893 [NONE] Dr. Dre - ETA
+2026-03-10 16:46:55,306 [EXACT] Dr. Dre - Bad Intentions
+2026-03-10 16:46:55,757 [EXACT] Dr. Dre - On The Boulevard
+2026-03-10 16:46:56,191 [EXACT] Dr. Dre - The Wash
+2026-03-10 16:46:56,620 [EXACT] Drake - Started From the Bottom
+2026-03-10 16:46:57,072 [HIGH] Drake - The Motion

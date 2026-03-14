@@ -1,0 +1,227 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Wednesday 11 Mar 2026 ####
+
+2026-03-11 20:52:38,292 === SpotifyPlaylistGen started ===
+
+============================================================
+  SpotifyPlaylistGen
+  Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\run_20260311_205238.log
+============================================================
+2026-03-11 20:52:38,543 History backup created: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\history.json.bak
+
+[Stage 1/4] Reading local music library...
+2026-03-11 20:52:38,544 Stage 1: Parsing XML library
+2026-03-11 20:52:39,236   Found 5471 tracks in library
+  Found 5471 tracks in library
+
+[Stage 2/4] Reading playlist & computing sync plan...
+2026-03-11 20:52:39,237 Stage 2: Connecting to Spotify
+2026-03-11 20:52:39,813   Authenticated as: Spotify Connect
+  Logged in as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-11 20:52:40,210 Playlist API: total=603
+2026-03-11 20:52:42,341 Read 603 unique track URIs (API reported total=603)
+  Playlist has 603 unique tracks
+2026-03-11 20:52:45,581 Reconciliation plan: search=4868 add=0 remove=0 recover=0 synced=603 custom=0 exhausted=0
+
+  Sync plan:
+      603  already in sync
+        0  matched but missing from playlist (will recover)
+     4868  need searching
+        0  in playlist but not in library (will remove)
+        0  custom/skipped
+        0  exhausted (gave up after 5 attempts)
+
+[Stage 3/4] Searching Spotify for 4868 tracks...
+2026-03-11 20:52:45,582 Stage 3: Searching 4868 tracks
+  [   1/4868] 24kGoldn - Empty                                         - NONE
+  [   2/4868] 24kGoldn - Coco                                          - NONE
+  [   3/4868] 24kGoldn - Company                                       - NONE
+  [   4/4868] 24kGoldn - Dawn to Dusk                                  - NONE
+  [   5/4868] 2Pac - Baby Don't Cry                                    - NONE
+  [   6/4868] 2Pac - Me and My Girlfriend                              - NONE
+  [   7/4868] 2Pac - Staring Through My Rearview                       - NONE
+  [   8/4868] Ace Hood - Tryna Come Up                                 - NONE
+  [   9/4868] Akon - Prolly Fuck                                       - NONE
+  [  10/4868] Ariana Grande - No Tears Left To Cry                     - NONE
+  [  11/4868] Ariana Grande - boyfriend                                - NONE
+  [  12/4868] Arizona Zervas - HOLY TRINITY                            - NONE
+  [  13/4868] Avicii - I Could Be The One                              - NONE
+  [  14/4868] B.o.B - Airplanes Part 2                                 - NONE
+  [  15/4868] B.o.B - Airplanes Part 1                                 - NONE
+  [  16/4868] B.o.B - Magic                                            - NONE
+  [  17/4868] B.o.B - Nigga Now                                        - NONE
+  [  18/4868] B.o.B - Castles                                          - NONE
+  [  19/4868] Basshunter - DotA                                        - NONE
+  [  20/4868] Basshunter - Now You're Gone                             - NONE
+  [  21/4868] Bebe Rexha - Going To Be Alright (Edit)                  - NONE
+  [  22/4868] Berner - Prevail                                         - NONE
+  [  23/4868] Bliss - Coolin'                                          - NONE
+  [  24/4868] Bliss - Tear The Roof Off                                - NONE
+  [  25/4868] Bliss - Reach the Heavens                                - NONE
+  [  26/4868] Bliss - Home                                             - NONE
+  [  27/4868] Bliss - Chemical Heart (GEED UP)                         - NONE
+  [  28/4868] Bone Thugs-N-Harmony - Never Forget Me (Album Version E  - NONE
+  [  29/4868] Boney M - Exodus                                         - NONE
+  [  30/4868] Boney M - Mary's Boy Child                               - NONE
+  [  31/4868] Calvin Harris - Bounce                                   - NONE
+  [  32/4868] Calvin Harris - Love Now                                 - NONE
+  [  33/4868] Calvin Harris - Open Wide                                - NONE
+  [  34/4868] Calvin Harris - Outside                                  - NONE
+  [  35/4868] Calvin Harris - Together                                 - NONE
+  [  36/4868] Calvin Harris - Ecstasy                                  - NONE
+  [  37/4868] Calvin Harris - Blame                                    - NONE
+  [  38/4868] Charlie Puth - Marvin Gaye                               - NONE
+  [  39/4868] Chris Brown - Sensational                                - NONE
+  [  40/4868] Chris Brown - Possessive                                 - NONE
+  [  41/4868] Chris Brown - Deuces                                     - NONE
+  [  42/4868] Chris Brown - Undrunk                                    - NONE
+  [  43/4868] Clean Bandit - Solo                                      - NONE
+  [  44/4868] Cordae - Chronicles                                      - NONE
+  [  45/4868] Counting Crows - The Ghost In You                        - NONE
+  [  46/4868] DaBaby - GO                                              - NONE
+  [  47/4868] DaBaby - DROP                                            - NONE
+  [  48/4868] DaBaby - LIGHTSKIN SH*T                                  - NONE
+  [  49/4868] DaBaby - TLC                                             - NONE
+  [  50/4868] DaBaby - iPHONE                                          - NONE
+  [  51/4868] DaBaby - 'Essence' Freestyle                             - NONE
+  [  52/4868] David Guetta - I Can Only Imagine                        - NONE
+  [  53/4868] David Guetta - Memories                                  - NONE
+  [  54/4868] David Massengill - Fireball                              - NONE
+  [  55/4868] David Massengill - Jesus's Birthday                      - NONE
+  [  56/4868] David Massengill - Noah                                  - NONE
+  [  57/4868] David Massengill - Sight See-er                          - NONE
+  [  58/4868] David Massengill - You and Me                            - NONE
+  [  59/4868] Dax - Soldier                                            - NONE
+  [  60/4868] Dax - TOXIC (Remix)                                      - NONE
+  [  61/4868] DC The Don - Tonight's The Night                         - NONE
+  [  62/4868] Diddy - Coming Home                                      - NONE
+  [  63/4868] Diddy - Hello Good Morning                               - NONE
+  [  64/4868] Diddy - I Need a Girl - Part 2                           - NONE
+  [  65/4868] Diddy - Victory                                          - NONE
+  [  66/4868] Dizzy Wright - Way Up                                    - NONE
+  [  67/4868] Dizzy Wright - God Body Brothers                         - NONE
+  [  68/4868] Dizzy Wright - The Matrix                                - NONE
+  [  69/4868] Dizzy Wright - God Bless America                         - NONE
+  [  70/4868] DJ Khaled - GOD DID                                      - NONE
+  [  71/4868] DJ Khaled - GRATEFUL                                     - NONE
+  [  72/4868] DJ Khaled - USE THIS GOSPEL                              - NONE
+  [  73/4868] DJ Khaled - I'm the One                                  - NONE
+  [  74/4868] DJ Khaled - Brother                                      - NONE
+  [  75/4868] Don Toliver - Flocky Flocky                              - NONE
+  [  76/4868] Dr. Dre - New Day                                        - NONE
+  [  77/4868] Dr. Dre - Gospel                                         - NONE
+  [  78/4868] Dr. Dre - Diamond Mind                                   - NONE
+  [  79/4868] Dr. Dre - ETA                                            - NONE
+  [  86/4868] Drake - Lemon Pepper Freestyle                           - LOW    (partial: Drake - Lemon Pepper Freestyle (feat. Rick Ross))
+  [  88/4868] Drake - Successful                                       - NONE
+  [ 136/4868] Dual Core - My Girlfriend is a Hacker                    - NONE
+  [ 156/4868] Dual Core - 10 Hack Commandments                         - NONE
+  [ 164/4868] Dual Core - The Children's Machine                       - LOW    (partial: Dual Core - The Children's Machine (Olpc))
+  [ 170/4868] E-40 - My Everything                                     - NONE
+  [ 171/4868] E-40 - Blossom                                           - NONE
+  [ 172/4868] E-40 - Thou Wow                                          - LOW    (partial: E-40 - Thou Wow (feat. IAMSU!))
+  [ 173/4868] E-40 - 1 Question                                        - NONE
+  [ 174/4868] E-40 - Made This Way                                     - NONE
+  [ 175/4868] E-40 - Rain On My Parade                                 - NONE
+  [ 182/4868] Ed Sheeran - Remember The Name                           - NONE
+  [ 187/4868] Ellie Goulding - Still Falling For You                   - LOW    (partial: Ellie Goulding - Still Falling For You - From "Bridget
+Jones's Baby")
+  [ 192/4868] Eminem - From The D 2 The LBC                            - LOW    (partial: Eminem - From The D 2 The LBC (with Snoop Dogg))
+  [ 193/4868] Eminem - Cleanin' Out My Closet                          + EXACT
+2026-03-11 20:54:35,780 Added batch of 100 tracks
+  Progress: 193/4868 | 100 matched | 93 unmatched | ETA ~44m 29s
+  [ 210/4868] Eminem - Drop the World                                  - NONE
+  [ 211/4868] Eminem - Forever                                         - NONE
+  [ 218/4868] Eminem - Venom                                           - LOW    (partial: Eminem - Venom - Remix)
+  [ 219/4868] Eminem - Good Guy                                        - NONE
+  [ 220/4868] Eminem - Lucky You                                       - NONE
+  [ 221/4868] Eminem - Not Alike                                       - NONE
+  [ 224/4868] Eminem - Godzilla                                        - NONE
+  [ 225/4868] Eminem - You Gon’ Learn                                  - NONE
+  [ 226/4868] Eminem - Unaccommodating                                 - NONE
+  [ 264/4868] Eminem - Any Man                                         - NONE
+  [ 265/4868] Eminem - Car Freestyle                                   - NONE
+  [ 266/4868] Eminem - Eminem vs Papa Doc                              - NONE
+  [ 268/4868] Eminem - I Miss You                                      - NONE
+  [ 274/4868] Eminem - Killer (Remix)                                  - NONE
+  [ 276/4868] Eminem - Emulate                                         - NONE
+  [ 308/4868] Eminem - My Name Is                                      + EXACT
+2026-03-11 20:55:41,399 Added batch of 100 tracks
+  Progress: 308/4868 | 200 matched | 108 unmatched | ETA ~43m 23s
+  [ 311/4868] Eminem - Bad Guys Always Die                             - LOW    (partial: Eminem - Bad Guys Always Die - From "Wild Wild West" So
+undtrack)
+  [ 313/4868] Eminem - Get You Mad                                     - NONE
+  [ 326/4868] Esoterik - Welcome                                       - LOW    (partial: Esoterik - Welcome - Intro)
+  [ 333/4868] Fabolous - SAY LESS                                      - NONE
+  [ 334/4868] Fabolous - RICH HUSTLE                                   - NONE
+  [ 339/4868] Fergie - Big Girls Don't Cry                             - LOW    (partial: Fergie - Big Girls Don't Cry (Personal))
+  [ 357/4868] Fetty Wap - Queen                                        - LOW    (partial: Fetty Wap - Trap Queen)
+  [ 371/4868] Flo Rida - Available                                     - NONE
+  [ 373/4868] Flo Rida - Be on You                                     - LOW    (partial: Flo Rida - Be on You (feat. Ne-Yo))
+  [ 375/4868] Flo Rida - Magic                                         - NONE
+  [ 376/4868] Flo Rida - Club Can't Handle Me                          - LOW    (partial: Flo Rida - Club Can't Handle Me (feat. David Guetta))
+  [ 378/4868] Flo Rida - Hola                                          - NONE
+  [ 381/4868] Flo Rida - Let It Roll Part 1                            - NONE
+  [ 383/4868] Flo Rida - Sweet Spot                                    - NONE
+  [ 384/4868] Flo Rida - Let It Roll Part 2                            - LOW    (partial: Flo Rida - Let It Roll Part 2 (feat. Lil Wayne))
+  [ 385/4868] Flo Rida - Wild Ones                                     - LOW    (partial: Flo Rida - Wild Ones (feat. Sia))
+  [ 404/4868] Foreigner - White Lie                                    - LOW    (partial: Foreigner - White Lie - Single Version)
+  [ 405/4868] Fort Minor - Remember the Name                           - NONE
+  [ 407/4868] Fort Minor - Believe Me                                  - NONE
+  [ 409/4868] Fort Minor - High Road                                   - NONE
+  [ 410/4868] Foster Ebayy - Cici Eko                                  - NONE
+  [ 429/4868] Foster Ebayy - Orange Juice                              + HIGH
+2026-03-11 20:56:48,847 Added batch of 100 tracks
+  Progress: 429/4868 | 300 matched | 129 unmatched | ETA ~41m 57s
+  [ 435/4868] Foster Ebayy - 4th February                              - LOW    (partial: Foster Ebayy - 4th February - Freestyyle Cover)
+  [ 460/4868] Foster Ebayy - Senseless                                 - NONE
+  [ 461/4868] Foster Ebayy - Sounds From The Stereo                    - NONE
+  [ 463/4868] Foster Ebayy - Tempo (69)                                - NONE
+  [ 493/4868] Frank Sinatra - Bad Leroy Brown                          - LOW    (partial: Frank Sinatra - Bad, Bad Leroy Brown)
+  [ 499/4868] Frank Sinatra - New York                                 - LOW    (partial: Frank Sinatra - New York, New York)
+  [ 501/4868] Frank Sinatra - Something Stupid                         - LOW    (partial: Frank Sinatra - Somethin' Stupid)
+  [ 505/4868] Frank Sinatra - The Girl From Ipanema                    - LOW    (partial: Frank Sinatra - The Girl From Ipanema - 2008 Remastered
+)
+  [ 515/4868] Frank Sinatra - Let It Snow                              - NONE
+  [ 519/4868] French Montana - Wiggle It                               - NONE
+  [ 520/4868] French Montana - Hot Boy Bling                           - NONE
+  [ 521/4868] French Montana - Writing on the Wall                     - NONE
+  [ 531/4868] Fresco Trey - Got You                                    - LOW    (partial: Fresco Trey - Got You (feat. charlieonnafriday))
+  [ 537/4868] G-Eazy - Provide                                         - NONE
+  [ 541/4868] G-Eazy - Boss Tycoon                                     - NONE
+  [ 544/4868] G-Eazy - Fly Away                                        + EXACT
+2026-03-11 20:57:53,140 Added batch of 100 tracks
+  Progress: 544/4868 | 400 matched | 144 unmatched | ETA ~40m 44s
+  [ 546/4868] G-Eazy - Remember You                                    - LOW    (partial: G-Eazy - Remember You (feat. blackbear))
+  [ 547/4868] G-Eazy - Tumblr Girls                                    - NONE
+  [ 548/4868] G-Eazy - Far Alone                                       - NONE
+  [ 549/4868] G-Eazy - I Mean It                                       - LOW    (partial: G-Eazy - I Mean It (feat. Remo))
+  [ 551/4868] G-Eazy - Lifestyles of the Rich & Hated                  - LOW    (partial: G-Eazy - Lifestyles of the Rich & Hated (feat. Rick Ross))
+  [ 552/4868] G-Eazy - Of All Things                                   - LOW    (partial: G-Eazy - Of All Things (feat. Too $hort))
+  [ 563/4868] Gunna - DOLLAZ ON MY HEAD                                - LOW    (partial: Gunna - DOLLAZ ON MY HEAD (feat. Young Thug))
+  [ 564/4868] Gym Class Heroes - Cupid's Chokehold                     - NONE
+  [ 567/4868] Gym Class Heroes - Ass Back Home                         - LOW    (partial: Gym Class Heroes - Ass Back Home (feat. Neon Hitch))
+  [ 603/4868] Hopsin - Tell'em Who You Got It From                     - LOW    (partial: Hopsin - Tell em Who You Got it From)
+  [ 607/4868] Hopsin - Black Sheep                                     - NONE
+  [ 608/4868] Hopsin - Panorama City                                   - NONE
+  [ 609/4868] Hopsin - Marcus's Gospel                                 - NONE
+  [ 612/4868] Hopsin - Fort Collins                                    - NONE
+  [ 616/4868] Hopsin - Die This Way                                    - NONE
+  [ 617/4868] Hopsin - Have You Seen Me                                - NONE
+  [ 622/4868] Hopsin - Nocturnal Rainbows                              - LOW    (partial: Hopsin - Noctournal Rainbows)
+  [ 627/4868] Hotboii - Live Life Die Faster                           - LOW    (partial: Hotboii - Live Life Die Faster (with Kodak Black))
+  [ 628/4868] Hotboii - Nobody Special                                 - LOW    (partial: Hotboii - Nobody Special (with Future))
+  [ 629/4868] Hotboii - Out The Mud                                    - NONE
+  [ 630/4868] Hotboii - Doctor                                         - NONE
+  [ 638/4868] Iamsu! - Never Goin' Broke                               - LOW    (partial: Iamsu! - Never Goin' Broke (feat. Kehlani))
+  [ 642/4868] iann dior - Next 2 You                                   - LOW    (partial: iann dior - Next 2 You (feat. DC The Don))
+  [ 643/4868] iann dior - First Time                                   - NONE
+  [ 644/4868] iann dior - V12                                          - NONE
+  [ 645/4868] iann dior - gone girl                                    - NONE
+  [ 662/4868] Ice Cube - Super OG                                      - LOW    (partial: Ice Cube - Super OG (Intro))
+  [ 665/4868] Ice Cube - Bow Down                                      - LOW    (partial: Ice Cube - Bow Down (Live))
+  [ 672/4868] Ice Cube - So Sensitive                                  + EXACT
+2026-03-11 20:59:03,225 Added batch of 100 tracks
+  Progress: 672/4868 | 500 matched | 172 unmatched | ETA ~39m 18s
+  [ 673/4868] Ice Cube - Take Me to Your Leader
