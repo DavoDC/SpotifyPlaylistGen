@@ -1,0 +1,686 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Sunday 22 Mar 2026 ####
+
+2026-03-22 13:22:53,962 === SpotifyPlaylistGen started ===
+
+============================================================
+  SpotifyPlaylistGen
+  Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\run_20260322_132253.log
+============================================================
+2026-03-22 13:22:54,627 Removing stale lockfile (PID 27752 no longer running)
+2026-03-22 13:22:54,636 History backup created: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\history.json.bak
+
+[Stage 1/4] Reading local music library...
+2026-03-22 13:22:54,636 Stage 1: Parsing XML library
+2026-03-22 13:22:56,253   Found 5471 tracks in library
+  Found 5471 tracks in library
+
+[Stage 2/4] Reading playlist & computing sync plan...
+2026-03-22 13:22:56,254 Stage 2: Connecting to Spotify
+2026-03-22 13:22:56,783   Authenticated as: Spotify Connect
+  Logged in as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-22 13:22:57,170 Playlist API: total=2003
+2026-03-22 13:23:05,137 Read 2003 unique track URIs (API reported total=2003)
+  Playlist has 2003 unique tracks
+2026-03-22 13:23:14,133 Reconciliation plan: search=3468 add=0 remove=0 recover=0 synced=2003 custom=0 exhausted=0
+
+  Sync plan:
+     2003  already in sync
+        0  matched but missing from playlist (will recover)
+     3468  need searching
+        0  in playlist but not in library (will remove)
+        0  custom/skipped
+        0  exhausted (gave up after 5 attempts)
+
+[Stage 3/4] Searching Spotify for 3468 tracks...
+2026-03-22 13:23:14,133 Stage 3: Searching 3468 tracks
+  [   1/3468] 24kGoldn - Dawn to Dusk                                  - NONE
+  [   2/3468] 2Pac - Baby Don't Cry                                    - NONE
+  [   3/3468] 2Pac - Me and My Girlfriend                              - NONE
+  [   4/3468] 2Pac - Staring Through My Rearview                       - NONE
+  [   5/3468] Akon - Prolly Fuck                                       - NONE
+  [   6/3468] Avicii - I Could Be The One                              - NONE
+  [   7/3468] B.o.B - Airplanes Part 2                                 - NONE
+  [   8/3468] B.o.B - Airplanes Part 1                                 - NONE
+  [   9/3468] Basshunter - DotA                                        - NONE
+  [  10/3468] Basshunter - Now You're Gone                             - LOW    (partial: Basshunter - Now You're Gone (feat. DJ Mental Theo's Ba
+zzheadz) - Video Edit)
+  [  11/3468] Bebe Rexha - Going To Be Alright (Edit)                  - NONE
+  [  12/3468] Bliss - Coolin'                                          - NONE
+  [  13/3468] Bliss - Tear The Roof Off                                - NONE
+  [  14/3468] Bliss - Reach the Heavens                                - NONE
+  [  15/3468] Bliss - Home                                             - NONE
+  [  16/3468] Bliss - Chemical Heart (GEED UP)                         - NONE
+  [  17/3468] Boney M - Exodus                                         - NONE
+  [  18/3468] Boney M - Mary's Boy Child                               - NONE
+  [  19/3468] Calvin Harris - Bounce                                   - NONE
+  [  20/3468] Counting Crows - The Ghost In You                        - NONE
+  [  21/3468] DaBaby - GO                                              - NONE
+  [  22/3468] DaBaby - 'Essence' Freestyle                             - NONE
+  [  23/3468] David Massengill - Fireball                              - NONE
+  [  24/3468] David Massengill - Jesus's Birthday                      - NONE
+  [  25/3468] David Massengill - Noah                                  - NONE
+  [  26/3468] David Massengill - Sight See-er                          - NONE
+  [  27/3468] David Massengill - You and Me                            - NONE
+  [  28/3468] Dax - TOXIC (Remix)                                      - NONE
+  [  29/3468] DC The Don - Tonight's The Night                         - NONE
+  [  30/3468] Diddy - Coming Home                                      - NONE
+  [  31/3468] Diddy - Hello Good Morning                               - NONE
+  [  32/3468] Diddy - I Need a Girl - Part 2                           - LOW    (partial: Diddy - I Need a Girl (Pt. 2) [feat. Loon, Ginuwine, Ma
+rio Winans])
+  [  33/3468] DJ Khaled - USE THIS GOSPEL                              - LOW    (partial: DJ Khaled - USE THIS GOSPEL (feat. Kanye West & Eminem)
+ - REMIX)
+  [  34/3468] Dr. Dre - New Day                                        - NONE
+  [  35/3468] Dual Core - My Girlfriend is a Hacker                    - NONE
+  [  36/3468] Dual Core - 10 Hack Commandments                         - NONE
+  [  37/3468] Dual Core - The Children's Machine                       - LOW    (partial: Dual Core - The Children's Machine (Olpc))
+  [  38/3468] Ellie Goulding - Still Falling For You                   - LOW    (partial: Ellie Goulding - Still Falling For You - From "Bridget
+Jones's Baby")
+  [  39/3468] Eminem - Drop the World                                  - NONE
+  [  40/3468] Eminem - Forever                                         - NONE
+  [  41/3468] Eminem - Venom                                           - LOW    (partial: Eminem - Venom - Remix)
+  [  42/3468] Eminem - Any Man                                         - NONE
+  [  43/3468] Eminem - Car Freestyle                                   - NONE
+  [  44/3468] Eminem - Eminem vs Papa Doc                              - NONE
+  [  45/3468] Eminem - I Miss You                                      - NONE
+  [  46/3468] Eminem - Emulate                                         - NONE
+  [  47/3468] Eminem - Bad Guys Always Die                             - LOW    (partial: Eminem - Bad Guys Always Die - From "Wild Wild West" So
+undtrack)
+  [  48/3468] Eminem - Get You Mad                                     - NONE
+  [  49/3468] Esoterik - Welcome                                       - LOW    (partial: Esoterik - Welcome - Intro)
+  [  50/3468] Fergie - Big Girls Don't Cry                             - LOW    (partial: Fergie - Big Girls Don't Cry (Personal))
+  [  51/3468] Fetty Wap - Queen                                        - LOW    (partial: Fetty Wap - Trap Queen)
+  [  52/3468] Flo Rida - Magic                                         - NONE
+  [  53/3468] Flo Rida - Let It Roll Part 1                            - NONE
+  [  54/3468] Foreigner - White Lie                                    - LOW    (partial: Foreigner - White Lie - Single Version)
+  [  55/3468] Foster Ebayy - Cici Eko                                  - NONE
+  [  56/3468] Foster Ebayy - 4th February                              - LOW    (partial: Foster Ebayy - 4th February - Freestyyle Cover)
+  [  57/3468] Foster Ebayy - Senseless                                 - NONE
+  [  58/3468] Foster Ebayy - Sounds From The Stereo                    - NONE
+  [  59/3468] Foster Ebayy - Tempo (69)                                - NONE
+  [  60/3468] Frank Sinatra - Bad Leroy Brown                          - LOW    (partial: Frank Sinatra - Bad, Bad Leroy Brown)
+  [  61/3468] Frank Sinatra - New York                                 - LOW    (partial: Frank Sinatra - New York, New York)
+  [  62/3468] Frank Sinatra - Something Stupid                         - LOW    (partial: Frank Sinatra - Somethin' Stupid)
+  [  63/3468] Frank Sinatra - The Girl From Ipanema                    - LOW    (partial: Frank Sinatra - The Girl From Ipanema - 2008 Remastered
+)
+  [  64/3468] Frank Sinatra - Let It Snow                              - LOW    (partial: Frank Sinatra - Let It Snow, Let It Snow!)
+  [  65/3468] Gym Class Heroes - Cupid's Chokehold                     - NONE
+  [  66/3468] Hopsin - Tell'em Who You Got It From                     - LOW    (partial: Hopsin - Tell em Who You Got it From)
+  [  67/3468] Hopsin - Marcus's Gospel                                 - LOW    (partial: Hopsin - Marcus' Gospel (Feat. Michael Speaks))
+  [  68/3468] Hopsin - Have You Seen Me                                - NONE
+  [  69/3468] Hopsin - Nocturnal Rainbows                              - LOW    (partial: Hopsin - Noctournal Rainbows)
+  [  70/3468] iann dior - First Time                                   - NONE
+  [  71/3468] Ice Cube - Super OG                                      - LOW    (partial: Ice Cube - Super OG (Intro))
+  [  72/3468] Illrotic - Beyond the Words                              - NONE
+  [  73/3468] Illrotic - Blindfold                                     - NONE
+  [  74/3468] Illrotic - I'll Dream On                                 - NONE
+  [  75/3468] Illrotic - OMFG                                          - NONE
+  [  76/3468] Iyaz - Breathe                                           - NONE
+  [  77/3468] Jay-Z - Song Cry                                         - NONE
+  [  78/3468] Jay-Z - Renegade                                         - NONE
+  [  79/3468] Jay-Z - Young Forever                                    - NONE
+  [  80/3468] Jay-Z - Encore                                           - NONE
+  [  81/3468] Jay-Z - Hard Knock Life                                  - NONE
+  [  82/3468] Jay-Z - Run This Town                                    - NONE
+  [  83/3468] Jay-Z - Empire State Of Mind                             - NONE
+  [  84/3468] Jersey Boys - Big Girls Don't Cry                        - NONE
+  [  85/3468] Jersey Boys - December, 1963                             - NONE
+  [  86/3468] Jersey Boys - Fallen Angel                               - NONE
+  [  87/3468] Jersey Boys - I Make A Fool Of Myself                    - NONE
+  [  88/3468] Jersey Boys - Our Day Will Come                          - NONE
+  [  89/3468] Jersey Boys - Swearin' to God                            - NONE
+  [  90/3468] Jersey Boys - The Proud One                              - NONE
+  [  91/3468] Jersey Boys - To Give                                    - NONE
+  [  92/3468] Jersey Boys - We're All Alone                            - NONE
+  [  93/3468] Joey Bada$$ - Blast Off                                  - NONE
+  [  94/3468] Joey Bada$$ - Like Water                                 - NONE
+  [  95/3468] John Williamson - The Breaker                            - NONE
+  [  96/3468] John Williamson - Bush Barber                            - NONE
+  [  97/3468] John Williamson - Bushtown                               - NONE
+  [  98/3468] John Williamson - Dad's Flowers                          - NONE
+  [  99/3468] Juice WRLD - Ring Ring                                   - NONE
+  [ 100/3468] Juice WRLD - Back in Chicago                             - NONE
+  [ 101/3468] Juice WRLD - Lotti Lotti                                 - NONE
+  [ 102/3468] Juice WRLD - Graduation                                  - NONE
+  [ 103/3468] Juice WRLD - Vacation                                    - NONE
+  [ 104/3468] Justin Bieber - 2U                                       - NONE
+  [ 105/3468] Justin Bieber - Cold Water                               - NONE
+  [ 106/3468] Justin Bieber - Let Me Love You                          - NONE
+  [ 107/3468] Justin Timberlake - LoveStoned                           - NONE
+  [ 108/3468] Justin Timberlake - What Goes Around, Comes Around       - LOW    (partial: Justin Timberlake - What Goes Around.../...Comes Around
+ (Interlude))
+  [ 109/3468] Kanye West - BEAUTY AND THE BEAST                        - NONE
+  [ 110/3468] Kanye West - DAMN                                        - NONE
+  [ 111/3468] Kanye West - PREACHER MAN                                - NONE
+  [ 112/3468] Kanye West - BROKEN ROAD                                 - NONE
+  [ 113/3468] Kanye West - WE DID IT KID                               - NONE
+  [ 114/3468] Kanye West - CITY OF GODS                                - NONE
+  [ 115/3468] Kanye West - EAZY                                        - NONE
+  [ 116/3468] Kanye West - Diamonds From Sierra Leone                  - LOW    (partial: Kanye West - Diamonds From Sierra Leone - Remix)
+  [ 117/3468] Kanye West - Eyes Closed                                 - NONE
+  [ 118/3468] Kanye West - Never See Me Again                          - NONE
+  [ 119/3468] Kanye West - Whoopy Doo                                  - NONE
+  [ 120/3468] Kanye West - Downtown                                    - NONE
+  [ 121/3468] Kanye West - HALLELUJAH                                  - NONE
+  [ 122/3468] Kanye West - Petals                                      - NONE
+  [ 123/3468] Kanye West - WW3                                         - NONE
+  [ 124/3468] Kanye West - Slow Jamz                                   - NONE
+  [ 125/3468] Kanye West - BACK TO ME                                  - NONE
+  [ 126/3468] Kanye West - BURN                                        - NONE
+  [ 127/3468] Kanye West - CARNIVAL                                    - NONE
+  [ 128/3468] Kanye West - DO IT                                       - NONE
+  [ 129/3468] Kanye West - HOODRAT                                     - NONE
+  [ 130/3468] Kanye West - KEYS TO MY LIFE                             - NONE
+  [ 131/3468] Kanye West - KING                                        - NONE
+  [ 132/3468] Kanye West - PAID                                        - NONE
+  [ 133/3468] Kanye West - PAPERWORK                                   - NONE
+  [ 134/3468] Kanye West - PROBLEMATIC                                 - NONE
+  [ 135/3468] Kanye West - STARS                                       - NONE
+  [ 136/3468] Kanye West - TALKING                                     - NONE
+  [ 137/3468] Kanye West - VULTURES                                    - NONE
+  [ 138/3468] Kid Cudi - WOW                                           - NONE
+  [ 139/3468] Kid Cudi - Erase Me                                      - LOW    (partial: Kid Cudi - Erase Me - Main)
+  [ 140/3468] Kid Cudi - Day 'N' Nite                                  - LOW    (partial: Kid Cudi - Day 'N' Nite (Nightmare))
+  [ 141/3468] Kid Cudi - In My Dreams                                  - LOW    (partial: Kid Cudi - In My Dreams (Cudder Anthem))
+  [ 142/3468] Kid Cudi - Pursuit Of Happiness                          - LOW    (partial: Kid Cudi - Pursuit Of Happiness (Nightmare))
+  [ 143/3468] Kid Cudi - Do It Alone                                   - NONE
+  [ 144/3468] Kodak Black - Roll in Peace 2                            - LOW    (partial: Kodak Black - Roll in Peace (feat. XXXTENTACION))
+  [ 145/3468] Kodak Black - When You See Me I'm White                  - NONE
+  [ 146/3468] KRS-One - Keep Movin (True Story)                        - NONE
+  [ 147/3468] KRS-One - Freedom                                        - NONE
+  [ 148/3468] KRS-One - I Am There                                     - NONE
+  [ 149/3468] KRS-One - I'm On The Mic                                 - NONE
+  [ 150/3468] KRS-One - Life Interlude                                 - NONE
+  [ 151/3468] KRS-One - Disaster Kit                                   - NONE
+  [ 152/3468] KRS-One - The System Gotcha                              - NONE
+  [ 153/3468] KRS-One - Just Like That                                 - NONE
+  [ 154/3468] KRS-One - Hot                                            - NONE
+  [ 155/3468] KRS-One - Hush                                           - NONE
+  [ 156/3468] KRS-One - The Lessin                                     - NONE
+  [ 157/3468] KRS-One - The Raptism                                    - NONE
+  [ 158/3468] KRS-One - Edutainment                                    - NONE
+  [ 159/3468] KRS-One - Step into a World                              - LOW    (partial: KRS-One - Step into a World (Rapture's Delight))
+  [ 160/3468] KRS-One - You Must Learn                                 - NONE
+  [ 161/3468] KRS-One - Essays on BDP-ism                              - NONE
+  [ 162/3468] KRS-One - Original Lyrics                                - NONE
+  [ 163/3468] KRS-One - Don't Ever Stop                                - NONE
+  [ 164/3468] KRS-One - F*ck This                                      - NONE
+  [ 165/3468] KRS-One - Hip Hop Speaks From Heaven                     - NONE
+  [ 166/3468] KRS-One - My Dreams                                      - NONE
+  [ 167/3468] KRS-One - The World Is MIND                              - NONE
+  [ 168/3468] KRS-One - You Ain't Got Time                             - NONE
+  [ 169/3468] Kyle - Girls, Girls, Girls                               - NONE
+  [ 170/3468] Lil Dicky - We Good                                      - LOW    (partial: Lil Dicky - We Good - Bonus Track)
+  [ 171/3468] Lil Mosey - 24/7                                         - NONE
+  [ 172/3468] Lil Mosey - Problem Solvin                               - NONE
+  [ 173/3468] Lil Mosey - Try Me                                       + EXACT
+  [ 174/3468] Lil Mosey - Paid Up                                      + EXACT
+  [ 175/3468] Lil Mosey - Sick Today                                   + EXACT
+  [ 176/3468] Lil Nas X - Panini                                       + HIGH
+  [ 177/3468] Lil Nas X - Old Town Road                                + HIGH
+  [ 178/3468] Lil Nas X - Rodeo                                        + HIGH
+  [ 179/3468] Lil Tecca - Dark Thoughts                                + EXACT
+  [ 180/3468] Lil Tecca - Don’t Rush                                   + EXACT
+  [ 181/3468] Lil Tecca - Favorite Lie                                 + EXACT
+  [ 182/3468] Lil Tecca - Half The Plot                                + EXACT
+  [ 183/3468] Lil Tecca - Hollywood                                    + EXACT
+  [ 184/3468] Lil Tecca - Irish Goodbye                                + EXACT
+  [ 185/3468] Lil Tecca - OWA OWA                                      + EXACT
+  [ 186/3468] Lil Tecca - The Truth                                    + EXACT
+  [ 187/3468] Lil Tecca - X Factor                                     + EXACT
+  [ 188/3468] Lil Tecca - Blessing                                     + EXACT
+  [ 189/3468] Lil Tecca - Fallin                                       + EXACT
+  [ 190/3468] Lil Tecca - Faster                                       + EXACT
+  [ 191/3468] Lil Tecca - When You Down                                + HIGH
+  [ 192/3468] Lil Tecca - Gist                                         + EXACT
+  [ 193/3468] Lil Tecca - Need Me                                      + EXACT
+  [ 194/3468] Lil Tecca - Real Discussions                             + EXACT
+  [ 195/3468] Lil Tecca - TEC                                          - NONE
+  [ 196/3468] Lil Tecca - Want It Bad                                  + EXACT
+  [ 197/3468] Lil Tecca - HVN ON EARTH                                 + EXACT
+  [ 198/3468] Lil Tecca - Amigo                                        + EXACT
+  [ 199/3468] Lil Tecca - Bossanova                                    + EXACT
+  [ 200/3468] Lil Tecca - Count Me Out                                 + EXACT
+  [ 201/3468] Lil Tecca - Did It Again                                 + EXACT
+  [ 202/3468] Lil Tecca - DUI                                          + EXACT
+  [ 203/3468] Lil Tecca - Glo Up                                       + EXACT
+  [ 204/3468] Lil Tecca - Left, Right                                  + EXACT
+  [ 205/3468] Lil Tecca - Love Me                                      + EXACT
+  [ 206/3468] Lil Tecca - Molly Girl                                   + EXACT
+  [ 207/3468] Lil Tecca - Out Of Luck                                  + EXACT
+  [ 208/3468] Lil Tecca - Phenom                                       + EXACT
+  [ 209/3468] Lil Tecca - Ransom                                       + EXACT
+  [ 210/3468] Lil Tecca - Senorita                                     + EXACT
+  [ 211/3468] Lil Tecca - Shots                                        + EXACT
+  [ 212/3468] Lil Tecca - Sidenote                                     + EXACT
+  [ 213/3468] Lil Tecca - The Score                                    + EXACT
+  [ 214/3468] Lil Tecca - Weatherman                                   + EXACT
+  [ 215/3468] Lil Tecca - Ransom (Remix)                               + HIGH
+  [ 216/3468] Lil Tecca - CAUTION                                      + EXACT
+  [ 217/3468] Lil Tecca - DID THAT                                     + EXACT
+  [ 218/3468] Lil Tecca - EVERYWHERE I GO                              + EXACT
+  [ 219/3468] Lil Tecca - FEE                                          + EXACT
+  [ 220/3468] Lil Tecca - INVESTIGATION                                + EXACT
+  [ 221/3468] Lil Tecca - LOT OF ME                                    + EXACT
+  [ 222/3468] Lil Tecca - MONEY ON ME                                  + EXACT
+  [ 223/3468] Lil Tecca - MY SIDE                                      + EXACT
+  [ 224/3468] Lil Tecca - NADA                                         + EXACT
+  [ 225/3468] Lil Tecca - NEVER LEFT                                   + EXACT
+  [ 226/3468] Lil Tecca - NO DISCUSSION                                + EXACT
+  [ 227/3468] Lil Tecca - SHOOTERS                                     + EXACT
+  [ 228/3468] Lil Tecca - WHATEVER                                     + EXACT
+  [ 229/3468] Lil Tecca - YOU DON'T NEED ME NO MORE                    + EXACT
+  [ 230/3468] Lil Tecca - YOU GOTTA GO DO BETTER                       + EXACT
+  [ 231/3468] Lil Tecca - CHOPPA SHOOT THE LOUDEST                     + EXACT
+  [ 232/3468] Lil Tecca - REPEAT IT                                    + EXACT
+  [ 233/3468] Lil Tecca - SEASIDE                                      + EXACT
+  [ 234/3468] Lil Tecca - BANK TELLER                                  + EXACT
+  [ 235/3468] Lil Tecca - ABOUT YOU                                    + EXACT
+  [ 236/3468] Lil Uzi Vert - Baby Pluto                                + HIGH
+  [ 237/3468] Lil Uzi Vert - Futsal Shuffle 2020                       + HIGH
+  [ 238/3468] Lil Uzi Vert - Lo Mein                                   + HIGH
+  [ 239/3468] Lil Uzi Vert - Moon Relate                               + HIGH
+  [ 240/3468] Lil Uzi Vert - Myron                                     + HIGH
+  [ 241/3468] Lil Uzi Vert - P2                                        + HIGH
+  [ 242/3468] Lil Uzi Vert - That Way                                  + HIGH
+  [ 243/3468] Lil Uzi Vert - Bean (Kobe)                               + HIGH
+  [ 244/3468] Lil Uzi Vert - Leaders                                   + HIGH
+  [ 245/3468] Lil Uzi Vert - Do What I Want                            + EXACT
+  [ 246/3468] Lil Uzi Vert - Erase Your Social                         + EXACT
+  [ 247/3468] Lil Uzi Vert - Sanguine Paradise                         + EXACT
+  [ 248/3468] Lil Uzi Vert - Two®                                      + EXACT
+  [ 249/3468] Lil Uzi Vert - You Was Right                             + EXACT
+  [ 250/3468] Lil Uzi Vert - The Way Life Goes                         + HIGH
+  [ 251/3468] Lil Uzi Vert - Ballin                                    + HIGH
+  [ 252/3468] Lil Wayne - God Bless Amerika                            + EXACT
+  [ 253/3468] Lil Wayne - Two Four (Kobe)                              - NONE
+  [ 254/3468] Lil Wayne - Mrs. Officer                                 + EXACT
+  [ 255/3468] Lil Wayne - Bless                                        + EXACT
+  [ 256/3468] Lil Wayne - Right Above It                               + EXACT
+  [ 257/3468] Lil Wayne - Bleu Snappin'                                + EXACT
+  [ 258/3468] Lil Wayne - Hands Up (My Last)                           + EXACT
+  [ 259/3468] Lil Wayne - Sorry 4 The Wait                             + EXACT
+  [ 260/3468] Lil Wayne - Tunechi's Room                               + EXACT
+  [ 261/3468] Lil Wayne - Twist Made Me                                + EXACT
+  [ 262/3468] Lil Wayne - Shine                                        + EXACT
+  [ 263/3468] Lil Wayne - Hoes                                         + EXACT
+  [ 264/3468] Lil Wayne - How To Love                                  + HIGH
+  [ 265/3468] Lil Wayne - Mirror                                       + HIGH
+  [ 266/3468] Lil Wayne - Let It All Work Out                          + EXACT
+  [ 267/3468] Lil Wayne - Famous                                       + EXACT
+  [ 268/3468] Lil Wayne - Dope Niggaz                                  + EXACT
+  [ 269/3468] Lil Wayne - Feelin' Like Tunechi                         + EXACT
+  [ 270/3468] Lil Wayne - Trust Fund                                   + EXACT
+  [ 271/3468] Lil Yachty - One Night                                   + EXACT
+  [ 272/3468] Lil Yachty - Poland                                      + EXACT
+  [ 273/3468] Lil Yachty - Oprah's Bank Account                        - LOW    (partial: Lil Yachty - Oprah’s Bank Account (Lil Yachty & DaBaby
+feat. Drake))
+  [ 274/3468] Lil Yachty - Yacht Club                                  + EXACT
+  [ 275/3468] Lil Yachty - Bring It Back                               + EXACT
+
+2026-03-22 13:28:03,499 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-22 13:28:03,882 Added batch of 100 tracks
+2026-03-22 13:28:03,882 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 275/3468 | 100 matched | 175 unmatched | ETA ~56m 4s
+  [ 276/3468] Lil Yachty - FYI (Know Now)                              + EXACT
+  [ 277/3468] Lil Yachty - Made Of Glass                               + EXACT
+  [ 278/3468] Lil Yachty - Say My Name                                 + EXACT
+  [ 279/3468] Lil Yachty - Forever Young                               + EXACT
+  [ 280/3468] Lil Yachty - Better                                      + EXACT
+  [ 281/3468] Lil Yachty - All Around Me                               + EXACT
+  [ 282/3468] LL COOL J - Bath Salt                                    + EXACT
+  [ 283/3468] LL COOL J - Jump On It                                   + HIGH
+  [ 284/3468] LL COOL J - Remember Me                                  + HIGH
+  [ 285/3468] LL COOL J - Waiting On You                               + HIGH
+  [ 286/3468] LL COOL J - Live For You                                 + EXACT
+  [ 287/3468] LL COOL J - New Love                                     + EXACT
+  [ 288/3468] LL COOL J - Something About You (Love The World)         + EXACT
+  [ 289/3468] LL COOL J - We're The Greatest                           + EXACT
+  [ 290/3468] LL COOL J - Not Leaving You Tonight                      + EXACT
+  [ 291/3468] LL COOL J - Take It                                      + HIGH
+  [ 292/3468] LL COOL J - Between The Sheetz                           + EXACT
+  [ 293/3468] LL COOL J - Closer                                       + EXACT
+  [ 294/3468] LL COOL J - Give Me Love                                 + EXACT
+  [ 295/3468] LL COOL J - Bartender Please                             + EXACT
+  [ 296/3468] LL COOL J - We Came To Party                             + EXACT
+  [ 297/3468] LL COOL J - Whaddup                                      + EXACT
+  [ 298/3468] Londrelle - 3:33 in Babylon                              + EXACT
+  [ 299/3468] Londrelle - Cast out Spirits                             + EXACT
+  [ 300/3468] Londrelle - God Will Rise                                + EXACT
+  [ 301/3468] Londrelle - Kingdom Child                                + EXACT
+  [ 302/3468] Londrelle - Legendary                                    + EXACT
+  [ 303/3468] Londrelle - Only Love Is Real                            + EXACT
+  [ 304/3468] Londrelle - Pray for the Hood                            + EXACT
+  [ 305/3468] Londrelle - Stay Grounded                                + EXACT
+  [ 306/3468] Londrelle - You Are Enough                               + EXACT
+  [ 307/3468] Londrelle - Govinda Nights                               + EXACT
+  [ 308/3468] Lorde - Royals                                           + EXACT
+  [ 309/3468] Lorde - Team                                             + HIGH
+  [ 310/3468] Lorde - Tennis Court                                     + EXACT
+  [ 311/3468] Lorde - White Teeth Teens                                + EXACT
+  [ 312/3468] Luh Kel - All In You                                     + EXACT
+  [ 313/3468] Luh Kel - Feelin In Love                                 + EXACT
+  [ 314/3468] Luh Kel - GTW2U                                          + EXACT
+  [ 315/3468] Lukis Mac - Celebrate Your Blessings                     + EXACT
+  [ 316/3468] Lukis Mac - God Mode                                     + EXACT
+  [ 317/3468] Lukis Mac - Heal My Soul                                 + EXACT
+  [ 318/3468] Lukis Mac - I Am Free                                    + EXACT
+  [ 319/3468] Lukis Mac - I'm Winning                                  + EXACT
+  [ 320/3468] Lukis Mac - My Ego Is Dying                              + EXACT
+  [ 321/3468] Lukis Mac - New Level                                    + EXACT
+  [ 322/3468] Lukis Mac - I'm Learning                                 + EXACT
+  [ 323/3468] Lukis Mac - Only God Can See                             + EXACT
+  [ 324/3468] Lukis Mac - Love Is the Medicine                         + EXACT
+  [ 325/3468] Lukis Mac - Children of Earth                            + EXACT
+  [ 326/3468] Lukis Mac - I'm on One                                   + EXACT
+  [ 327/3468] Lukis Mac - Less About the Hussle                        + EXACT
+  [ 328/3468] Lukis Mac - Prayer                                       + EXACT
+  [ 329/3468] Lukis Mac - Self Growth                                  + EXACT
+  [ 330/3468] Lukis Mac - Love Is Our Legacy                           + EXACT
+  [ 331/3468] Lukis Mac - Elevate                                      + EXACT
+  [ 332/3468] Lukis Mac - The Universe Knows                           + EXACT
+  [ 333/3468] Lupe Fiasco - Superstar                                  + EXACT
+  [ 334/3468] Lupe Fiasco - Hip-Hop Saved My Life                      + EXACT
+  [ 335/3468] Lupe Fiasco - The Show Goes On                           + EXACT
+  [ 336/3468] Mac DeMarco - Freaking Out The Neighborhood              + EXACT
+  [ 337/3468] Mac DeMarco - My Kind Of Woman                           + EXACT
+  [ 338/3468] Mac DeMarco - Ode To Viceroy                             + EXACT
+  [ 339/3468] Mac DeMarco - Blue Boy                                   + EXACT
+  [ 340/3468] Mac DeMarco - Chamber Of Reflection                      + EXACT
+  [ 341/3468] Mac DeMarco - Treat Her Better                           + EXACT
+  [ 342/3468] Mac DeMarco - Baby's Wearing Blue Jeans                  + EXACT
+  [ 343/3468] Mac Dre - Feelin' Myself                                 + EXACT
+  [ 344/3468] Mac Dre - Get Stupid                                     + EXACT
+  [ 345/3468] Mac Dre - Doin' What I Do                                + EXACT
+  [ 346/3468] Mac Dre - Not My Job                                     + EXACT
+  [ 347/3468] Machine Gun Kelly - RAP DEVIL                            - NONE
+  [ 348/3468] Machine Gun Kelly - Invincible                           - NONE
+  [ 349/3468] Machine Gun Kelly - ay!                                  - NONE
+  [ 350/3468] Macklemore - Intentions                                  + EXACT
+  [ 351/3468] Macklemore - Good Old Days                               + EXACT
+  [ 352/3468] Macklemore - How To Play the Flute                       + EXACT
+  [ 353/3468] Macklemore - Marmalade                                   + EXACT
+  [ 354/3468] Macklemore - Wednesday Morning                           + EXACT
+  [ 355/3468] Macklemore - Otherside                                   - NONE
+  [ 356/3468] Macklemore - Can't Hold Us                               + EXACT
+  [ 357/3468] Macklemore - Wings                                       - NONE
+  [ 358/3468] Macklemore - Gold                                        - NONE
+  [ 359/3468] Macklemore - Make The Money                              - NONE
+  [ 360/3468] Macklemore - Neon Cathedral                              - NONE
+  [ 361/3468] Macklemore - Same Love                                   - NONE
+  [ 362/3468] Macklemore - Starting Over                               - NONE
+  [ 363/3468] Macklemore - Ten Thousand Hours                          - NONE
+  [ 364/3468] Macklemore - Thin Line                                   - NONE
+  [ 365/3468] Macklemore - Thrift Shop                                 - NONE
+  [ 366/3468] Macklemore - Victory Lap                                 - NONE
+  [ 367/3468] Macklemore - White Walls                                 - NONE
+  [ 368/3468] Macklemore - As Soon As I Wake Up                        + EXACT
+  [ 369/3468] Macklemore - City Don't Sleep                            + EXACT
+  [ 370/3468] Macklemore - Claiming the City                           + EXACT
+  [ 371/3468] Macklemore - Contradiction                               + EXACT
+  [ 372/3468] Macklemore - Ego                                         + EXACT
+  [ 373/3468] Macklemore - Hold Your Head Up                           + EXACT
+  [ 374/3468] Macklemore - I Said Hey                                  + EXACT
+  [ 375/3468] Macklemore - Inhale Deep                                 + EXACT
+  [ 376/3468] Macklemore - Love Song                                   + EXACT
+  [ 377/3468] Macklemore - My Language                                 + EXACT
+  [ 378/3468] Macklemore - The Magic                                   + EXACT
+  [ 379/3468] Macklemore - Dance Off                                   - NONE
+  [ 380/3468] Macklemore - Buckshot                                    - NONE
+  [ 381/3468] Macklemore - Downtown                                    - NONE
+  [ 382/3468] Mariah Carey - Always Be My Baby                         + EXACT
+  [ 383/3468] Mariah Carey - Hero                                      + EXACT
+  [ 384/3468] Mariah Carey - Honey                                     + HIGH
+  [ 385/3468] Mariah Carey - Love Takes Time                           + HIGH
+  [ 386/3468] Mariah Carey - Touch My Body                             + HIGH
+  [ 387/3468] Mariah Carey - We Belong Together                        + HIGH
+  [ 388/3468] Mariah Carey - One Sweet Day                             + HIGH
+  [ 389/3468] Mariah Carey - Fantasy                                   + HIGH
+  [ 390/3468] Maroon 5 - Daylight                                      + EXACT
+  [ 391/3468] Maroon 5 - Love Somebody                                 + EXACT
+  [ 392/3468] Maroon 5 - One More Night                                + HIGH
+  [ 393/3468] Maroon 5 - Moves Like Jagger                             + HIGH
+
+2026-03-22 13:29:51,887 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-22 13:29:52,220 Added batch of 100 tracks
+2026-03-22 13:29:52,220 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 393/3468 | 200 matched | 193 unmatched | ETA ~51m 54s
+  [ 394/3468] Maroon 5 - Payphone                                      + HIGH
+  [ 395/3468] Maroon 5 - Girls Like You                                + HIGH
+  [ 396/3468] Maroon 5 - What Lovers Do                                + HIGH
+  [ 397/3468] Maroon 5 - Memories                                      + HIGH
+  [ 398/3468] Maroon 5 - Sugar                                         + HIGH
+  [ 399/3468] Maroon 5 - Wake Up Call                                  + HIGH
+  [ 400/3468] Maroon 5 - Beautiful Mistakes                            + HIGH
+  [ 401/3468] Maroon 5 - She Will Be Loved                             + EXACT
+  [ 402/3468] Maroon 5 - This Love                                     + EXACT
+  [ 403/3468] Megan Thee Stallion - Girls in the Hood                  + EXACT
+  [ 404/3468] Megan Thee Stallion - Outside                            + EXACT
+  [ 405/3468] Megan Thee Stallion - Go Crazy                           + EXACT
+  [ 406/3468] Megan Thee Stallion - B.I.T.C.H.                         + EXACT
+  [ 407/3468] Megan Thee Stallion - Hot Girl Summer                    + HIGH
+  [ 408/3468] Metro Boomin - Around Me                                 + EXACT
+  [ 409/3468] Metro Boomin - Superhero (Heroes & Villains)             + EXACT
+  [ 410/3468] Metro Boomin - Too Many Nights                           + EXACT
+  [ 411/3468] Metro Boomin - On Time                                   + EXACT
+  [ 412/3468] Metro Boomin - Creepin'                                  + EXACT
+  [ 413/3468] Michael Jackson - Hold My Hand (with Akon)               + EXACT
+  [ 414/3468] Michael Jackson - Bad                                    + HIGH
+  [ 415/3468] Michael Jackson - Black or White                         + HIGH
+  [ 416/3468] Michael Jackson - Man in the Mirror                      + HIGH
+  [ 417/3468] Michael Jackson - Rock with You                          + HIGH
+  [ 418/3468] Michael Jackson - Smooth Criminal                        - LOW    (partial: Michael Jackson - Smooth Criminal - 2012 Remaster)
+  [ 419/3468] Michael Jackson - Thriller                               + HIGH
+  [ 420/3468] Michael Jackson - You Are Not Alone                      + HIGH
+  [ 421/3468] MIKA - Any Other World                                   + EXACT
+  [ 422/3468] MIKA - Big Girl (You Are Beautiful)                      + EXACT
+  [ 423/3468] MIKA - Happy Ending                                      + EXACT
+  [ 424/3468] MIKA - Lollipop                                          + EXACT
+  [ 425/3468] MIKA - Love Today                                        + EXACT
+  [ 426/3468] MIKA - Relax, Take It Easy                               + EXACT
+  [ 427/3468] MIKA - Stuck In The Middle                               + EXACT
+  [ 428/3468] mike. - Closer                                           + EXACT
+  [ 429/3468] mike. - music when i'm high                              + EXACT
+  [ 430/3468] mike. - oasis                                            + HIGH
+  [ 431/3468] mike. - woke up new                                      + EXACT
+  [ 432/3468] mike. - 2 birds                                          + EXACT
+  [ 433/3468] mike. - days go bye                                      + EXACT
+  [ 434/3468] mike. - life got crazy                                   + EXACT
+  [ 435/3468] mike. - rodman                                           + EXACT
+  [ 436/3468] mike. - what i know                                      + EXACT
+  [ 437/3468] Mike Posner - Bow Chicka Wow Wow                         + EXACT
+  [ 438/3468] Mike Posner - Cooler Than Me                             + HIGH
+  [ 439/3468] Mike Posner - Gone In September                          + EXACT
+  [ 440/3468] Mike Posner - Save Your Goodbye                          + EXACT
+  [ 441/3468] Mike Posner - Be As You Are                              + EXACT
+  [ 442/3468] Mike Posner - I Took A Pill In Ibiza (Seeb Remix)        + HIGH
+  [ 443/3468] Mike Posner - In The Arms Of A Stranger (Brian Kierulf   + HIGH
+  [ 444/3468] Mike Posner - Drug Dealer Girl                           + EXACT
+  [ 445/3468] Mike Posner - The Way It Used to Be                      + EXACT
+  [ 446/3468] Mike Posner - Top of the World                           + HIGH
+  [ 447/3468] Miley Cyrus - We Can't Stop                              + HIGH
+  [ 448/3468] Miley Cyrus - Wrecking Ball                              + HIGH
+  [ 449/3468] Miley Cyrus - Party In The U.S.A.                        + EXACT
+  [ 450/3468] MKTO - American Dream                                    + EXACT
+  [ 451/3468] MKTO - Classic                                           + HIGH
+  [ 452/3468] MKTO - Thank You                                         + EXACT
+  [ 453/3468] MKTO - Could Be Me                                       + EXACT
+  [ 454/3468] Modern Talking - Brother Louie                           + HIGH
+  [ 455/3468] Modern Talking - Cheri Cheri Lady                        + HIGH
+  [ 456/3468] Modern Talking - Geronimo's Cadillac                     + HIGH
+  [ 457/3468] Modern Talking - You Can Win If You Want                 + EXACT
+  [ 458/3468] Modern Talking - You're My Heart, You're My Soul         + HIGH
+  [ 459/3468] Money Man - New York                                     + EXACT
+  [ 460/3468] Money Man - Fans Go Crazy                                + EXACT
+  [ 461/3468] Money Man - LLC                                          + EXACT
+  [ 462/3468] Moneybagg Yo - Scorpio                                   + EXACT
+  [ 463/3468] Moneybagg Yo - Wockesha                                  + EXACT
+  [ 464/3468] Moneybagg Yo - All Dat                                   + EXACT
+  [ 465/3468] Moneybagg Yo - Rocky Road                                + HIGH
+  [ 466/3468] Moneybagg Yo - Hard For The Next                         + HIGH
+  [ 467/3468] Morgan Wallen - 180 (Lifestyle)                          + EXACT
+  [ 468/3468] Morgan Wallen - Ain’t That Some                          + EXACT
+  [ 469/3468] Morgan Wallen - F150-50                                  + EXACT
+  [ 470/3468] Morgan Wallen - Hope That’s True                         + EXACT
+  [ 471/3468] Morgan Wallen - Last Night                               + EXACT
+  [ 472/3468] Morgan Wallen - Me To Me                                 + EXACT
+  [ 473/3468] Morgan Wallen - Neon Star (Country Boy Lullaby)          + EXACT
+  [ 474/3468] Morgan Wallen - One Thing At A Time                      + EXACT
+  [ 475/3468] Morgan Wallen - Outlook                                  + EXACT
+  [ 476/3468] Morgan Wallen - Sunrise                                  + EXACT
+  [ 477/3468] Morgan Wallen - Thought You Should Know                  + EXACT
+  [ 478/3468] Morgan Wallen - Cowgirls                                 + EXACT
+  [ 479/3468] Morgan Wallen - In The Bible                             + EXACT
+  [ 480/3468] Morgan Wallen - Love Somebody                            + EXACT
+  [ 481/3468] MOUNT WESTMORE - Activated                               + EXACT
+  [ 482/3468] MOUNT WESTMORE - Big Subwoofer                           + EXACT
+  [ 483/3468] MOUNT WESTMORE - California                              + EXACT
+  [ 484/3468] MOUNT WESTMORE - Do My Best                              + EXACT
+  [ 485/3468] MOUNT WESTMORE - Free Game                               + EXACT
+  [ 486/3468] MOUNT WESTMORE - Ghetto Gutter                           + EXACT
+  [ 487/3468] MOUNT WESTMORE - I Got Pull                              + EXACT
+  [ 488/3468] MOUNT WESTMORE - Lace You Up                             + EXACT
+  [ 489/3468] MOUNT WESTMORE - Motto                                   + EXACT
+  [ 490/3468] MOUNT WESTMORE - Up & Down                               + EXACT
+  [ 491/3468] MOUNT WESTMORE - Too Big                                 + EXACT
+  [ 492/3468] Muse - Resistance                                        + EXACT
+  [ 493/3468] Muse - Undisclosed Desires                               + EXACT
+  [ 494/3468] Muse - Uprising                                          + EXACT
+
+2026-03-22 13:31:25,570 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-22 13:31:25,938 Added batch of 100 tracks
+2026-03-22 13:31:25,938 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 494/3468 | 300 matched | 194 unmatched | ETA ~49m 20s
+  [ 495/3468] Mustard - 7 to 7                                         + EXACT
+  [ 496/3468] Mustard - Pray For Me                                    + EXACT
+  [ 497/3468] Mustard - Up Now                                         + EXACT
+  [ 498/3468] Mustard - Mines                                          + EXACT
+  [ 499/3468] Mustard - One Bad Decision                               + EXACT
+  [ 500/3468] Mustard - Show Me the Way                                + EXACT
+  [ 501/3468] Mustard - Yak's Prayer                                   + EXACT
+  [ 502/3468] Mustard - Ghetto                                         + EXACT
+  [ 503/3468] Mustard - One of Them Ones                               + EXACT
+  [ 504/3468] Mustard - Truth Is                                       + EXACT
+  [ 505/3468] Mustard - Pressured Up                                   + EXACT
+  [ 506/3468] Mustard - Parking Lot                                    + EXACT
+  [ 507/3468] Mustard - Ballin’                                        + HIGH
+  [ 508/3468] N.W.A - 8 Ball (Remix)                                   + HIGH
+  [ 509/3468] N.W.A - Compton's N The House (Remix)                    + HIGH
+  [ 510/3468] N.W.A - Dopeman (Remix)                                  + HIGH
+  [ 511/3468] N.W.A - Express Yourself                                 + HIGH
+  [ 512/3468] N.W.A - Fuck Tha Police                                  + HIGH
+  [ 513/3468] N.W.A - Gangsta Gangsta                                  + HIGH
+  [ 514/3468] N.W.A - I Ain't Tha 1                                    + HIGH
+  [ 515/3468] N.W.A - If It Ain't Ruff                                 + HIGH
+  [ 516/3468] N.W.A - Parental Discretion Iz Advised                   + HIGH
+  [ 517/3468] N.W.A - Quiet On Tha Set                                 + HIGH
+  [ 518/3468] N.W.A - Something 2 Dance 2                              + HIGH
+  [ 519/3468] N.W.A - Something Like That                              + HIGH
+  [ 520/3468] N.W.A - Straight Outta Compton                           + HIGH
+  [ 521/3468] N.W.A - Alwayz Into Somethin'                            + HIGH
+  [ 522/3468] N.W.A - Chin Check                                       + HIGH
+  [ 523/3468] Nas - I Can                                              + EXACT
+  [ 524/3468] Nas - One Mic                                            + EXACT
+  [ 525/3468] Nas - Wave Gods                                          + EXACT
+  [ 526/3468] Natasha Bedingfield - Angel                              + EXACT
+  [ 527/3468] Natasha Bedingfield - Pocketful of Sunshine              + EXACT
+  [ 528/3468] Natasha Bedingfield - Put Your Arms Around Me            + EXACT
+  [ 529/3468] Natasha Bedingfield - Love Like This                     + EXACT
+  [ 530/3468] Natasha Bedingfield - These Words                        + EXACT
+  [ 531/3468] Natasha Bedingfield - Unwritten                          + EXACT
+  [ 532/3468] Natasha Bedingfield - Wild Horses                        + EXACT
+  [ 533/3468] NAV - Held Me Down                                       + EXACT
+  [ 534/3468] NAV - A$AP Ferg                                          + EXACT
+  [ 535/3468] NAV - Wrong Decisions                                    + EXACT
+  [ 536/3468] Ne-Yo - Because Of You                                   + EXACT
+  [ 537/3468] Ne-Yo - Go On Girl                                       + EXACT
+  [ 538/3468] Ne-Yo - I Ain't Gotta Tell You                           + EXACT
+  [ 539/3468] Ne-Yo - It Just Ain't Right                              + EXACT
+  [ 540/3468] Ne-Yo - Sexy Love                                        + EXACT
+  [ 541/3468] Ne-Yo - So Sick                                          + EXACT
+  [ 542/3468] Ne-Yo - Closer                                           + EXACT
+  [ 543/3468] Ne-Yo - Miss Independent                                 + EXACT
+  [ 544/3468] Nelly - Just A Dream                                     + EXACT
+  [ 545/3468] Nelly - Birthday Girl                                    + HIGH
+  [ 546/3468] Nelly - Ride Wit Me                                      + EXACT
+  [ 547/3468] Nelly - Dilemma                                          + EXACT
+  [ 548/3468] Nic D - Better                                           + EXACT
+  [ 549/3468] Nic D - Concrete                                         + EXACT
+  [ 550/3468] Nic D - Down Town Things                                 + EXACT
+  [ 551/3468] Nic D - Good For Something                               + EXACT
+  [ 552/3468] Nic D - While You Alive                                  + EXACT
+  [ 553/3468] Nic D - Who You Are                                      + EXACT
+  [ 554/3468] Nic D - Air Force Ones                                   + EXACT
+  [ 555/3468] Nic D - bonita                                           + EXACT
+  [ 556/3468] Nic D - Crazy Steep                                      + EXACT
+  [ 557/3468] Nic D - Fine Apple                                       + EXACT
+  [ 558/3468] Nic D - Forgot To Miss Me                                + EXACT
+  [ 559/3468] Nic D - Icee Pop                                         + EXACT
+  [ 560/3468] Nic D - If Love Had A Sound                              + EXACT
+  [ 561/3468] Nic D - Missin' Out                                      + EXACT
+  [ 562/3468] Nic D - Serotonin                                        + EXACT
+  [ 563/3468] Nic D - You Got Me Like                                  + EXACT
+  [ 564/3468] Nic D - 3 Nights in Nashville                            + EXACT
+  [ 565/3468] Nic D - God Made Me                                      + EXACT
+  [ 566/3468] Nic D - Daytona                                          + EXACT
+  [ 567/3468] Nic D - Sundown                                          + EXACT
+  [ 568/3468] Nic D - Did Me                                           + EXACT
+  [ 569/3468] Nic D - Might Be The Move                                + EXACT
+  [ 570/3468] Nic D - Neva Know                                        + EXACT
+  [ 571/3468] Nic D - What You Mean                                    + EXACT
+  [ 572/3468] Nickelback - Next Contestant                             + EXACT
+  [ 573/3468] Nickelback - How You Remind Me                           + EXACT
+  [ 574/3468] Nickelback - If Everyone Cared                           + EXACT
+  [ 575/3468] Nickelback - Photograph                                  + EXACT
+  [ 576/3468] Nickelback - When We Stand Together                      + EXACT
+  [ 577/3468] Nicki Minaj - I’m The Best                               + EXACT
+  [ 578/3468] Nicki Minaj - Moment 4 Life                              + EXACT
+  [ 579/3468] Nicki Minaj - Blazin                                     + EXACT
+  [ 580/3468] Nicki Minaj - Fly                                        + EXACT
+  [ 581/3468] Nicki Minaj - Barbie Dangerous                           + EXACT
+  [ 582/3468] Nicki Minaj - Fallin 4 U                                 + EXACT
+  [ 583/3468] Nicki Minaj - Just The Memories                          + EXACT
+  [ 584/3468] Nicki Minaj - Last Time I Saw You                        + EXACT
+  [ 585/3468] Nicki Minaj - Pink Birthday                              + EXACT
+  [ 586/3468] Nicki Minaj - Pink Friday Girls                          + EXACT
+  [ 587/3468] Nicki Minaj - Needle                                     + EXACT
+  [ 588/3468] Nicki Minaj - Nicki Hendrix                              + EXACT
+  [ 589/3468] Nicki Minaj - Let Me Calm Down                           + EXACT
+  [ 590/3468] Nicki Minaj - RNB                                        + EXACT
+  [ 591/3468] Nicki Minaj - Cowgirl                                    + EXACT
+  [ 592/3468] Nicki Minaj - Love Me Enough                             + HIGH
+  [ 593/3468] Nicki Minaj - Starships                                  + HIGH
+  [ 594/3468] Nicki Minaj - Super Bass                                 + EXACT
+
+2026-03-22 13:32:58,097 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-22 13:32:58,482 Added batch of 100 tracks
+2026-03-22 13:32:58,482 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 594/3468 | 400 matched | 194 unmatched | ETA ~47m 7s
+  [ 595/3468] Nicki Minaj - Super Freaky Girl                          + EXACT
+  [ 596/3468] Nicki Minaj - Bed                                        + HIGH
+  [ 597/3468] Nicki Minaj - High School                                + EXACT
+  [ 598/3468] Nicki Minaj - Freedom                                    + HIGH
+  [ 599/3468] Nicki Minaj - Yikes                                      + EXACT
+  [ 600/3468] Nicki Minaj - Majesty                                    - NONE
+  [ 601/3468] Nicki Minaj - Barbie World                               + HIGH
+  [ 602/3468] Nimo - Being Kind                                        + EXACT
+  [ 603/3468] Nimo - Keep Loving                                       + EXACT
+  [ 604/3468] Nimo - Prayer                                            + EXACT
+  [ 605/3468] Nimo - Grateful                                          + EXACT
+  [ 606/3468] Nimo - Planting Seeds                                    + EXACT
+  [ 607/3468] Nimo - To My People                                      + EXACT
+  [ 608/3468] Nimo - Beautiful                                         + EXACT
+  [ 609/3468] Nimo - Dear God                                          + EXACT
+  [ 610/3468] Nimo - Graduation                                        + EXACT
+  [ 611/3468] Nimo - Ode to Women                                      + EXACT
+  [ 612/3468] NLE Choppa - 100 Grapes                                  + EXACT
+  [ 613/3468] NLE Choppa - Body Catchers                               + EXACT
+  [ 614/3468] NLE Choppa - Bryson                                      + EXACT
+  [ 615/3468] NLE Choppa - Done                                        + EXACT
+  [ 616/3468] NLE Choppa - Intro                                       + EXACT
+  [ 617/3468] NLE Choppa - Love Tonight                                + EXACT
+  [ 618/3468] NLE Choppa - Man Down                                    + EXACT
+  [ 619/3468] NLE Choppa - Paradise                                    + EXACT
+  [ 620/3468] NLE Choppa - Picture Me Grapin’                          + EXACT
+  [ 621/3468] NLE Choppa - Taliban
