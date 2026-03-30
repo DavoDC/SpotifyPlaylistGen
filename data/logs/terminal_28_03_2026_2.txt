@@ -1,0 +1,1526 @@
+
+#### Welcome David! 🙂 ####
+#### Today's date is: Saturday 28 Mar 2026 ####
+
+2026-03-28 21:25:27,333 === SpotifyPlaylistGen started ===
+
+============================================================
+  SpotifyPlaylistGen
+  Log: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\logs\run_20260328_212527.log
+============================================================
+2026-03-28 21:25:27,601 History backup created: C:\Users\David\GitHubRepos\SpotifyPlaylistGen\data\history.json.bak
+
+[Stage 1/4] Reading local music library...
+2026-03-28 21:25:27,601 Stage 1: Parsing XML library
+2026-03-28 21:25:29,275   Found 5471 tracks in library
+  Found 5471 tracks in library
+
+[Stage 2/4] Reading playlist & computing sync plan...
+2026-03-28 21:25:29,275 Stage 2: Connecting to Spotify
+2026-03-28 21:25:29,924   Authenticated as: Spotify Connect
+  Logged in as: Spotify Connect (31t7akeeckgzo6iqwnon4jsrpuqa)
+2026-03-28 21:25:30,382 Playlist API: total=2803
+2026-03-28 21:25:44,410 Read 2803 unique track URIs (API reported total=2803)
+  Playlist has 2803 unique tracks
+2026-03-28 21:25:57,104 Reconciliation plan: search=2597 add=0 remove=0 recover=0 synced=2803 custom=0 exhausted=71
+
+  Sync plan:
+     2803  already in sync
+        0  matched but missing from playlist (will recover)
+     2597  need searching
+        0  in playlist but not in library (will remove)
+        0  custom/skipped
+       71  exhausted (gave up after 5 attempts)
+
+[Stage 3/4] Searching Spotify for 2597 tracks...
+2026-03-28 21:25:57,104 Stage 3: Searching 2597 tracks
+  [   1/2597] Illrotic - Beyond the Words                            2026-03-28 21:25:57,105 [API] → search
+2026-03-28 21:25:57,861 [API] → search
+  - NONE
+  [   2/2597] Illrotic - Blindfold                                   2026-03-28 21:25:59,436 [API] → search
+2026-03-28 21:26:00,662 [API] → search
+  - NONE
+  [   3/2597] Illrotic - I'll Dream On                               2026-03-28 21:26:02,227 [API] → search
+2026-03-28 21:26:03,039 [API] → search
+  - NONE
+  [   4/2597] Illrotic - OMFG                                        2026-03-28 21:26:04,602 [API] → search
+2026-03-28 21:26:05,355 [API] → search
+  - NONE
+  [   5/2597] Iyaz - Breathe                                         2026-03-28 21:26:06,990 [API] → search
+  - NONE
+  [   6/2597] Jay-Z - Encore                                         2026-03-28 21:26:08,392 [API] → search
+  - LOW    (partial: JAŸ-Z - Numb / Encore)
+  [   7/2597] Jersey Boys - Big Girls Don't Cry                      2026-03-28 21:26:09,852 [API] → search
+  - NONE
+  [   8/2597] Jersey Boys - December, 1963                           2026-03-28 21:26:11,229 [API] → search
+  - NONE
+  [   9/2597] Jersey Boys - Fallen Angel                             2026-03-28 21:26:12,688 [API] → search
+2026-03-28 21:26:13,460 [API] → search
+  - NONE
+  [  10/2597] Jersey Boys - I Make A Fool Of Myself                  2026-03-28 21:26:15,076 [API] → search
+2026-03-28 21:26:15,894 [API] → search
+  - NONE
+  [  11/2597] Jersey Boys - Our Day Will Come                        2026-03-28 21:26:17,501 [API] → search
+2026-03-28 21:26:18,223 [API] → search
+  - NONE
+  [  12/2597] Jersey Boys - Swearin' to God                          2026-03-28 21:26:19,772 [API] → search
+2026-03-28 21:26:20,569 [API] → search
+  - NONE
+  [  13/2597] Jersey Boys - The Proud One                            2026-03-28 21:26:22,144 [API] → search
+2026-03-28 21:26:22,864 [API] → search
+  - NONE
+  [  14/2597] Jersey Boys - To Give                                  2026-03-28 21:26:24,400 [API] → search
+2026-03-28 21:26:25,148 [API] → search
+  - NONE
+  [  15/2597] Jersey Boys - We're All Alone                          2026-03-28 21:26:26,723 [API] → search
+2026-03-28 21:26:27,450 [API] → search
+  - NONE
+  [  16/2597] Joey Bada$$ - Blast Off                                2026-03-28 21:26:28,950 [API] → search
+2026-03-28 21:26:29,686 [API] → search
+  - NONE
+  [  17/2597] Joey Bada$$ - Like Water                               2026-03-28 21:26:31,284 [API] → search
+2026-03-28 21:26:32,053 [API] → search
+  - NONE
+  [  18/2597] John Williamson - The Breaker                          2026-03-28 21:26:33,588 [API] → search
+  - NONE
+  [  19/2597] John Williamson - Bush Barber                          2026-03-28 21:26:34,942 [API] → search
+  - NONE
+  [  20/2597] John Williamson - Bushtown                             2026-03-28 21:26:36,356 [API] → search
+2026-03-28 21:26:37,159 [API] → search
+  - NONE
+  [  21/2597] John Williamson - Dad's Flowers                        2026-03-28 21:26:38,684 [API] → search
+2026-03-28 21:26:39,454 [API] → search
+  - NONE
+  [  22/2597] Juice WRLD - Ring Ring                                 2026-03-28 21:26:41,057 [API] → search
+  - NONE
+  [  23/2597] Juice WRLD - Back in Chicago                           2026-03-28 21:26:42,502 [API] → search
+2026-03-28 21:26:43,248 [API] → search
+  - NONE
+  [  24/2597] Juice WRLD - Lotti Lotti                               2026-03-28 21:26:44,770 [API] → search
+2026-03-28 21:26:45,499 [API] → search
+  - NONE
+  [  25/2597] Juice WRLD - Graduation                                2026-03-28 21:26:47,113 [API] → search
+  - NONE
+  [  26/2597] Juice WRLD - Vacation                                  2026-03-28 21:26:48,588 [API] → search
+  - NONE
+  [  27/2597] Justin Bieber - 2U                                     2026-03-28 21:26:49,990 [API] → search
+  - NONE
+  [  28/2597] Justin Bieber - Cold Water                             2026-03-28 21:26:51,545 [API] → search
+  - NONE
+  [  29/2597] Justin Bieber - Let Me Love You                        2026-03-28 21:26:53,003 [API] → search
+  - NONE
+  [  30/2597] Justin Timberlake - LoveStoned                         2026-03-28 21:26:54,428 [API] → search
+  - NONE
+  [  31/2597] Justin Timberlake - What Goes Around, Comes Around     2026-03-28 21:26:55,948 [API] → search
+  - LOW    (partial: Justin Timberlake - What Goes Around.../...Comes Around (Interlude))
+  [  32/2597] Kanye West - BEAUTY AND THE BEAST                      2026-03-28 21:26:57,401 [API] → search
+  + EXACT
+  [  33/2597] Kanye West - DAMN                                      2026-03-28 21:26:59,266 [API] → search
+  + EXACT
+  [  34/2597] Kanye West - PREACHER MAN                              2026-03-28 21:27:00,698 [API] → search
+  + EXACT
+  [  35/2597] Kanye West - BROKEN ROAD                               2026-03-28 21:27:02,093 [API] → search
+  - NONE
+  [  36/2597] Kanye West - WE DID IT KID                             2026-03-28 21:27:03,530 [API] → search
+2026-03-28 21:27:04,287 [API] → search
+  - NONE
+  [  37/2597] Kanye West - CITY OF GODS                              2026-03-28 21:27:05,872 [API] → search
+  - NONE
+  [  38/2597] Kanye West - EAZY                                      2026-03-28 21:27:07,286 [API] → search
+  - NONE
+  [  39/2597] Kanye West - Diamonds From Sierra Leone                2026-03-28 21:27:08,712 [API] → search
+  - LOW    (partial: Kanye West - Diamonds From Sierra Leone - Remix)
+  [  40/2597] Kanye West - Eyes Closed                               2026-03-28 21:27:10,147 [API] → search
+2026-03-28 21:27:10,921 [API] → search
+  - NONE
+  [  41/2597] Kanye West - Never See Me Again                        2026-03-28 21:27:12,614 [API] → search
+2026-03-28 21:27:13,399 [API] → search
+  - NONE
+  [  42/2597] Kanye West - Whoopy Doo                                2026-03-28 21:27:14,917 [API] → search
+2026-03-28 21:27:15,674 [API] → search
+  - NONE
+  [  43/2597] Kanye West - Downtown                                  2026-03-28 21:27:17,293 [API] → search
+2026-03-28 21:27:18,099 [API] → search
+  - NONE
+  [  44/2597] Kanye West - HALLELUJAH                                2026-03-28 21:27:19,665 [API] → search
+  - NONE
+  [  45/2597] Kanye West - Petals                                    2026-03-28 21:27:21,166 [API] → search
+2026-03-28 21:27:21,901 [API] → search
+  - NONE
+  [  46/2597] Kanye West - WW3                                       2026-03-28 21:27:23,459 [API] → search
+2026-03-28 21:27:24,213 [API] → search
+  - NONE
+  [  47/2597] Kanye West - Slow Jamz                                 2026-03-28 21:27:25,796 [API] → search
+  - NONE
+  [  48/2597] Kanye West - BACK TO ME                                2026-03-28 21:27:27,641 [API] → search
+  - NONE
+  [  49/2597] Kanye West - BURN                                      2026-03-28 21:27:29,115 [API] → search
+  - NONE
+  [  50/2597] Kanye West - CARNIVAL                                  2026-03-28 21:27:30,558 [API] → search
+  - NONE
+  [  51/2597] Kanye West - DO IT                                     2026-03-28 21:27:32,127 [API] → search
+  - NONE
+  [  52/2597] Kanye West - HOODRAT                                   2026-03-28 21:27:33,561 [API] → search
+  - NONE
+  [  53/2597] Kanye West - KEYS TO MY LIFE                           2026-03-28 21:27:34,944 [API] → search
+  - NONE
+  [  54/2597] Kanye West - KING                                      2026-03-28 21:27:36,357 [API] → search
+  + HIGH
+  [  55/2597] Kanye West - PAID                                      2026-03-28 21:27:37,795 [API] → search
+  - NONE
+  [  56/2597] Kanye West - PAPERWORK                                 2026-03-28 21:27:39,225 [API] → search
+  - NONE
+  [  57/2597] Kanye West - PROBLEMATIC                               2026-03-28 21:27:40,695 [API] → search
+  - NONE
+  [  58/2597] Kanye West - STARS                                     2026-03-28 21:27:42,061 [API] → search
+  - NONE
+  [  59/2597] Kanye West - TALKING                                   2026-03-28 21:27:43,466 [API] → search
+  - NONE
+  [  60/2597] Kanye West - VULTURES                                  2026-03-28 21:27:44,828 [API] → search
+  - NONE
+  [  61/2597] Kid Cudi - WOW                                         2026-03-28 21:27:46,184 [API] → search
+  - NONE
+  [  62/2597] Kid Cudi - Erase Me                                    2026-03-28 21:27:47,614 [API] → search
+  - LOW    (partial: Kid Cudi - Erase Me - Main)
+  [  63/2597] Kid Cudi - Day 'N' Nite                                2026-03-28 21:27:49,011 [API] → search
+  - LOW    (partial: Kid Cudi - Day 'N' Nite (Nightmare))
+  [  64/2597] Kid Cudi - In My Dreams                                2026-03-28 21:27:50,478 [API] → search
+  - LOW    (partial: Kid Cudi - In My Dreams (Cudder Anthem))
+  [  65/2597] Kid Cudi - Pursuit Of Happiness                        2026-03-28 21:27:51,927 [API] → search
+  - LOW    (partial: Kid Cudi - Pursuit Of Happiness (Nightmare))
+  [  66/2597] Kid Cudi - Do It Alone                                 2026-03-28 21:27:53,406 [API] → search
+2026-03-28 21:27:54,264 [API] → search
+  - NONE
+  [  67/2597] Kodak Black - Roll in Peace 2                          2026-03-28 21:27:55,803 [API] → search
+2026-03-28 21:27:56,550 [API] → search
+  - LOW    (partial: Kodak Black - Roll in Peace (feat. XXXTENTACION))
+  [  68/2597] Kodak Black - When You See Me I'm White                2026-03-28 21:27:58,135 [API] → search
+2026-03-28 21:27:58,862 [API] → search
+  - NONE
+  [  69/2597] KRS-One - Keep Movin (True Story)                      2026-03-28 21:28:00,370 [API] → search
+2026-03-28 21:28:01,092 [API] → search
+  - NONE
+  [  70/2597] KRS-One - Freedom                                      2026-03-28 21:28:02,775 [API] → search
+2026-03-28 21:28:03,718 [API] → search
+  - NONE
+  [  71/2597] KRS-One - I Am There                                   2026-03-28 21:28:05,381 [API] → search
+2026-03-28 21:28:06,110 [API] → search
+  - NONE
+  [  72/2597] KRS-One - I'm On The Mic                               2026-03-28 21:28:07,623 [API] → search
+2026-03-28 21:28:08,369 [API] → search
+  - NONE
+  [  73/2597] KRS-One - Life Interlude                               2026-03-28 21:28:09,984 [API] → search
+2026-03-28 21:28:10,742 [API] → search
+  - NONE
+  [  74/2597] KRS-One - Disaster Kit                                 2026-03-28 21:28:12,359 [API] → search
+2026-03-28 21:28:13,085 [API] → search
+  - NONE
+  [  75/2597] KRS-One - The System Gotcha                            2026-03-28 21:28:14,698 [API] → search
+2026-03-28 21:28:15,469 [API] → search
+  - NONE
+  [  76/2597] KRS-One - Just Like That                               2026-03-28 21:28:17,273 [API] → search
+2026-03-28 21:28:18,155 [API] → search
+  - NONE
+  [  77/2597] KRS-One - Hot                                          2026-03-28 21:28:19,720 [API] → search
+2026-03-28 21:28:20,454 [API] → search
+  - NONE
+  [  78/2597] KRS-One - Hush                                         2026-03-28 21:28:21,973 [API] → search
+2026-03-28 21:28:22,702 [API] → search
+  - NONE
+  [  79/2597] KRS-One - The Lessin                                   2026-03-28 21:28:24,290 [API] → search
+2026-03-28 21:28:25,034 [API] → search
+  - NONE
+  [  80/2597] KRS-One - The Raptism                                  2026-03-28 21:28:26,582 [API] → search
+2026-03-28 21:28:27,362 [API] → search
+  - NONE
+  [  81/2597] KRS-One - Edutainment                                  2026-03-28 21:28:28,876 [API] → search
+2026-03-28 21:28:29,616 [API] → search
+  - NONE
+  [  82/2597] KRS-One - Step into a World                            2026-03-28 21:28:31,179 [API] → search
+  - LOW    (partial: KRS-One - Step into a World (Rapture's Delight))
+  [  83/2597] KRS-One - You Must Learn                               2026-03-28 21:28:32,560 [API] → search
+2026-03-28 21:28:33,356 [API] → search
+  - NONE
+  [  84/2597] KRS-One - Essays on BDP-ism                            2026-03-28 21:28:34,909 [API] → search
+2026-03-28 21:28:35,635 [API] → search
+  - NONE
+  [  85/2597] KRS-One - Original Lyrics                              2026-03-28 21:28:37,440 [API] → search
+2026-03-28 21:28:38,345 [API] → search
+  - NONE
+  [  86/2597] KRS-One - Don't Ever Stop                              2026-03-28 21:28:39,967 [API] → search
+2026-03-28 21:28:40,709 [API] → search
+  - NONE
+  [  87/2597] KRS-One - F*ck This                                    2026-03-28 21:28:42,246 [API] → search
+2026-03-28 21:28:42,966 [API] → search
+  - NONE
+  [  88/2597] KRS-One - Hip Hop Speaks From Heaven                   2026-03-28 21:28:44,589 [API] → search
+2026-03-28 21:28:45,477 [API] → search
+  - NONE
+  [  89/2597] KRS-One - My Dreams                                    2026-03-28 21:28:47,129 [API] → search
+2026-03-28 21:28:47,900 [API] → search
+  - NONE
+  [  90/2597] KRS-One - The World Is MIND                            2026-03-28 21:28:49,403 [API] → search
+2026-03-28 21:28:50,177 [API] → search
+  - NONE
+  [  91/2597] KRS-One - You Ain't Got Time                           2026-03-28 21:28:51,685 [API] → search
+2026-03-28 21:28:52,490 [API] → search
+  - NONE
+  [  92/2597] Kyle - Girls, Girls, Girls                             2026-03-28 21:28:54,088 [API] → search
+  - NONE
+  [  93/2597] Lil Dicky - We Good                                    2026-03-28 21:28:55,573 [API] → search
+  - LOW    (partial: Lil Dicky - We Good - Bonus Track)
+  [  94/2597] Lil Mosey - 24/7                                       2026-03-28 21:28:56,974 [API] → search
+2026-03-28 21:28:57,790 [API] → search
+  - NONE
+  [  95/2597] Lil Mosey - Problem Solvin                             2026-03-28 21:28:59,328 [API] → search
+2026-03-28 21:29:00,432 [API] → search
+  - NONE
+  [  96/2597] Lil Tecca - TEC                                        2026-03-28 21:29:02,106 [API] → search
+  - NONE
+  [  97/2597] Lil Wayne - Two Four (Kobe)                            2026-03-28 21:29:03,599 [API] → search
+2026-03-28 21:29:04,358 [API] → search
+  - NONE
+  [  98/2597] Machine Gun Kelly - RAP DEVIL                          2026-03-28 21:29:06,102 [API] → search
+  - NONE
+  [  99/2597] Machine Gun Kelly - Invincible                         2026-03-28 21:29:07,731 [API] → search
+  - NONE
+  [ 100/2597] Machine Gun Kelly - ay!                                2026-03-28 21:29:09,210 [API] → search
+  - NONE
+  [ 101/2597] Macklemore - Otherside                                 2026-03-28 21:29:10,659 [API] → search
+  - NONE
+  [ 102/2597] Macklemore - Wings                                     2026-03-28 21:29:12,084 [API] → search
+  - NONE
+  [ 103/2597] Macklemore - Gold                                      2026-03-28 21:29:13,427 [API] → search
+  - NONE
+  [ 104/2597] Macklemore - Make The Money                            2026-03-28 21:29:15,091 [API] → search
+  - NONE
+  [ 105/2597] Macklemore - Neon Cathedral                            2026-03-28 21:29:16,495 [API] → search
+  - NONE
+  [ 106/2597] Macklemore - Same Love                                 2026-03-28 21:29:17,894 [API] → search
+  - NONE
+  [ 107/2597] Macklemore - Starting Over                             2026-03-28 21:29:19,252 [API] → search
+  - NONE
+  [ 108/2597] Macklemore - Ten Thousand Hours                        2026-03-28 21:29:20,701 [API] → search
+  - NONE
+  [ 109/2597] Macklemore - Thin Line                                 2026-03-28 21:29:22,242 [API] → search
+  - NONE
+  [ 110/2597] Macklemore - Thrift Shop                               2026-03-28 21:29:23,647 [API] → search
+  - NONE
+  [ 111/2597] Macklemore - Victory Lap                               2026-03-28 21:29:25,151 [API] → search
+  - NONE
+  [ 112/2597] Macklemore - White Walls                               2026-03-28 21:29:26,763 [API] → search
+  - NONE
+  [ 113/2597] Macklemore - Dance Off                                 2026-03-28 21:29:28,124 [API] → search
+  - NONE
+  [ 114/2597] Macklemore - Buckshot                                  2026-03-28 21:29:29,624 [API] → search
+  - NONE
+  [ 115/2597] Macklemore - Downtown                                  2026-03-28 21:29:31,052 [API] → search
+  - NONE
+  [ 116/2597] Michael Jackson - Smooth Criminal                      2026-03-28 21:29:32,432 [API] → search
+  - LOW    (partial: Michael Jackson - Smooth Criminal - 2012 Remaster)
+  [ 117/2597] Nicki Minaj - Majesty                                  2026-03-28 21:29:33,804 [API] → search
+  - NONE
+  [ 118/2597] Owl City - When Can I See You Again?                   2026-03-28 21:29:35,223 [API] → search
+  - LOW    (partial: Owl City - When Can I See You Again? - From "Wreck-It Ralph"/Soundtrack Version)
+  [ 119/2597] Pink Floyd - Another Brick in the Wall                 2026-03-28 21:29:36,639 [API] → search
+  - LOW    (partial: Pink Floyd - Another Brick in the Wall, Pt. 2)
+  [ 120/2597] Post Malone - Sunflower                                2026-03-28 21:29:38,050 [API] → search
+  - NONE
+  [ 121/2597] Queen - Don't Stop Me Now                              2026-03-28 21:29:39,478 [API] → search
+  - LOW    (partial: Queen - Don't Stop Me Now - Remastered 2011)
+  [ 122/2597] Queen - We Will Rock You                               2026-03-28 21:29:40,924 [API] → search
+  - LOW    (partial: Queen - We Will Rock You - Remastered 2011)
+  [ 123/2597] R. Kelly - Heaven I Need a Hug                         2026-03-28 21:29:42,361 [API] → search
+2026-03-28 21:29:43,110 [API] → search
+  - NONE
+  [ 124/2597] R. Kelly - I'm a Flirt                                 2026-03-28 21:29:44,698 [API] → search
+  - LOW    (partial: R. Kelly - I'm a Flirt Remix (feat. T.I. & T-Pain))
+  [ 125/2597] Ramones - I Wanna Be Sedated (2002 Remaster)           2026-03-28 21:29:46,120 [API] → search
+2026-03-28 21:29:46,866 [API] → search
+  - LOW    (partial: Ramones - I Wanna Be Sedated)
+  [ 126/2597] Ramones - I Wanna Be Your Boyfriend (2001 Remaster)    2026-03-28 21:29:48,425 [API] → search
+2026-03-28 21:29:49,160 [API] → search
+  - NONE
+  [ 127/2597] Ramones - Pet Sematary (2002 Remaster)                 2026-03-28 21:29:50,690 [API] → search
+2026-03-28 21:29:51,479 [API] → search
+  - LOW    (partial: Ramones - Pet Sematary - 1999 Remaster)
+  [ 128/2597] Riff Raff - Air Canada                                 2026-03-28 21:29:53,030 [API] → search
+  - NONE
+  [ 129/2597] Riff Raff - Jumpin out the Gym                         2026-03-28 21:29:54,475 [API] → search
+  - NONE
+  [ 130/2597] Rihanna - Love The Way You Lie (Pt. 2)                 2026-03-28 21:29:55,910 [API] → search
+  - LOW    (partial: Rihanna - Love The Way You Lie (Part II) - Pt. 2)
+  [ 131/2597] Rihanna - Love Without Tragedy                         2026-03-28 21:29:57,400 [API] → search
+  - LOW    (partial: Rihanna - Love Without Tragedy / Mother Mary)
+  [ 132/2597] Russ - CIVIL WAR                                       2026-03-28 21:29:58,807 [API] → search
+  - LOW    (partial: Russ - CIVIL WAR - Bonus)
+  [ 133/2597] Russ - BEST ON EARTH                                   2026-03-28 21:30:00,219 [API] → search
+  - LOW    (partial: Russ - BEST ON EARTH (feat. BIA) - Bonus)
+  [ 134/2597] Russ - Pent up in a Penthouse                          2026-03-28 21:30:01,692 [API] → search
+  + HIGH
+  [ 135/2597] Russ - Right Now                                       2026-03-28 21:30:03,075 [API] → search
+  + HIGH
+  [ 136/2597] Russ - Superman                                        2026-03-28 21:30:04,501 [API] → search
+  + HIGH
+  [ 137/2597] Russ - Tell Me Who                                     2026-03-28 21:30:06,186 [API] → search
+  + HIGH
+  [ 138/2597] Russ - Trying                                          2026-03-28 21:30:07,740 [API] → search
+  + HIGH
+  [ 139/2597] Russ - User Guide                                      2026-03-28 21:30:09,146 [API] → search
+  + HIGH
+  [ 140/2597] Russ - West                                            2026-03-28 21:30:10,504 [API] → search
+  + HIGH
+  [ 141/2597] Russ - Worried                                         2026-03-28 21:30:11,938 [API] → search
+  + HIGH
+  [ 142/2597] Russ - Shut Me Up                                      2026-03-28 21:30:13,347 [API] → search
+  + HIGH
+  [ 143/2597] Russ - Gettin to It                                    2026-03-28 21:30:14,762 [API] → search
+  + HIGH
+  [ 144/2597] Russ - Recognize                                       2026-03-28 21:30:16,183 [API] → search
+  + HIGH
+  [ 145/2597] S Club 7 - Bring It All Back                           2026-03-28 21:30:17,609 [API] → search
+  - NONE
+  [ 146/2597] S Club 7 - Bring The House Down                        2026-03-28 21:30:19,009 [API] → search
+  - NONE
+  [ 147/2597] S Club 7 - Don't Stop Movin'                           2026-03-28 21:30:20,542 [API] → search
+  - NONE
+  [ 148/2597] S Club 7 - S Club Party                                2026-03-28 21:30:21,962 [API] → search
+  - NONE
+  [ 149/2597] Sabrina Carpenter - Espresso                           2026-03-28 21:30:23,349 [API] → search
+  + HIGH
+  [ 150/2597] Sabrina Carpenter - Feather                            2026-03-28 21:30:24,782 [API] → search
+  + EXACT
+  [ 151/2597] Sabrina Carpenter - Nonsense                           2026-03-28 21:30:26,218 [API] → search
+  + EXACT
+  [ 152/2597] Scorey - Catch Me If You Can                           2026-03-28 21:30:27,628 [API] → search
+  + EXACT
+  [ 153/2597] Scorey - Dior You                                      2026-03-28 21:30:29,076 [API] → search
+  + EXACT
+  [ 154/2597] Scorey - Guardian Angel                                2026-03-28 21:30:30,497 [API] → search
+  + EXACT
+  [ 155/2597] Scorey - Love Letter                                   2026-03-28 21:30:31,867 [API] → search
+  + EXACT
+  [ 156/2597] Scorey - Rock N Roll                                   2026-03-28 21:30:33,328 [API] → search
+  + EXACT
+  [ 157/2597] Scorey - Die Young                                     2026-03-28 21:30:34,774 [API] → search
+  + EXACT
+  [ 158/2597] Scorey - Girls Love Rod Wave                           2026-03-28 21:30:36,156 [API] → search
+  + EXACT
+  [ 159/2597] Scorey - No Names                                      2026-03-28 21:30:37,596 [API] → search
+  + EXACT
+  [ 160/2597] Scorey - Wildlife                                      2026-03-28 21:30:38,999 [API] → search
+  + HIGH
+  [ 161/2597] Sean Paul - Like Glue                                  2026-03-28 21:30:40,394 [API] → search
+  + HIGH
+  [ 162/2597] Sean Paul - Temperature                                2026-03-28 21:30:42,180 [API] → search
+  + EXACT
+  [ 163/2597] Sean Paul - Got 2 Luv U                                2026-03-28 21:30:43,614 [API] → search
+  + EXACT
+  [ 164/2597] Selena Gomez - Kill Em With Kindness                   2026-03-28 21:30:45,072 [API] → search
+  + HIGH
+  [ 165/2597] Selena Gomez - Same Old Love                           2026-03-28 21:30:46,496 [API] → search
+  + HIGH
+  [ 166/2597] Selena Gomez - Good For You                            2026-03-28 21:30:48,038 [API] → search
+  + HIGH
+  [ 167/2597] Selena Gomez - Look At Her Now                         2026-03-28 21:30:49,498 [API] → search
+  + HIGH
+  [ 168/2597] Selena Gomez - Bluest Flame                            2026-03-28 21:30:50,926 [API] → search
+  + EXACT
+  [ 169/2597] Selena Gomez - Wolves                                  2026-03-28 21:30:52,467 [API] → search
+  + HIGH
+  [ 170/2597] Selena Gomez - Love You Like A Love Song               2026-03-28 21:30:53,906 [API] → search
+  - NONE
+  [ 171/2597] Shaggy - Boombastic                                    2026-03-28 21:30:55,574 [API] → search
+  + HIGH
+  [ 172/2597] Shaggy - Hope                                          2026-03-28 21:30:57,010 [API] → search
+  + HIGH
+  [ 173/2597] Shaggy - Angel                                         2026-03-28 21:30:58,406 [API] → search
+  + HIGH
+  [ 174/2597] Shaggy - Luv Me, Luv Me                                2026-03-28 21:30:59,847 [API] → search
+  + HIGH
+  [ 175/2597] Shakira - Whenever, Wherever                           2026-03-28 21:31:01,428 [API] → search
+  + EXACT
+  [ 176/2597] Shakira - Waka Waka                                    2026-03-28 21:31:02,829 [API] → search
+  - NONE
+  [ 177/2597] Shakira - Hips Don't Lie                               2026-03-28 21:31:04,257 [API] → search
+  + HIGH
+  [ 178/2597] Short Stack - Heartbreak Made Me A Killer              2026-03-28 21:31:05,714 [API] → search
+  + EXACT
+  [ 179/2597] Short Stack - Planets                                  2026-03-28 21:31:07,069 [API] → search
+  + EXACT
+  [ 180/2597] Short Stack - We Dance To A Different Disco, Honey     2026-03-28 21:31:08,500 [API] → search
+  + EXACT
+  [ 181/2597] Shy Glizzy - Movies                                    2026-03-28 21:31:09,882 [API] → search
+  + EXACT
+  [ 182/2597] Shy Glizzy - Poppin My Shit                            2026-03-28 21:31:11,326 [API] → search
+  + EXACT
+  [ 183/2597] Shy Glizzy - Underrated                                2026-03-28 21:31:12,753 [API] → search
+  + EXACT
+  [ 184/2597] Shy Glizzy - Whippin' Up                               2026-03-28 21:31:14,180 [API] → search
+  + EXACT
+  [ 185/2597] Shy Glizzy - No Days Off                               2026-03-28 21:31:15,609 [API] → search
+  + EXACT
+  [ 186/2597] Shy Glizzy - Fools Fall N Love                         2026-03-28 21:31:17,250 [API] → search
+  + EXACT
+  [ 187/2597] Side A - Forevermore                                   2026-03-28 21:31:18,730 [API] → search
+  - LOW    (partial: Side A - Forevermore - Live)
+  [ 188/2597] Side A - Only You                                      2026-03-28 21:31:20,523 [API] → search
+  - LOW    (partial: Side A - Only You - The Prelude)
+  [ 189/2597] Side A - So Many Questions                             2026-03-28 21:31:21,961 [API] → search
+  + EXACT
+  [ 190/2597] Simple Plan - This Song Saved My Life                  2026-03-28 21:31:23,363 [API] → search
+  + EXACT
+  [ 191/2597] Simple Plan - Astronaut                                2026-03-28 21:31:24,868 [API] → search
+  + EXACT
+  [ 192/2597] Simple Plan - Jet Lag                                  2026-03-28 21:31:26,350 [API] → search
+  + EXACT
+  [ 193/2597] Simple Plan - Perfect                                  2026-03-28 21:31:27,830 [API] → search
+  + HIGH
+  [ 194/2597] Simple Plan - Welcome to My Life                       2026-03-28 21:31:29,485 [API] → search
+  + HIGH
+  [ 195/2597] Simple Plan - When I'm Gone                            2026-03-28 21:31:30,870 [API] → search
+  + EXACT
+  [ 196/2597] Skrillex - Ease My Mind                                2026-03-28 21:31:32,271 [API] → search
+  + HIGH
+  [ 197/2597] Skrillex - Way Back                                    2026-03-28 21:31:33,724 [API] → search
+  + EXACT
+  [ 198/2597] Skrillex - Bangarang                                   2026-03-28 21:31:35,120 [API] → search
+  + EXACT
+  [ 199/2597] Sleepy Hallow - Cupid's Guidance                       2026-03-28 21:31:36,731 [API] → search
+  + EXACT
+  [ 200/2597] Sleepy Hallow - Luv Em All                             2026-03-28 21:31:38,426 [API] → search
+  + HIGH
+  [ 201/2597] Sleepy Hallow - 2055                                   2026-03-28 21:31:39,830 [API] → search
+  + EXACT
+  [ 202/2597] Snoop Dogg - Thank You                                 2026-03-28 21:31:41,261 [API] → search
+  + EXACT
+  [ 203/2597] Snoop Dogg - Gunz N Smoke                              2026-03-28 21:31:42,647 [API] → search
+  + EXACT
+  [ 204/2597] Snoop Dogg - Gorgeous                                  2026-03-28 21:31:44,023 [API] → search
+  + EXACT
+  [ 205/2597] Snoop Dogg - Another Part Of Me                        2026-03-28 21:31:45,454 [API] → search
+  + EXACT
+  [ 206/2597] Snoop Dogg - Sandwich Bag                              2026-03-28 21:31:47,034 [API] → search
+  + EXACT
+  [ 207/2597] Snoop Dogg - Sensual Seduction                         2026-03-28 21:31:48,400 [API] → search
+  + EXACT
+  [ 208/2597] Snoop Dogg - Riders On The Storm                       2026-03-28 21:31:49,889 [API] → search
+  - LOW    (partial: Snoop Dogg - Riders On The Storm - Fredwreck Remix)
+  [ 209/2597] Snoop Dogg - Young, Wild & Free                        2026-03-28 21:31:51,237 [API] → search
+  + EXACT
+  [ 210/2597] Snoop Dogg - Boss' Life                                2026-03-28 21:31:52,655 [API] → search
+  + EXACT
+  [ 211/2597] Snoop Dogg - Imagine                                   2026-03-28 21:31:54,027 [API] → search
+  + EXACT
+  [ 212/2597] Snoop Dogg - That's That Shit                          2026-03-28 21:31:55,504 [API] → search
+  + EXACT
+  [ 213/2597] Snoop Dogg - Still A G Thang                           2026-03-28 21:31:56,918 [API] → search
+  + EXACT
+  [ 214/2597] Snoop Dogg - Bitch Please                              2026-03-28 21:31:58,435 [API] → search
+  + EXACT
+  [ 215/2597] Snow Patrol - Chasing Cars                             2026-03-28 21:31:59,845 [API] → search
+  + EXACT
+  [ 216/2597] Snow Patrol - Hands Open                               2026-03-28 21:32:01,367 [API] → search
+  + EXACT
+  [ 217/2597] Snow Patrol - Called Out In The Dark                   2026-03-28 21:32:02,755 [API] → search
+  + HIGH
+  [ 218/2597] T-Pain - Best Love Song                                2026-03-28 21:32:04,172 [API] → search
+  + EXACT
+  [ 219/2597] T-Pain - I'm Sprung                                    2026-03-28 21:32:05,616 [API] → search
+  + EXACT
+  [ 220/2597] T-Pain - Bartender                                     2026-03-28 21:32:07,036 [API] → search
+  + HIGH
+  [ 221/2597] T-Pain - Up Down (Do This All Day)                     2026-03-28 21:32:08,520 [API] → search
+  + EXACT
+  [ 222/2597] T-Pain - Can't Believe It                              2026-03-28 21:32:09,923 [API] → search
+  + EXACT
+  [ 223/2597] T-Pain - 5 O'Clock                                     2026-03-28 21:32:11,567 [API] → search
+  + EXACT
+  [ 224/2597] T-Pain - I'm N Luv (Wit a Stripper)                    2026-03-28 21:32:13,019 [API] → search
+  + EXACT
+  [ 225/2597] T-Pain - Buy U a Drank (Shawty Snappin')               2026-03-28 21:32:14,404 [API] → search
+  + EXACT
+  [ 226/2597] T-Pain - Club Husband                                  2026-03-28 21:32:15,861 [API] → search
+  + EXACT
+  [ 227/2597] T-Pain - Dan Bilzerian                                 2026-03-28 21:32:17,298 [API] → search
+  + HIGH
+  [ 228/2597] T.I. - Live Your Life                                  2026-03-28 21:32:18,907 [API] → search
+  + EXACT
+  [ 229/2597] T.I. - My Life Your Entertainment                      2026-03-28 21:32:20,534 [API] → search
+  + EXACT
+  [ 230/2597] T.I. - Whatever You Like                               2026-03-28 21:32:21,970 [API] → search
+  + EXACT
+  [ 231/2597] T.I. - Bring Em Out                                    2026-03-28 21:32:23,473 [API] → search
+  + EXACT
+  [ 232/2597] T.I. - What You Know                                   2026-03-28 21:32:24,860 [API] → search
+  + EXACT
+  [ 233/2597] T.I. - Got Your Back                                   2026-03-28 21:32:26,428 [API] → search
+  + EXACT
+  [ 234/2597] T.I. - Hello                                           2026-03-28 21:32:27,869 [API] → search
+  - NONE
+  [ 235/2597] T.I. - Popped Off                                      2026-03-28 21:32:29,361 [API] → search
+  + EXACT
+  [ 236/2597] Taio Cruz - Break Your Heart                           2026-03-28 21:32:30,748 [API] → search
+  + EXACT
+  [ 237/2597] Taio Cruz - Dynamite                                   2026-03-28 21:32:32,165 [API] → search
+  + HIGH
+  [ 238/2597] Taio Cruz - Troublemaker                               2026-03-28 21:32:33,569 [API] → search
+  + EXACT
+  [ 239/2597] Taio Cruz - Hangover                                   2026-03-28 21:32:34,937 [API] → search
+  + HIGH
+
+2026-03-28 21:32:36,366 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-28 21:32:36,366 [API] → _post
+2026-03-28 21:32:36,740 Added batch of 100 tracks
+2026-03-28 21:32:36,740 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 239/2597 | 100 matched | 139 unmatched | ETA ~65m 43s
+  [ 240/2597] Talib Kweli - Everything Man                           2026-03-28 21:32:36,759 [API] → search
+  + EXACT
+  [ 241/2597] Talib Kweli - Hostile Gospel, Pt. 1 (Deliver Us)       2026-03-28 21:32:38,172 [API] → search
+  + HIGH
+  [ 242/2597] Talib Kweli - In the Mood                              2026-03-28 21:32:39,590 [API] → search
+  + EXACT
+  [ 243/2597] Talib Kweli - The Perfect Beat                         2026-03-28 21:32:41,020 [API] → search
+  + EXACT
+  [ 244/2597] Taylor Swift - Blank Space                             2026-03-28 21:32:42,432 [API] → search
+  + EXACT
+  [ 245/2597] Taylor Swift - Shake It Off                            2026-03-28 21:32:43,953 [API] → search
+  + EXACT
+  [ 246/2597] Taylor Swift - Fearless                                2026-03-28 21:32:45,346 [API] → search
+  + HIGH
+  [ 247/2597] Taylor Swift - Fifteen                                 2026-03-28 21:32:46,777 [API] → search
+  + HIGH
+  [ 248/2597] Taylor Swift - Love Story                              2026-03-28 21:32:48,231 [API] → search
+  + HIGH
+  [ 249/2597] Taylor Swift - You Belong With Me                      2026-03-28 21:32:49,649 [API] → search
+  + HIGH
+  [ 250/2597] Taylor Swift - Anti-Hero                               2026-03-28 21:32:51,076 [API] → search
+  + EXACT
+  [ 251/2597] Taylor Swift - Bejeweled                               2026-03-28 21:32:52,591 [API] → search
+  + EXACT
+  [ 252/2597] Taylor Swift - Glitch                                  2026-03-28 21:32:53,965 [API] → search
+  + HIGH
+  [ 253/2597] Taylor Swift - Karma                                   2026-03-28 21:32:55,368 [API] → search
+  + EXACT
+  [ 254/2597] Taylor Swift - Would've, Could've, Should've           2026-03-28 21:32:56,739 [API] → search
+  + HIGH
+  [ 255/2597] Taylor Swift - Back To December                        2026-03-28 21:32:58,146 [API] → search
+  + EXACT
+  [ 256/2597] Taylor Swift - Stay Stay Stay                          2026-03-28 21:32:59,598 [API] → search
+  + EXACT
+  [ 257/2597] Taylor Swift - Teardrops On My Guitar                  2026-03-28 21:33:00,977 [API] → search
+  - LOW    (partial: Taylor Swift - Teardrops On My Guitar - Radio Single Remix)
+  [ 258/2597] Taylor Swift - We Are Never Ever Getting Back Together 2026-03-28 21:33:02,376 [API] → search
+  + EXACT
+  [ 259/2597] TeeManay - Go Girl                                     2026-03-28 21:33:03,948 [API] → search
+  + EXACT
+  [ 260/2597] TeeManay - Killin Me                                   2026-03-28 21:33:05,373 [API] → search
+  + EXACT
+  [ 261/2597] TeeManay - Selfish                                     2026-03-28 21:33:06,817 [API] → search
+  + EXACT
+  [ 262/2597] The Black Eyed Peas - Hey Mama                         2026-03-28 21:33:08,402 [API] → search
+  + HIGH
+  [ 263/2597] The Black Eyed Peas - Shut Up                          2026-03-28 21:33:09,844 [API] → search
+  + HIGH
+  [ 264/2597] The Black Eyed Peas - Where Is The Love?               2026-03-28 21:33:11,371 [API] → search
+  + HIGH
+  [ 265/2597] The Black Eyed Peas - Don't Lie                        2026-03-28 21:33:12,877 [API] → search
+  + HIGH
+  [ 266/2597] The Black Eyed Peas - Don't Phunk With My Heart        2026-03-28 21:33:14,329 [API] → search
+  + HIGH
+  [ 267/2597] The Black Eyed Peas - My Humps                         2026-03-28 21:33:15,740 [API] → search
+  + HIGH
+  [ 268/2597] The Black Eyed Peas - Pump It                          2026-03-28 21:33:17,126 [API] → search
+  + HIGH
+  [ 269/2597] The Black Eyed Peas - Do It Like This                  2026-03-28 21:33:18,522 [API] → search
+  + HIGH
+  [ 270/2597] The Black Eyed Peas - Don’t Stop The Party             2026-03-28 21:33:19,934 [API] → search
+  + HIGH
+  [ 271/2597] The Black Eyed Peas - Just Can’t Get Enough            2026-03-28 21:33:21,423 [API] → search
+  + HIGH
+  [ 272/2597] The Black Eyed Peas - Love You Long Time               2026-03-28 21:33:22,813 [API] → search
+  + HIGH
+  [ 273/2597] The Black Eyed Peas - Play It Loud                     2026-03-28 21:33:24,177 [API] → search
+  + HIGH
+  [ 274/2597] The Black Eyed Peas - The Time (Dirty Bit)             2026-03-28 21:33:25,670 [API] → search
+  + HIGH
+  [ 275/2597] The Black Eyed Peas - Alive                            2026-03-28 21:33:27,065 [API] → search
+  + HIGH
+  [ 276/2597] The Black Eyed Peas - Boom Boom Pow                    2026-03-28 21:33:28,540 [API] → search
+  + HIGH
+  [ 277/2597] The Black Eyed Peas - I Gotta Feeling                  2026-03-28 21:33:29,948 [API] → search
+  + HIGH
+  [ 278/2597] The Black Eyed Peas - Imma Be                          2026-03-28 21:33:31,414 [API] → search
+  + HIGH
+  [ 279/2597] The Black Eyed Peas - Meet Me Halfway                  2026-03-28 21:33:32,841 [API] → search
+  + HIGH
+  [ 280/2597] The Black Sorrows - Better Times                       2026-03-28 21:33:34,266 [API] → search
+  + EXACT
+  [ 281/2597] The Black Sorrows - Brown Eyed Girl                    2026-03-28 21:33:35,634 [API] → search
+  + HIGH
+  [ 282/2597] The Black Sorrows - Come On, Come On                   2026-03-28 21:33:37,032 [API] → search
+  + EXACT
+  [ 283/2597] The Black Sorrows - Harley & Rose                      2026-03-28 21:33:38,449 [API] → search
+  + EXACT
+  [ 284/2597] The Black Sorrows - Hold It Up To The Mirror           2026-03-28 21:33:39,854 [API] → search
+  + EXACT
+  [ 285/2597] The Black Sorrows - The Chosen Ones                    2026-03-28 21:33:41,307 [API] → search
+  + EXACT
+  [ 286/2597] The Clash - London Calling                             2026-03-28 21:33:42,775 [API] → search
+  + HIGH
+  [ 287/2597] The Clash - Should I Stay or Should I Go               2026-03-28 21:33:44,197 [API] → search
+  - LOW    (partial: The Clash - Should I Stay or Should I Go - Remastered)
+  [ 288/2597] The Clash - The Guns of Brixton                        2026-03-28 21:33:45,694 [API] → search
+  + HIGH
+  [ 289/2597] The Clash - Train in Vain (Stand by Me)                2026-03-28 21:33:47,159 [API] → search
+  + HIGH
+  [ 290/2597] The Game - My Life                                     2026-03-28 21:33:48,541 [API] → search
+  + EXACT
+  [ 291/2597] The Game - Plug                                        2026-03-28 21:33:49,994 [API] → search
+  + EXACT
+  [ 292/2597] The Game - Drug Test                                   2026-03-28 21:33:51,452 [API] → search
+  + EXACT
+  [ 293/2597] The Game - West Coast Kings                            2026-03-28 21:33:52,840 [API] → search
+2026-03-28 21:33:53,567 [API] → search
+  - NONE
+  [ 294/2597] The Game - Hate It Or Love It                          2026-03-28 21:33:55,313 [API] → search
+  + EXACT
+  [ 295/2597] The Game - How We Do                                   2026-03-28 21:33:56,790 [API] → search
+  + EXACT
+  [ 296/2597] The Kid LAROI - BABY I'M BACK                          2026-03-28 21:33:58,203 [API] → search
+  + HIGH
+  [ 297/2597] The Kid LAROI - Forever & Again                        2026-03-28 21:33:59,626 [API] → search
+  + EXACT
+  [ 298/2597] The Kid LAROI - SO DONE                                2026-03-28 21:34:01,152 [API] → search
+  + HIGH
+  [ 299/2597] The Kid LAROI - Diva                                   2026-03-28 21:34:02,615 [API] → search
+  + HIGH
+  [ 300/2597] The Kid LAROI - STILL CHOSE YOU                        2026-03-28 21:34:03,994 [API] → search
+  + EXACT
+  [ 301/2597] The Kid LAROI - GO                                     2026-03-28 21:34:05,390 [API] → search
+  + HIGH
+  [ 302/2597] The Kid LAROI - STAY                                   2026-03-28 21:34:06,806 [API] → search
+  + HIGH
+  [ 303/2597] The Kid LAROI - FEEL SOMETHING                         2026-03-28 21:34:08,216 [API] → search
+  + HIGH
+  [ 304/2597] The Kinks - This Time Tomorrow                         2026-03-28 21:34:09,628 [API] → search
+  + HIGH
+  [ 305/2597] The Kinks - Tired of Waiting for You                   2026-03-28 21:34:11,054 [API] → search
+  + HIGH
+  [ 306/2597] The Kinks - You Really Got Me                          2026-03-28 21:34:12,559 [API] → search
+  + HIGH
+  [ 307/2597] The Notorious B.I.G. - Party On The West Coast         2026-03-28 21:34:14,099 [API] → search
+  - NONE
+  [ 308/2597] The Notorious B.I.G. - Big Poppa                       2026-03-28 21:34:15,523 [API] → search
+  + HIGH
+  [ 309/2597] The Notorious B.I.G. - Hypnotize                       2026-03-28 21:34:16,932 [API] → search
+  + HIGH
+  [ 310/2597] The Notorious B.I.G. - Juicy                           2026-03-28 21:34:18,429 [API] → search
+  + EXACT
+  [ 311/2597] The Notorious B.I.G. - Niggas Bleed                    2026-03-28 21:34:19,951 [API] → search
+  + HIGH
+  [ 312/2597] The Notorious B.I.G. - One More Chance                 2026-03-28 21:34:21,331 [API] → search
+  - NONE
+  [ 313/2597] The Notorious B.I.G. - Ten Crack Commandments          2026-03-28 21:34:22,721 [API] → search
+  + HIGH
+  [ 314/2597] The Notorious B.I.G. - Unbelievable                    2026-03-28 21:34:24,186 [API] → search
+  + HIGH
+  [ 315/2597] The Notorious B.I.G. - Warning                         2026-03-28 21:34:25,549 [API] → search
+  - NONE
+  [ 316/2597] The Notorious B.I.G. - Who Shot Ya?                    2026-03-28 21:34:27,018 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Who Shot Ya? - 2007 Remaster)
+  [ 317/2597] The Notorious B.I.G. - Nasty Girl                      2026-03-28 21:34:28,421 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Nasty Girl (feat. Diddy, Nelly, Jagged Edge & Avery Storm) - 2005 Remaster)
+  [ 318/2597] The Notorious B.I.G. - Notorious Thugs                 2026-03-28 21:34:29,850 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Notorious Thugs (feat. Bone Thugs-n-Harmony) - 2007 Remaster)
+  [ 319/2597] The Notorious B.I.G. - Running Your Mouth              2026-03-28 21:34:31,252 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Running Your Mouth (feat. Snoop Dogg, Nate Dogg, Fabolous & Busta Rhymes) -
+2007 Remaster)
+  [ 320/2597] The Notorious B.I.G. - Dead Wrong                      2026-03-28 21:34:32,760 [API] → search
+  + HIGH
+  [ 321/2597] The Notorious B.I.G. - Want That Old Thing Back        2026-03-28 21:34:34,198 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Want That Old Thing Back (feat. Ja Rule & Ralph Tresvant) - 2007 Remaster)
+  [ 322/2597] The Notorious B.I.G. - Get Money                       2026-03-28 21:34:35,613 [API] → search
+  + HIGH
+  [ 323/2597] The Notorious B.I.G. - Notorious B.I.G.                2026-03-28 21:34:37,043 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Notorious B.I.G. (feat. Lil' Kim & Puff Daddy) - 2005 Remaster)
+  [ 324/2597] The Notorious B.I.G. - Fuck You Tonight                2026-03-28 21:34:38,540 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Fuck You Tonight (feat. R. Kelly) - 2014 Remaster)
+  [ 325/2597] The Notorious B.I.G. - Miss U                          2026-03-28 21:34:39,935 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Miss U - 2014 Remaster)
+  [ 326/2597] The Notorious B.I.G. - Sky's the Limit                 2026-03-28 21:34:41,495 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Sky's the Limit (feat. 112) - 2014 Remaster)
+  [ 327/2597] The Notorious B.I.G. - Mo Money Mo Problems            2026-03-28 21:34:42,912 [API] → search
+  - LOW    (partial: The Notorious B.I.G. - Mo Money Mo Problems (feat. Puff Daddy & Mase) - 2014 Remaster)
+  [ 328/2597] The Polish Ambassador - Let the Rhythm Just            2026-03-28 21:34:44,398 [API] → search
+  + EXACT
+  [ 329/2597] The Polish Ambassador - Lost & Found                   2026-03-28 21:34:45,813 [API] → search
+  + EXACT
+  [ 330/2597] The Polish Ambassador - Shine Bright                   2026-03-28 21:34:47,246 [API] → search
+  + EXACT
+  [ 331/2597] The Polish Ambassador - The Caged Bird Sings           2026-03-28 21:34:48,685 [API] → search
+  + EXACT
+  [ 332/2597] The Polish Ambassador - Kumite                         2026-03-28 21:34:50,086 [API] → search
+  + EXACT
+  [ 333/2597] The Script - If You Could See Me Now                   2026-03-28 21:34:51,461 [API] → search
+  + HIGH
+  [ 334/2597] The Script - Hall of Fame                              2026-03-28 21:34:52,819 [API] → search
+  + HIGH
+  [ 335/2597] The Script - The Man Who Can't Be Moved                2026-03-28 21:34:54,228 [API] → search
+  + EXACT
+  [ 336/2597] The Veronicas - Lolita                                 2026-03-28 21:34:55,739 [API] → search
+  + EXACT
+  [ 337/2597] The Veronicas - You Ruin Me                            2026-03-28 21:34:57,328 [API] → search
+  + HIGH
+  [ 338/2597] The Veronicas - Always                                 2026-03-28 21:34:58,684 [API] → search
+  + EXACT
+  [ 339/2597] The Veronicas - Born Bob Dylan                         2026-03-28 21:35:00,060 [API] → search
+  + EXACT
+  [ 340/2597] The Veronicas - Cold                                   2026-03-28 21:35:01,460 [API] → search
+  + EXACT
+  [ 341/2597] The Veronicas - Cruel                                  2026-03-28 21:35:02,836 [API] → search
+  + EXACT
+  [ 342/2597] The Veronicas - Did You Miss Me (I'm a Veronica)       2026-03-28 21:35:04,230 [API] → search
+  + EXACT
+  [ 343/2597] The Veronicas - If You Love Someone                    2026-03-28 21:35:05,702 [API] → search
+  + EXACT
+  [ 344/2597] The Veronicas - Let Me Out                             2026-03-28 21:35:07,121 [API] → search
+  + EXACT
+  [ 345/2597] The Veronicas - Line of Fire                           2026-03-28 21:35:08,510 [API] → search
+  + EXACT
+  [ 346/2597] The Veronicas - Mad Love                               2026-03-28 21:35:10,022 [API] → search
+  + EXACT
+  [ 347/2597] The Veronicas - More Like Me                           2026-03-28 21:35:11,573 [API] → search
+  + EXACT
+  [ 348/2597] The Veronicas - Sanctified                             2026-03-28 21:35:12,955 [API] → search
+  + EXACT
+  [ 349/2597] The Veronicas - Teenage Millionaire                    2026-03-28 21:35:14,355 [API] → search
+  + EXACT
+  [ 350/2597] The Veronicas - You and Me                             2026-03-28 21:35:15,741 [API] → search
+  + EXACT
+  [ 351/2597] The Wombats - Give Me a Try                            2026-03-28 21:35:17,210 [API] → search
+  + EXACT
+  [ 352/2597] The Wombats - Kill the Director                        2026-03-28 21:35:18,649 [API] → search
+  + HIGH
+  [ 353/2597] The Wombats - Your Body Is a Weapon                    2026-03-28 21:35:20,069 [API] → search
+  + EXACT
+  [ 354/2597] The Wombats - 1996                                     2026-03-28 21:35:21,517 [API] → search
+  + HIGH
+  [ 355/2597] The Wombats - Techno Fan                               2026-03-28 21:35:22,983 [API] → search
+  + HIGH
+
+2026-03-28 21:35:24,376 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-28 21:35:24,377 [API] → _post
+2026-03-28 21:35:24,818 Added batch of 100 tracks
+2026-03-28 21:35:24,818 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 355/2597 | 200 matched | 155 unmatched | ETA ~59m 45s
+  [ 356/2597] Too Short - Gettin' It                                 2026-03-28 21:35:24,837 [API] → search
+  - NONE
+  [ 357/2597] Too Short - Burn Rubber                                2026-03-28 21:35:26,369 [API] → search
+  - NONE
+  [ 358/2597] Too Short - I'm a Player                               2026-03-28 21:35:27,742 [API] → search
+  - NONE
+  [ 359/2597] Too Short - The Ghetto                                 2026-03-28 21:35:29,192 [API] → search
+  - NONE
+  [ 360/2597] Toosii - Favorite Song                                 2026-03-28 21:35:30,576 [API] → search
+  + EXACT
+  [ 361/2597] Toosii - Fuk You Mean                                  2026-03-28 21:35:31,972 [API] → search
+  + EXACT
+  [ 362/2597] Toosii - Heartaches                                    2026-03-28 21:35:33,398 [API] → search
+  + EXACT
+  [ 363/2597] Tove Lo - Habits (Stay High)                           2026-03-28 21:35:34,803 [API] → search
+  + EXACT
+  [ 364/2597] Tove Lo - Talking Body                                 2026-03-28 21:35:36,295 [API] → search
+  + EXACT
+  [ 365/2597] Tove Lo - Cool Girl                                    2026-03-28 21:35:37,742 [API] → search
+  + EXACT
+  [ 366/2597] Travie McCoy - We'll Be Alright                        2026-03-28 21:35:39,256 [API] → search
+  + HIGH
+  [ 367/2597] Travie McCoy - Billionaire                             2026-03-28 21:35:40,774 [API] → search
+  + EXACT
+  [ 368/2597] Travie McCoy - Keep on Keeping On                      2026-03-28 21:35:42,238 [API] → search
+  + HIGH
+  [ 369/2597] Travie McCoy - Rough Water                             2026-03-28 21:35:43,692 [API] → search
+  + HIGH
+  [ 370/2597] Travie McCoy - Golden                                  2026-03-28 21:35:45,105 [API] → search
+  + HIGH
+  [ 371/2597] Trey Songz - Not for Long                              2026-03-28 21:35:46,549 [API] → search
+  - NONE
+  [ 372/2597] Trey Songz - Touchin, Lovin                            2026-03-28 21:35:48,067 [API] → search
+  + EXACT
+  [ 373/2597] Trey Songz - Can't Help but Wait                       2026-03-28 21:35:49,500 [API] → search
+  + EXACT
+  [ 374/2597] Trey Songz - Missin' You                               2026-03-28 21:35:50,940 [API] → search
+  + EXACT
+  [ 375/2597] Trey Songz - Role Play                                 2026-03-28 21:35:52,313 [API] → search
+  + EXACT
+  [ 376/2597] Twista - Sunshine                                      2026-03-28 21:35:53,769 [API] → search
+  + EXACT
+  [ 377/2597] Twista - Hope (Album Version)                          2026-03-28 21:35:55,213 [API] → search
+  + EXACT
+  [ 378/2597] Twista - Overnight Celebrity                           2026-03-28 21:35:56,705 [API] → search
+  + HIGH
+  [ 379/2597] Twista - So Sexy Chapter II (Like This)                2026-03-28 21:35:58,174 [API] → search
+  + EXACT
+  [ 380/2597] Twista - So Sexy                                       2026-03-28 21:35:59,631 [API] → search
+  + EXACT
+  [ 381/2597] Twista - Hope                                          2026-03-28 21:36:01,065 [API] → search
+  + HIGH
+  [ 382/2597] Tyga - Booty Dancer                                    2026-03-28 21:36:02,610 [API] → search
+  + EXACT
+  [ 383/2597] Tyga - Sheikh Talk                                     2026-03-28 21:36:03,967 [API] → search
+  + EXACT
+  [ 384/2597] Tyga - Freaky Deaky                                    2026-03-28 21:36:05,514 [API] → search
+  + EXACT
+  [ 385/2597] Tyga - Sunshine                                        2026-03-28 21:36:07,008 [API] → search
+  + EXACT
+  [ 386/2597] Tyga - FREAK                                           2026-03-28 21:36:08,437 [API] → search
+  + EXACT
+  [ 387/2597] Tyga - Taste                                           2026-03-28 21:36:09,898 [API] → search
+  + HIGH
+  [ 388/2597] Tyla Yaweh - Gemini                                    2026-03-28 21:36:11,264 [API] → search
+  + EXACT
+  [ 389/2597] Tyla Yaweh - High Right Now                            2026-03-28 21:36:12,627 [API] → search
+  + EXACT
+  [ 390/2597] Tyla Yaweh - They Ain't You                            2026-03-28 21:36:14,121 [API] → search
+  + EXACT
+  [ 391/2597] Tyla Yaweh - Salute                                    2026-03-28 21:36:15,538 [API] → search
+  + EXACT
+  [ 392/2597] Tyla Yaweh - I Think I Luv Her                         2026-03-28 21:36:16,900 [API] → search
+  + HIGH
+  [ 393/2597] Tyla Yaweh - All the Smoke                             2026-03-28 21:36:18,317 [API] → search
+  + HIGH
+  [ 394/2597] Tyla Yaweh - Tommy Lee                                 2026-03-28 21:36:19,693 [API] → search
+  + HIGH
+  [ 395/2597] Tyla Yaweh - High Right Now (Remix)                    2026-03-28 21:36:21,098 [API] → search
+  + HIGH
+  [ 396/2597] Unkle Adams - Beast Mode                               2026-03-28 21:36:22,573 [API] → search
+  - LOW    (partial: Unkle Adams - Beast Mode (Gym Motivation))
+  [ 397/2597] Unkle Adams - Friends Over Enemies                     2026-03-28 21:36:24,064 [API] → search
+  + EXACT
+  [ 398/2597] Unkle Adams - I Am Stronger                            2026-03-28 21:36:25,481 [API] → search
+  + EXACT
+  [ 399/2597] Usher - Monstar                                        2026-03-28 21:36:26,869 [API] → search
+  + HIGH
+  [ 400/2597] Usher - More                                           2026-03-28 21:36:28,233 [API] → search
+  - NONE
+  [ 401/2597] Usher - U Got It Bad                                   2026-03-28 21:36:29,687 [API] → search
+  + EXACT
+  [ 402/2597] Usher - DJ Got Us Fallin' In Love                      2026-03-28 21:36:31,093 [API] → search
+  + EXACT
+  [ 403/2597] Usher - Hey Daddy (Daddy's Home)                       2026-03-28 21:36:32,512 [API] → search
+  + HIGH
+  [ 404/2597] Usher - My Boo                                         2026-03-28 21:36:34,002 [API] → search
+  + HIGH
+  [ 405/2597] Vee tha Rula - Go Hard                                 2026-03-28 21:36:35,387 [API] → search
+  + EXACT
+  [ 406/2597] Vee tha Rula - Bullshit                                2026-03-28 21:36:36,807 [API] → search
+  + EXACT
+  [ 407/2597] Vee tha Rula - D.O.A.                                  2026-03-28 21:36:38,186 [API] → search
+  + EXACT
+  [ 408/2597] Vwillz - Baby Baby                                     2026-03-28 21:36:39,573 [API] → search
+  + EXACT
+  [ 409/2597] Vwillz - Eyes on You                                   2026-03-28 21:36:40,996 [API] → search
+  + EXACT
+  [ 410/2597] Vwillz - Top Floor                                     2026-03-28 21:36:42,472 [API] → search
+  + EXACT
+  [ 411/2597] Vwillz - BRIDE AT A BAR                                2026-03-28 21:36:43,923 [API] → search
+  + EXACT
+  [ 412/2597] Vwillz - Central Park                                  2026-03-28 21:36:45,456 [API] → search
+  + EXACT
+  [ 413/2597] Wale - My Love                                         2026-03-28 21:36:46,808 [API] → search
+  + EXACT
+  [ 414/2597] Wale - On Chill                                        2026-03-28 21:36:48,288 [API] → search
+  + HIGH
+  [ 415/2597] Wale - Poke It Out                                     2026-03-28 21:36:49,689 [API] → search
+  + EXACT
+  [ 416/2597] Weezer - Buddy Holly                                   2026-03-28 21:36:51,112 [API] → search
+  + HIGH
+  [ 417/2597] Weezer - Island In The Sun                             2026-03-28 21:36:52,727 [API] → search
+  + HIGH
+  [ 418/2597] Weezer - The Good Life                                 2026-03-28 21:36:54,130 [API] → search
+  + EXACT
+  [ 419/2597] "Weird Al" Yankovic - Amish Paradise ("Gangsta's Paradi2026-03-28 21:36:55,530 [API] → search
+2026-03-28 21:36:56,351 [API] → search
+  - LOW    (partial: "Weird Al" Yankovic - Amish Paradise (Parody of "Gangsta's Paradise" by Coolio))
+  [ 420/2597] "Weird Al" Yankovic - eBay ("I Want It That Way" Parody2026-03-28 21:36:58,023 [API] → search
+2026-03-28 21:36:58,795 [API] → search
+  - LOW    (partial: "Weird Al" Yankovic - Ebay (Parody of "I Want It That Way" by the Backstreet Boys))
+  [ 421/2597] "Weird Al" Yankovic - Like a Surgeon ("Like a Virgin" P2026-03-28 21:37:00,352 [API] → search
+2026-03-28 21:37:01,125 [API] → search
+  - LOW    (partial: "Weird Al" Yankovic - Like a Surgeon)
+  [ 422/2597] "Weird Al" Yankovic - The Saga Begins ("American Pie" P2026-03-28 21:37:02,956 [API] → search
+2026-03-28 21:37:03,719 [API] → search
+  - LOW    (partial: "Weird Al" Yankovic - The Saga Begins (Lyrical Adaption of "American Pie"))
+  [ 423/2597] "Weird Al" Yankovic - White & Nerdy ("Ridin'" Parody)  2026-03-28 21:37:05,325 [API] → search
+2026-03-28 21:37:06,046 [API] → search
+  - LOW    (partial: "Weird Al" Yankovic - White & Nerdy (Parody of "Ridin'" by Chamillionaire feat. Krayzie Bone))
+  [ 424/2597] Will Smith - Gettin' Jiggy Wit It                      2026-03-28 21:37:07,659 [API] → search
+  + EXACT
+  [ 425/2597] Will Smith - Just The Two Of Us                        2026-03-28 21:37:09,074 [API] → search
+  + EXACT
+  [ 426/2597] Will Smith - Men In Black                              2026-03-28 21:37:10,477 [API] → search
+  - LOW    (partial: Will Smith - Men In Black - From "Men In Black" Soundtrack)
+  [ 427/2597] Will Smith - Miami                                     2026-03-28 21:37:11,908 [API] → search
+  + EXACT
+  [ 428/2597] Will Smith - Yes Yes Y'All                             2026-03-28 21:37:13,330 [API] → search
+  + EXACT
+  [ 429/2597] Will Smith - Girls Ain't Nothing But Trouble           2026-03-28 21:37:14,788 [API] → search
+  - LOW    (partial: Will Smith - Girls Ain't Nothing But Trouble - 1988 Extended Remix)
+  [ 430/2597] Will Smith - Parents Just Don't Understand             2026-03-28 21:37:16,263 [API] → search
+2026-03-28 21:37:17,030 [API] → search
+  - NONE
+  [ 431/2597] Will Smith - Summertime                                2026-03-28 21:37:18,625 [API] → search
+  - NONE
+  [ 432/2597] Will Smith - The Fresh Prince of Bel-Air               2026-03-28 21:37:20,016 [API] → search
+  - NONE
+  [ 433/2597] Will Smith - Party Starter                             2026-03-28 21:37:21,422 [API] → search
+  + EXACT
+  [ 434/2597] Will Smith - Switch                                    2026-03-28 21:37:23,044 [API] → search
+  + EXACT
+  [ 435/2597] Will Smith - Afro Angel                                2026-03-28 21:37:24,435 [API] → search
+2026-03-28 21:37:25,252 [API] → search
+  - NONE
+  [ 436/2597] Will Smith - Freakin' It                               2026-03-28 21:37:26,822 [API] → search
+  + EXACT
+  [ 437/2597] Will Smith - La Fiesta                                 2026-03-28 21:37:28,199 [API] → search
+  + EXACT
+  [ 438/2597] Will Smith - Partners                                  2026-03-28 21:37:29,686 [API] → search
+2026-03-28 21:37:30,455 [API] → search
+  - NONE
+  [ 439/2597] Will Smith - So Fresh                                  2026-03-28 21:37:32,107 [API] → search
+  + EXACT
+  [ 440/2597] Will Smith - No More                                   2026-03-28 21:37:33,519 [API] → search
+  + EXACT
+  [ 441/2597] Will Smith - Wild Wild West                            2026-03-28 21:37:34,955 [API] → search
+  + EXACT
+  [ 442/2597] Will Smith - Can You Feel Me?                          2026-03-28 21:37:36,400 [API] → search
+  + EXACT
+  [ 443/2597] Will Smith - The Rain                                  2026-03-28 21:37:37,811 [API] → search
+  + EXACT
+  [ 444/2597] Will Smith - Uuhhh                                     2026-03-28 21:37:39,266 [API] → search
+  + EXACT
+  [ 445/2597] Will Smith - Da Butta                                  2026-03-28 21:37:40,619 [API] → search
+  + EXACT
+  [ 446/2597] Will Smith - Who Am I                                  2026-03-28 21:37:42,084 [API] → search
+  + EXACT
+  [ 447/2597] Will Smith - I'm Comin                                 2026-03-28 21:37:43,435 [API] → search
+  + HIGH
+  [ 448/2597] Wiz Khalifa - How The Story Goes                       2026-03-28 21:37:44,831 [API] → search
+  + EXACT
+  [ 449/2597] Wiz Khalifa - No Singles                               2026-03-28 21:37:46,325 [API] → search
+  + EXACT
+  [ 450/2597] Wiz Khalifa - Everyday                                 2026-03-28 21:37:47,736 [API] → search
+  + EXACT
+  [ 451/2597] Wiz Khalifa - Ready For Love                           2026-03-28 21:37:49,153 [API] → search
+  + EXACT
+  [ 452/2597] Wiz Khalifa - Bad Ass Bitches                          2026-03-28 21:37:50,583 [API] → search
+  + EXACT
+  [ 453/2597] Wiz Khalifa - High Maintenance                         2026-03-28 21:37:52,004 [API] → search
+  + EXACT
+  [ 454/2597] Wiz Khalifa - Homies                                   2026-03-28 21:37:53,572 [API] → search
+  + EXACT
+  [ 455/2597] Wiz Khalifa - Keys                                     2026-03-28 21:37:55,303 [API] → search
+  + EXACT
+  [ 456/2597] Wiz Khalifa - Memory Lane                              2026-03-28 21:37:56,778 [API] → search
+  + EXACT
+  [ 457/2597] Wiz Khalifa - MVP                                      2026-03-28 21:37:58,200 [API] → search
+  + EXACT
+  [ 458/2597] Wiz Khalifa - Nobody Knows                             2026-03-28 21:37:59,587 [API] → search
+  + EXACT
+  [ 459/2597] Wiz Khalifa - Something Real                           2026-03-28 21:38:01,174 [API] → search
+  + EXACT
+  [ 460/2597] Wiz Khalifa - Thank Him                                2026-03-28 21:38:02,784 [API] → search
+  + EXACT
+  [ 461/2597] Wiz Khalifa - We Don’t Go Out To Nightclubs Anymore    2026-03-28 21:38:05,097 [API] → search
+  - LOW    (partial: Wiz Khalifa - We Don’t Go Out to Nightclubs Anymore/Candlelight Girl)
+  [ 462/2597] Wiz Khalifa - We're Not Even                           2026-03-28 21:38:06,503 [API] → search
+  + EXACT
+  [ 463/2597] Wiz Khalifa - Big Daddy Wiz                            2026-03-28 21:38:07,941 [API] → search
+  + EXACT
+  [ 464/2597] Wiz Khalifa - 1000 Women                               2026-03-28 21:38:09,350 [API] → search
+  + EXACT
+  [ 465/2597] Wiz Khalifa - Black And Yellow                         2026-03-28 21:38:10,795 [API] → search
+  + HIGH
+  [ 466/2597] Wiz Khalifa - Million Dollar Moment                    2026-03-28 21:38:12,396 [API] → search
+  + EXACT
+  [ 467/2597] Wiz Khalifa - Still Wiz                                2026-03-28 21:38:13,841 [API] → search
+  + EXACT
+  [ 468/2597] Wiz Khalifa - When I Grow Up                           2026-03-28 21:38:15,257 [API] → search
+  - NONE
+  [ 469/2597] Wiz Khalifa - Let It Go                                2026-03-28 21:38:16,689 [API] → search
+  + EXACT
+  [ 470/2597] Wiz Khalifa - See You Again                            2026-03-28 21:38:18,110 [API] → search
+  + HIGH
+  [ 471/2597] Wiz Khalifa - My Favorite Song                         2026-03-28 21:38:19,507 [API] → search
+  + EXACT
+  [ 472/2597] Wiz Khalifa - Something New                            2026-03-28 21:38:20,907 [API] → search
+  + EXACT
+  [ 473/2597] Xzibit - Paparazzi                                     2026-03-28 21:38:22,465 [API] → search
+  + EXACT
+  [ 474/2597] Xzibit - The Foundation                                2026-03-28 21:38:23,912 [API] → search
+  + EXACT
+  [ 475/2597] Xzibit - Don't Approach Me                             2026-03-28 21:38:25,332 [API] → search
+  + EXACT
+  [ 476/2597] Xzibit - Beware Of Us                                  2026-03-28 21:38:26,760 [API] → search
+  + HIGH
+
+2026-03-28 21:38:28,374 [FLUSH] Uploading batch of 100 URIs to playlist
+2026-03-28 21:38:28,374 [API] → _post
+2026-03-28 21:38:28,830 Added batch of 100 tracks
+2026-03-28 21:38:28,830 [FLUSH] Batch result: 100 succeeded, 0 failed
+  Progress: 476/2597 | 300 matched | 176 unmatched | ETA ~55m 49s
+  [ 477/2597] Xzibit - Symphony In X Major                           2026-03-28 21:38:28,858 [API] → search
+  + EXACT
+  [ 478/2597] YG - BOMPTOWN FINEST                                   2026-03-28 21:38:30,274 [API] → search
+  + EXACT
+  [ 479/2597] YG - Laugh Now Kry Later!                              2026-03-28 21:38:32,044 [API] → search
+  + HIGH
+  [ 480/2597] YG - LOVE MAKE                                         2026-03-28 21:38:33,533 [API] → search
+  + EXACT
+  [ 481/2597] YG - Sign Language                                     2026-03-28 21:38:34,991 [API] → search
+  + EXACT
+  [ 482/2597] YG - Toxic                                             2026-03-28 21:38:36,434 [API] → search
+  + EXACT
+  [ 483/2597] YG - Run                                               2026-03-28 21:38:37,830 [API] → search
+  + EXACT
+  [ 484/2597] YNW Melly - Legendary                                  2026-03-28 21:38:39,393 [API] → search
+  + EXACT
+  [ 485/2597] YNW Melly - Mixed Personalities                        2026-03-28 21:38:40,960 [API] → search
+  + EXACT
+  [ 486/2597] YNW Melly - Thugged Out                                2026-03-28 21:38:42,399 [API] → search
+  + HIGH
+  [ 487/2597] YNW Melly - Dedication                                 2026-03-28 21:38:43,860 [API] → search
+  + EXACT
+  [ 488/2597] YNW Melly - Lovey Dovey                                2026-03-28 21:38:45,293 [API] → search
+  + EXACT
+  [ 489/2597] YNW Melly - Save Me                                    2026-03-28 21:38:46,707 [API] → search
+  + EXACT
+  [ 490/2597] Young Dubliners - Follow Me Up To Carlow               2026-03-28 21:38:48,100 [API] → search
+  + EXACT
+  [ 491/2597] Young Dubliners - I'll Tell Me Ma                      2026-03-28 21:38:49,455 [API] → search
+  + EXACT
+  [ 492/2597] Young Dubliners - If I Should Fall From Grace With God 2026-03-28 21:38:50,862 [API] → search
+  + EXACT
+  [ 493/2597] Young Dubliners - The Foggy Dew                        2026-03-28 21:38:52,387 [API] → search
+  + EXACT
+  [ 494/2597] Young Dubliners - The Rocky Road To Dublin             2026-03-28 21:38:53,765 [API] → search
+  + EXACT
+  [ 495/2597] Young Jeezy - Put On                                   2026-03-28 21:38:55,158 [API] → search
+  - NONE
+  [ 496/2597] Young Jeezy - Soul Survivor                            2026-03-28 21:38:56,874 [API] → search
+  - NONE
+  [ 497/2597] Young Jeezy - My President                             2026-03-28 21:38:58,371 [API] → search
+  - NONE
+  [ 498/2597] Young Money - Every Girl                               2026-03-28 21:38:59,815 [API] → search
+  - NONE
+  [ 499/2597] Young Money - BedRock                                  2026-03-28 21:39:01,204 [API] → search
+  + EXACT
+  [ 500/2597] Young Money - Trophies                                 2026-03-28 21:39:02,599 [API] → search
+  + EXACT
+  [ 501/2597] Young Thug - Hate The Game                             2026-03-28 21:39:03,999 [API] → search
+  + EXACT
+  [ 502/2597] Young Thug - Hot                                       2026-03-28 21:39:05,396 [API] → search
+  + EXACT
+  [ 503/2597] Young Thug - The London                                2026-03-28 21:39:06,777 [API] → search
+  + HIGH
+  [ 504/2597] YoungBoy Never Broke Again - Came A Long Way           2026-03-28 21:39:08,261 [API] → search
+  + EXACT
+  [ 505/2597] YoungBoy Never Broke Again - Don't Hurt Me             2026-03-28 21:39:09,689 [API] → search
+  + EXACT
+  [ 506/2597] YoungBoy Never Broke Again - Guitar Hero               2026-03-28 21:39:11,098 [API] → search
+  + EXACT
+  [ 507/2597] YoungBoy Never Broke Again - Better Than Ever          2026-03-28 21:39:12,583 [API] → search
+  + EXACT
+  [ 508/2597] YoungBoy Never Broke Again - HTAFL                     2026-03-28 21:39:13,965 [API] → search
+  + EXACT
+  [ 509/2597] YoungBoy Never Broke Again - I Love It                 2026-03-28 21:39:15,338 [API] → search
+  + EXACT
+  [ 510/2597] YoungBoy Never Broke Again - Lose Me                   2026-03-28 21:39:16,751 [API] → search
+  + EXACT
+  [ 511/2597] YoungBoy Never Broke Again - Nurse                     2026-03-28 21:39:18,103 [API] → search
+  + EXACT
+  [ 512/2597] YoungBoy Never Broke Again - Ben Lomond Mountain       2026-03-28 21:39:19,488 [API] → search
+  + HIGH
+  [ 513/2597] YoungBoy Never Broke Again - Get Right                 2026-03-28 21:39:20,935 [API] → search
+  + HIGH
+  [ 514/2597] YoungBoy Never Broke Again - King Of The Jungle        2026-03-28 21:39:22,324 [API] → search
+  + HIGH
+  [ 515/2597] YoungBoy Never Broke Again - Rain                      2026-03-28 21:39:23,942 [API] → search
+  + HIGH
+  [ 516/2597] YoungBoy Never Broke Again - Right Now                 2026-03-28 21:39:25,389 [API] → search
+  + HIGH
+  [ 517/2597] YoungBoy Never Broke Again - Rose Gold                 2026-03-28 21:39:26,794 [API] → search
+  + HIGH
+  [ 518/2597] YoungBoy Never Broke Again - Sedated                   2026-03-28 21:39:28,283 [API] → search
+  + HIGH
+  [ 519/2597] YoungBoy Never Broke Again - I Admit                   2026-03-28 21:39:29,733 [API] → search
+  + HIGH
+  [ 520/2597] YoungBoy Never Broke Again - Dedicated                 2026-03-28 21:39:31,198 [API] → search
+  + EXACT
+  [ 521/2597] YoungBoy Never Broke Again - Goals                     2026-03-28 21:39:32,578 [API] → search
+  + EXACT
+  [ 522/2597] YoungBoy Never Broke Again - Kacey Talk                2026-03-28 21:39:33,966 [API] → search
+  + EXACT
+  [ 523/2597] YoungBoy Never Broke Again - No Time                   2026-03-28 21:39:35,502 [API] → search
+  + EXACT
+  [ 524/2597] YoungBoy Never Broke Again - No Where                  2026-03-28 21:39:36,871 [API] → search
+  + EXACT
+  [ 525/2597] YoungBoy Never Broke Again - No. 9                     2026-03-28 21:39:38,282 [API] → search
+  + EXACT
+  [ 526/2597] YoungBoy Never Broke Again - Proud of Myself           2026-03-28 21:39:39,741 [API] → search
+  + EXACT
+  [ 527/2597] YoungBoy Never Broke Again - Purge Me                  2026-03-28 21:39:41,142 [API] → search
+  + EXACT
+  [ 528/2597] YoungBoy Never Broke Again - Swag On Point             2026-03-28 21:39:42,579 [API] → search
+  + EXACT
+  [ 529/2597] YoungBoy Never Broke Again - Trouble Calling           2026-03-28 21:39:44,031 [API] → search
+2026-03-28 21:39:44,812 [API] → search
+  - NONE
+  [ 530/2597] YoungBoy Never Broke Again - Wagwan                    2026-03-28 21:39:46,349 [API] → search
+  + HIGH
+  [ 531/2597] YoungBoy Never Broke Again - My Go To                  2026-03-28 21:39:47,727 [API] → search
+  + EXACT
+  [ 532/2597] YoungBoy Never Broke Again - I Am Who They Say I Am    2026-03-28 21:39:49,176 [API] → search
+  + HIGH
+  [ 533/2597] YoungBoy Never Broke Again - Don't Rate Me             2026-03-28 21:39:50,575 [API] → search
+  + HIGH
+  [ 534/2597] YoungBoy Never Broke Again - Black Ball                2026-03-28 21:39:52,141 [API] → search
+  + EXACT
+  [ 535/2597] Yung Bleu - Vent                                       2026-03-28 21:39:53,571 [API] → search
+  + EXACT
+  [ 536/2597] Yung Bleu - Bad Lil Vibe                               2026-03-28 21:39:55,008 [API] → search
+  + EXACT
+  [ 537/2597] Yung Bleu - Don't Forget Me                            2026-03-28 21:39:56,434 [API] → search
+  + EXACT
+  [ 538/2597] Yung Bleu - Hard To Find                               2026-03-28 21:39:57,938 [API] → search
+  + EXACT
+  [ 539/2597] Yung Bleu - No Good Decisions                          2026-03-28 21:39:59,324 [API] → search
+  + EXACT
+  [ 540/2597] Yung Bleu - Rich Killaz                                2026-03-28 21:40:00,743 [API] → search
+  + EXACT
+  [ 541/2597] Yung Bleu - The Real Side                              2026-03-28 21:40:02,165 [API] → search
+  + EXACT
+  [ 542/2597] Yung Bleu - What Type of Games                         2026-03-28 21:40:03,600 [API] → search
+  + EXACT
+  [ 543/2597] Yung Bleu - One Of Those Nights                        2026-03-28 21:40:04,974 [API] → search
+  + EXACT
+  [ 544/2597] Yung Bleu - Life Worth Living                          2026-03-28 21:40:06,414 [API] → search
+  + EXACT
+  [ 545/2597] Yung Bleu - Freak Freak                                2026-03-28 21:40:07,808 [API] → search
+  + EXACT
+  [ 546/2597] Yung Bleu - Soul Child                                 2026-03-28 21:40:09,212 [API] → search
+  + EXACT
+  [ 547/2597] Yung Bleu - Your Love Is Dangerous                     2026-03-28 21:40:10,580 [API] → search
+  + EXACT
+  [ 548/2597] Yung Bleu - Walk Through The Fire                      2026-03-28 21:40:12,341 [API] → search
+  + EXACT
+  [ 549/2597] Yung Bleu - Love In The Way                            2026-03-28 21:40:13,953 [API] → search
+  + EXACT
+  [ 550/2597] Yung Bleu - Feel It Inside                             2026-03-28 21:40:15,358 [API] → search
+  + EXACT
+  [ 551/2597] Yung Bleu - Fire Inside                                2026-03-28 21:40:16,769 [API] → search
+  + EXACT
+  [ 552/2597] Yung Gravy - Back On That Horse                        2026-03-28 21:40:18,426 [API] → search
+  + EXACT
+  [ 553/2597] Yung Gravy - Clementine                                2026-03-28 21:40:19,808 [API] → search
+  + EXACT
+  [ 554/2597] Yung Gravy - DMPB                                      2026-03-28 21:40:21,187 [API] → search
+  + EXACT
+  [ 555/2597] Yung Gravy - Lone Ranger                               2026-03-28 21:40:22,604 [API] → search
+  + EXACT
+  [ 556/2597] Yung Gravy - My Day 1's                                2026-03-28 21:40:24,135 [API] → search
+  + EXACT
+  [ 557/2597] Yung Gravy - Cop A Truck                               2026-03-28 21:40:25,600 [API] → search
+  + EXACT
+  [ 558/2597] Yung Gravy - White Claw                                2026-03-28 21:40:26,998 [API] → search
+  + EXACT
+  [ 559/2597] Yung Gravy - My Garage                                 2026-03-28 21:40:28,464 [API] → search
+  + EXACT
+  [ 560/2597] Yung Gravy - Betty (Get Money)                         2026-03-28 21:40:29,898 [API] → search
+  + EXACT
+  [ 561/2597] Yung Gravy - Mr. Clean                                 2026-03-28 21:40:31,515 [API] → search
+  + EXACT
+  [ 562/2597] Yung Gravy - Goodness Gracious                         2026-03-28 21:40:32,956 [API] → search
+  - NONE
+  [ 563/2597] Yung Gravy - C’est La Vie                              2026-03-28 21:40:34,336 [API] → search
+  + HIGH
+  [ 564/2597] Zara Larsson - Weak Heart                              2026-03-28 21:40:35,966 [API] → search
+  + HIGH
+  [ 565/2597] Zara Larsson - Lush Life                               2026-03-28 21:40:37,450 [API] → search
+  + EXACT
+  [ 566/2597] Zara Larsson - Never Forget You                        2026-03-28 21:40:38,833 [API] → search
+  + EXACT
+  [ 567/2597] Zara Larsson - So Good                                 2026-03-28 21:40:40,205 [API] → search
+  + EXACT
+  [ 568/2597] Garry Sandhu - Dil De De                               2026-03-28 21:40:41,644 [API] → search
+  + HIGH
+  [ 569/2597] Panjabi MC - Beware of the Boys                        2026-03-28 21:40:43,042 [API] → search
+  - NONE
+  [ 570/2597] Shekhar Ravjiani - Ishq Wala Love                      2026-03-28 21:40:44,420 [API] → search
+  - NONE
+  [ 571/2597] Vishal-Shekhar - Desi Girl                             2026-03-28 21:40:45,809 [API] → search
+  + HIGH
+  [ 572/2597] Craig Douglas - Our Favourite Melodies                 2026-03-28 21:40:47,238 [API] → search
+  + HIGH
+  [ 573/2597] Helen Shapiro - Let's Talk About Love                  2026-03-28 21:40:48,673 [API] → search
+  + HIGH
+  [ 574/2597] Kenny Lynch - Up on The Roof                           2026-03-28 21:40:50,054 [API] → search
+  + HIGH
+  [ 575/2597] Shane Fenton and the Fentones - Cindy's Birthday       2026-03-28 21:40:51,455 [API] → search
+  - NONE
+  [ 576/2597] The Shadows - Wonderful Land                           2026-03-28 21:40:53,103 [API] → search
+  + HIGH
+  [ 577/2597] Arrested Development - Mr Wendal                       2026-03-28 21:40:54,526 [API] → search
+  + HIGH
+  [ 578/2597] Brotherhood - One Shot                                 2026-03-28 21:40:56,137 [API] → search
+  + HIGH
+  [ 579/2597] Frankie and Co. - King Of New York                     2026-03-28 21:40:57,552 [API] → search
+2026-03-28 21:40:58,325 [API] → search
+  - NONE
+  [ 580/2597] Guru - Love Sick                                       2026-03-28 21:40:59,964 [API] → search
+2026-03-28 21:41:00,682 [API] → search
+  - NONE
+  [ 581/2597] Guru - No Time To Play                                 2026-03-28 21:41:02,273 [API] → search
+  + HIGH
+  [ 582/2597] Ice T - That's How I'm Livin'                          2026-03-28 21:41:03,759 [API] → search
+  - NONE
+  [ 583/2597] Luniz - I Got 5 On It                                  2026-03-28 21:41:05,201 [API] → search
+  + HIGH
+  [ 584/2597] Mantronix - Bassline                                   2026-03-28 21:41:06,562 [API] → search
+  + HIGH
+  [ 585/2597] Mantronix - Get a Life                                 2026-03-28 21:41:08,011 [API] → search
+2026-03-28 21:41:08,735 [API] → search
+  - NONE
+  [ 586/2597] Monie Love - It's a Shame (My Sister)                  2026-03-28 21:41:10,322 [API] → search
+  + HIGH
+  [ 587/2597] Worlds Famous Supreme Team - Hey DJ                    2026-03-28 21:41:11,775 [API] → search
+  + HIGH
+  [ 588/2597] 2Pac - Before I Leave                                  2026-03-28 21:41:13,302 [API] → search
+2026-03-28 21:41:14,079 [API] → search
+  - NONE
+  [ 589/2597] 2Pac - Better Dayz (Remix)                             2026-03-28 21:41:15,615 [API] → search
+2026-03-28 21:41:16,383 [API] → search
+  - LOW    (partial: 2Pac - Better Dayz)
+  [ 590/2597] 2Pac - Desperate                                       2026-03-28 21:41:17,917 [API] → search
+2026-03-28 21:41:18,636 [API] → search
+  - NONE
+  [ 591/2597] 2Pac - Died in Your Arms                               2026-03-28 21:41:20,165 [API] → search
+2026-03-28 21:41:21,189 [API] → search
+  - NONE
+  [ 592/2597] 2Pac - Fight til the End                               2026-03-28 21:41:22,791 [API] → search
+2026-03-28 21:41:23,618 [API] → search
+  - NONE
+  [ 593/2597] 2Pac - Gave You My Heart                               2026-03-28 21:41:25,179 [API] → search
+2026-03-28 21:41:27,223 [API] → search
+  - NONE
+  [ 594/2597] 2Pac - In My Heart                                     2026-03-28 21:41:28,943 [API] → search
+  - NONE
+  [ 595/2597] 2Pac - Listen to Your Heart                            2026-03-28 21:41:30,354 [API] → search
+2026-03-28 21:41:31,118 [API] → search
+  - NONE
+  [ 596/2597] 2Pac - Memories                                        2026-03-28 21:41:32,840 [API] → search
+  - NONE
+  [ 597/2597] 2Pac - My Block                                        2026-03-28 21:41:34,300 [API] → search
+  - LOW    (partial: 2Pac - My Block - Nitty Remix)
+  [ 598/2597] 2Pac - Never Had A Friend Like Me                      2026-03-28 21:41:35,671 [API] → search
+  + HIGH
+  [ 599/2597] 2Pac - Old School (Lofi)                               2026-03-28 21:41:37,046 [API] → search
+  - NONE
+  [ 600/2597] 2Pac - Punk Police                                     2026-03-28 21:41:38,631 [API] → search
+2026-03-28 21:41:39,422 [API] → search
+  - NONE
+  [ 601/2597] 2Pac - Remember Me                                     2026-03-28 21:41:41,005 [API] → search
+  - NONE
+  [ 602/2597] 2Pac - Scarface                                        2026-03-28 21:41:42,420 [API] → search
+2026-03-28 21:41:43,148 [API] → search
+  - NONE
+  [ 603/2597] 2Pac - Smile Now Cry Later                             2026-03-28 21:41:44,745 [API] → search
+2026-03-28 21:41:45,528 [API] → search
+  - NONE
+  [ 604/2597] 2Pac - Still Love You                                  2026-03-28 21:41:47,099 [API] → search
+2026-03-28 21:41:47,838 [API] → search
+  - NONE
+  [ 605/2597] 2Pac - The Taking                                      2026-03-28 21:41:49,352 [API] → search
+2026-03-28 21:41:50,093 [API] → search
+  - NONE
+  [ 606/2597] 2Pac - Trust Me                                        2026-03-28 21:41:51,712 [API] → search
+  - LOW    (partial: 2Pac - Don't You Trust Me)
+  [ 607/2597] 2Pac - When I'm Gone (Remix)                           2026-03-28 21:41:53,084 [API] → search
+2026-03-28 21:41:53,885 [API] → search
+  - NONE
+  [ 608/2597] 2Pac - My Life Be Like                                 2026-03-28 21:41:55,495 [API] → search
+2026-03-28 21:41:56,274 [API] → search
+  - NONE
+  [ 609/2597] 2Pac - Real Thugs                                      2026-03-28 21:41:57,830 [API] → search
+  - NONE
+  [ 610/2597] 2Pac - Thug Nation                                     2026-03-28 21:41:59,307 [API] → search
+2026-03-28 21:42:00,072 [API] → search
+  - NONE
+  [ 611/2597] 2Pac - Do You Feel Me                                  2026-03-28 21:42:01,660 [API] → search
+2026-03-28 21:42:02,384 [API] → search
+  - NONE
+  [ 612/2597] 2Pac - Enemies                                         2026-03-28 21:42:04,079 [API] → search
+  - NONE
+  [ 613/2597] 2Pac - I'll Be Missing You                             2026-03-28 21:42:05,500 [API] → search
+2026-03-28 21:42:06,312 [API] → search
+  - NONE
+  [ 614/2597] Eminem - I'm Back (Remix)                              2026-03-28 21:42:07,909 [API] → search
+2026-03-28 21:42:08,849 [API] → search
+2026-03-28 21:42:09,029 Max Retries reached
+2026-03-28 21:42:09,029 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:42:20,209 Max Retries reached
+2026-03-28 21:42:20,210 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:42:31,386 Max Retries reached
+2026-03-28 21:42:31,386 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:42:42,565 Max Retries reached
+2026-03-28 21:42:42,565 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:42:53,745 Max Retries reached
+2026-03-28 21:42:53,745 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:43:04,746 Search failed for Eminem - I'm Back (Remix): search failed after 5 attempts
+  [ 615/2597] Ice Cube - Built for This                              2026-03-28 21:43:05,247 [API] → search
+2026-03-28 21:43:05,420 Max Retries reached
+2026-03-28 21:43:05,420 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:43:16,608 Max Retries reached
+2026-03-28 21:43:16,608 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:43:27,791 Max Retries reached
+2026-03-28 21:43:27,791 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:43:38,974 Max Retries reached
+2026-03-28 21:43:38,974 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:43:50,164 Max Retries reached
+2026-03-28 21:43:50,164 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:44:01,165 Search failed for Ice Cube - Built for This: search failed after 5 attempts
+  [ 616/2597] Ice Cube - West Side Connection                        2026-03-28 21:44:01,666 [API] → search
+2026-03-28 21:44:01,861 Max Retries reached
+2026-03-28 21:44:01,861 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:44:13,049 Max Retries reached
+2026-03-28 21:44:13,049 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:44:24,226 Max Retries reached
+2026-03-28 21:44:24,226 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:44:35,403 Max Retries reached
+2026-03-28 21:44:35,404 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:44:46,583 Max Retries reached
+2026-03-28 21:44:46,583 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:44:57,583 Search failed for Ice Cube - West Side Connection: search failed after 5 attempts
+  [ 617/2597] ¡Mayday! - Run Up                                      2026-03-28 21:44:58,084 [API] → search
+2026-03-28 21:44:58,272 Max Retries reached
+2026-03-28 21:44:58,272 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:45:09,450 Max Retries reached
+2026-03-28 21:45:09,450 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:45:20,626 Max Retries reached
+2026-03-28 21:45:20,626 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:45:31,800 Max Retries reached
+2026-03-28 21:45:31,800 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:45:43,014 Max Retries reached
+2026-03-28 21:45:43,014 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:45:54,015 Search failed for ¡Mayday! - Run Up: search failed after 5 attempts
+  [ 618/2597] $Not - Whipski                                         2026-03-28 21:45:54,516 [API] → search
+2026-03-28 21:45:54,694 Max Retries reached
+2026-03-28 21:45:54,694 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:46:05,867 Max Retries reached
+2026-03-28 21:46:05,867 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:46:17,045 Max Retries reached
+2026-03-28 21:46:17,045 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:46:28,249 Max Retries reached
+2026-03-28 21:46:28,250 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:46:39,425 Max Retries reached
+2026-03-28 21:46:39,425 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:46:50,426 Search failed for $Not - Whipski: search failed after 5 attempts
+  [ 619/2597] 03 Greedo - Substance                                  2026-03-28 21:46:50,927 [API] → search
+2026-03-28 21:46:51,103 Max Retries reached
+2026-03-28 21:46:51,103 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:47:02,277 Max Retries reached
+2026-03-28 21:47:02,277 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:47:13,451 Max Retries reached
+2026-03-28 21:47:13,451 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:47:24,627 Max Retries reached
+2026-03-28 21:47:24,627 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+2026-03-28 21:47:35,806 Max Retries reached
+2026-03-28 21:47:35,806 Rate limited on search (429), sleeping 11s (Retry-After=10s, capped at 30s)
+urllib3.exceptions.ResponseError: too many 429 error responses
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 932, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.spotify.com', port=443): Max retries exceeded with url: /v1/search?q=artist%3A%2203+Greedo%22+track%
+3A%22Substance%22&limit=5&offset=0&type=track (Caused by ResponseError('too many 429 error responses'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 270, in _internal_call
+    response = self._session.request(
+        method, url, headers=headers, proxies=self.proxies,
+        timeout=self.requests_timeout, **args
+    )
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\requests\adapters.py", line 668, in send
+    raise RetryError(e, request=request)
+requests.exceptions.RetryError: HTTPSConnectionPool(host='api.spotify.com', port=443): Max retries exceeded with url: /v1/search?q=artist%3A%2203+Greedo%22+track%3A
+%22Substance%22&limit=5&offset=0&type=track (Caused by ResponseError('too many 429 error responses'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\spotify_client.py", line 45, in _retry_call
+    result = func(*args, **kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 602, in search
+    return self._get(
+           ~~~~~~~~~^
+        "search", q=q, limit=limit, offset=offset, type=type, market=market
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 327, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python314\site-packages\spotipy\client.py", line 311, in _internal_call
+    raise SpotifyException(
+    ...<4 lines>...
+    )
+spotipy.exceptions.SpotifyException: http status: 429, code:-1 - /v1/search?q=artist%3A%2203+Greedo%22+track%3A%22Substance%22&limit=5&offset=0&type=track:
+ Max Retries, reason: too many 429 error responses
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\main.py", line 484, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\main.py", line 465, in main
+    run_pipeline(
+    ~~~~~~~~~~~~^
+        client=client,
+        ^^^^^^^^^^^^^^
+    ...<5 lines>...
+        interactive=True,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\main.py", line 230, in run_pipeline
+    matches = client.search_track(t)
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\spotify_client.py", line 107, in search_track
+    results = _retry_call(self._sp, "search", q=query, type="track", limit=5)
+  File "C:\Users\David\GitHubRepos\SpotifyPlaylistGen\src\spotify_client.py", line 53, in _retry_call
+    time.sleep(wait)
+    ~~~~~~~~~~^^^^^^
+KeyboardInterrupt
+
+David@RAPHAEL MINGW64 ~/GitHubRepos/SpotifyPlaylistGen (main)
+$
