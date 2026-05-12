@@ -1,3 +1,19 @@
+# Spotify Playlist Generator - Ideas and TODOs
+
+**Goal:** Standalone tool that reads an offline music library (AudioMirror XML) and creates a matching Spotify playlist, so David can listen to his library at work where only Spotify is available.
+
+## Architecture Notes
+
+- Read AudioMirror XML (output of AudioManager) - structured metadata, faster than reading MP3s directly. XML has: Title, Artists (semicolon-separated), Album, Year - no ISRC.
+- Search Spotify using primary artist (first before `;`) + title + album
+- MusicBrainz only as fallback if match quality is poor
+- Show results with match confidence - user can review/adjust before committing
+- Spotify auth: Authorization Code + PKCE flow, scopes `playlist-modify-private`, `playlist-read-private`, playlists created **private** by default
+- Featured artists: strip `feat.`/`;` variants before searching; handle remix suffixes, alternate titles
+- **Standalone first** - build standalone before considering DWave/AudioManager integration
+
+---
+
 ## BLOCKED - Critical Bugs Preventing Implementation
 
 **Status:** 2 blocking issues prevent 5000-song handling. WS4 Step 2 diagnosis complete (2026-05-08). Ready for debugging session.
