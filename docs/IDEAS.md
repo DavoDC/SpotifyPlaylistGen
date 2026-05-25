@@ -87,6 +87,26 @@
 
 NEED TO FIX THIS UP, CONSOLIDATE ALL DOCS ETC
 
+### CRITICAL - Repo Scope & Documentation
+
+**Issue:** SpotifyPlaylistGen's scope is unclear. It contains 2+ tools (`open_playlist.py`, `spotify_sync.py`) with different purposes, but no README or CLAUDE.md explaining:
+- What the repo IS
+- What each tool is for
+- How they differ (open_playlist vs spotify_sync - which to use when?)
+- Entry points (standalone scripts? Library? CLI?)
+
+This is foundational - docs affect all future development decisions (architecture, tool generalization, reusability).
+
+**Related problem:** Music-Discovery-Workflow.md can't reference SpotifyPlaylistGen tool docs because they don't exist. Had to remove implementation details from workflow rather than point users to tool-specific docs.
+
+**Action items (scope design phase, not implementation):**
+- [ ] **CLAUDE.md** - explain: What is this repo? What problem does it solve? What are the 2+ tools and when to use each?
+- [ ] **docs/TOOLS.md** - reference guide for each tool: usage, parameters, input/output, what it does internally
+- [ ] **README.md** - user-facing: "Run this tool to X" (not "this is a Python script")
+- [ ] Review architecture: Should `open_playlist.py` be its own repo/package? Should both tools share SpotifyTools library? (Deferred to after scope is clear)
+
+**Note:** This is not a bug fix. It's foundational work. Do scope + docs design FIRST, then implementation decisions become clearer. E.g., if open_playlist is standalone-only, its current structure is fine. If it's a reusable library, it needs refactoring.
+
 ### TIER 2 - Future Ideas (needs investigation)
 
 - **SpotifyTools: generalize as reusable Spotify layer for other programs**
