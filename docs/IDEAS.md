@@ -58,64 +58,42 @@
 
 ## Next Session - Implementation Scope
 
-**Estimated:** 2-3 sessions (Bug fixes + validation)
+**Estimated:** 2 sessions (both bugs fit in one session - Unicode fix is 2 lines)
 
-**Session 1: Fix 429 Hang**
+**Session 1: Fix Both Bugs**
 - [ ] Locate urllib3 retry config in spotipy wrapper
 - [ ] Remove 429 from forcelist
 - [ ] Cap _retry_call sleep to 30s
 - [ ] Increase SEARCH_DELAY_S to 0.5
-- [ ] Add heartbeat logging
-- [ ] Dry-run on 500-track test
-- [ ] Commit: "fix: 429 rate limit hang + adaptive search delay"
+- [ ] Add heartbeat logging (print track name BEFORE API call)
+- [ ] Add NFKD normalization to `normalise()` in matcher.py: `unicodedata.normalize('NFKD', s)`
+- [ ] Add test cases for diacritics (JAY-Z with diacritic -> JAY-Z, etc.)
+- [ ] Commit: "fix: 429 rate limit hang + Unicode normalization in artist matching"
 
-**Session 2: Fix Unicode Matching**
-- [ ] Add NFKD normalization to normalise()
-- [ ] Add test cases (JAŸ → JAY, etc.)
-- [ ] Dry-run on 500 tracks with diacritic artists
-- [ ] Commit: "fix: Unicode normalization in artist matching"
-
-**Session 3: Full Validation**
+**Session 2: Full Validation**
 - [ ] Run on full 5471-track library
 - [ ] Monitor for hangs + match rate improvement
 - [ ] Review data/reports/match_report.txt
-- [ ] Commit: "test: Full library sync validation + bug verification"
+- [ ] Commit: "test: Full library sync validation"
 
 ---
 
 ## TODO
 
-NEED TO FIX THIS UP, CONSOLIDATE ALL DOCS ETC
+### Repo Scope
 
-### CRITICAL - Repo Scope & Documentation
+Addressed 2026-06-03: CLAUDE.md now explains both tools (main.py sync + open_playlist.py browser) and has correct project structure. README.md is complete.
 
-**Issue:** SpotifyPlaylistGen's scope is unclear. It contains 2+ tools (`open_playlist.py`, `spotify_sync.py`) with different purposes, but no README or CLAUDE.md explaining:
-- What the repo IS
-- What each tool is for
-- How they differ (open_playlist vs spotify_sync - which to use when?)
-- Entry points (standalone scripts? Library? CLI?)
-
-This is foundational - docs affect all future development decisions (architecture, tool generalization, reusability).
-
-**Related problem:** Music-Discovery-Workflow.md can't reference SpotifyPlaylistGen tool docs because they don't exist. Had to remove implementation details from workflow rather than point users to tool-specific docs.
-
-**Action items (scope design phase, not implementation):**
-- [ ] **CLAUDE.md** - explain: What is this repo? What problem does it solve? What are the 2+ tools and when to use each?
-- [ ] **docs/TOOLS.md** - reference guide for each tool: usage, parameters, input/output, what it does internally
-- [ ] **README.md** - user-facing: "Run this tool to X" (not "this is a Python script")
-- [ ] Review architecture: Should `open_playlist.py` be its own repo/package? Should both tools share SpotifyTools library? (Deferred to after scope is clear)
-
-**Note:** This is not a bug fix. It's foundational work. Do scope + docs design FIRST, then implementation decisions become clearer. E.g., if open_playlist is standalone-only, its current structure is fine. If it's a reusable library, it needs refactoring.
+Remaining (optional):
+- [ ] **docs/TOOLS.md** - detailed per-tool reference: parameters, input/output, internals. Not blocking - CLAUDE.md + README cover the basics for now.
+- Should `open_playlist.py` be its own repo? Current answer: no. It's small, shares the Spotify client, and has no other consumers. Revisit if it grows significantly.
 
 ### TIER 2 - Future Ideas (needs investigation)
 
-- **SpotifyTools: generalize as reusable Spotify layer for other programs**
-  - AudioManager is a C# program - a Python module won't work directly. Would require IPC (inter-process communication), a daemon-to-daemon design (SPG exposes a local HTTP server?), or a named pipe approach.
-  - This needs more investigation and a clear use-case before starting. What does AudioManager actually need from Spotify? Browse-by-playlist? Real-time search? The answer changes the architecture significantly.
-  - Python module packaging makes sense ONLY if another Python program is the consumer. Do not start this until there is a confirmed second consumer with a defined interface need.
+- **SpotifyTools: generalize as reusable Spotify layer** - DEFERRED indefinitely. No second Python consumer exists. AudioManager is C# - any integration would require IPC with an undefined interface. The internal `spotify_client.py` is the right structure. Revisit only if a second repo needs Spotify access and has a defined interface requirement.
 
 ### Housekeeping
-- [ ] Fix CLAUDE.md - replace all em dashes (--) with regular hyphens. Guard hook blocks edits to the file until this is done. Rewrite the whole file in one Write call.
+- [x] Fix CLAUDE.md em dashes - done 2026-06-03. Updated project structure and added two-tool scope note at same time.
 
 ### Polish
 
