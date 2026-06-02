@@ -54,4 +54,4 @@ Remaining (optional):
 - [ ] Log file results section is huge, format nicer for humans
 - [x] `--reset-exhausted` CLI flag - done 2026-06-03. Resets all exhausted tracks to unmatched so they get retried next run.
 - [ ] Run AudioManager before running this program so Audio Mirror is up to date
-- [ ] diagnose.py = integrate into main program as one liner in terminal output, running diagnostic checks!
+- [x] diagnose.py hint on auth failure - done 2026-06-03. Auth error now suggests running `python src/diagnose.py`.
