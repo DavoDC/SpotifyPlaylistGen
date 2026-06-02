@@ -52,6 +52,6 @@ Remaining (optional):
 - [ ] Rename project - consider "MusicLibPlaylistSyncer" across files/imports/READMEs
 - [x] Terminal output: each track on its own line (fixed in 186be2b)
 - [ ] Log file results section is huge, format nicer for humans
-- [ ] `--reset-exhausted` CLI flag - retry all exhausted tracks after search logic improvements
+- [x] `--reset-exhausted` CLI flag - done 2026-06-03. Resets all exhausted tracks to unmatched so they get retried next run.
 - [ ] Run AudioManager before running this program so Audio Mirror is up to date
 - [ ] diagnose.py = integrate into main program as one liner in terminal output, running diagnostic checks!
