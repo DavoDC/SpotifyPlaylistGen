@@ -1,4 +1,4 @@
-# Spotify Playlist Generator - Ideas and TODOs
+# SpotifyTools - Ideas and TODOs
 
 ## ACTIVE PLAN: Rename to SpotifyTools + fix import fragility (2026-09-02)
 
@@ -8,7 +8,7 @@ Do ONE task at a time, verify before moving to the next. Do NOT batch.
 
 - [x] **Task 1 - package rename (do first, lowest risk):** rename `src/` -> `spotify_tools/` in this repo. Update AudioManager's ~7 `from src.X import Y` lines (`gui/tabs/acquire.py`, `gui/config.py`, `gui/tests/test_acquire.py`) to `from spotify_tools.X import Y`. Run AudioManager's `test_acquire.py` to verify green. Commit both repos separately. Done 2026-09-02: git mv preserved history; SpotifyPlaylistGen commits f714476 (rename) + 98f48df (import/doc updates, 214 tests pass); AudioManager only had import sites in `gui/tabs/acquire.py` (8, not gui/config.py or test_acquire.py) - commit dd3f4a73, 17 tests pass.
 - [ ] **Task 2 - path-resolution helper:** replace the hardcoded `SPOTIFYGEN_ROOT = REPO_ROOT.parent / "SpotifyPlaylistGen"` in AudioManager's `gui/config.py` and the hardcoded absolute `config.json` path in `src/config.py`'s `CONFIG_PATH` with one helper that checks a `SPOTIFY_TOOLS_ROOT` env var first, falls back to the sibling-folder assumption. Single point of failure instead of duplicated hardcoding. No packaging/pyproject.toml - not needed, no external consumer.
-- [ ] **Task 3 - repo/folder rename to SpotifyTools (do on a clean tree, not mid-feature-edit):** rename the `SpotifyPlaylistGen` folder/repo to `SpotifyTools`. Checklist (blast radius found during planning, verify each):
+- [x] **Task 3 - repo/folder rename to SpotifyTools (do on a clean tree, not mid-feature-edit):** rename the `SpotifyPlaylistGen` folder/repo to `SpotifyTools`. Checklist (blast radius found during planning, verify each):
   - GitHub remote name / `gh repo rename` (or manual remote update)
   - AudioManager `SPOTIFYGEN_ROOT` (or the Task-2 env var default) -> new folder name
   - Any personal notes/indexes that reference the old repo name (check separately, not tracked here)
@@ -19,6 +19,18 @@ Do ONE task at a time, verify before moving to the next. Do NOT batch.
   - Sync the rename to any other machine this repo is checked out on - old folder won't rename itself there
   - Add one clarifying line to the new README.md/CLAUDE.md: consumed via direct sibling-import by AudioManager's Python GUI, not an installed/packaged library - avoids the name implying an architecture that was explicitly rejected.
   - `__pycache__`/stale bytecode cleanup after rename
+
+  Done 2026-09-02. GitHub repo renamed `DavoDC/SpotifyPlaylistGen` -> `DavoDC/SpotifyTools` via `gh repo rename` (visibility unchanged, PUBLIC); `gh` did not auto-update the local `origin` URL, fixed manually with `git remote set-url`. Local folder rename (`Rename-Item`) initially failed with Access Denied twice - root cause was AudioManager's GUI (`pythonw gui/main.py`) running and holding a handle via its sibling-import of this repo; stopped that process (with explicit go-ahead) and the rename then succeeded, `.git` history intact. No Desktop/.lnk/.bat/.ps1 shortcuts found referencing the old path. `__pycache__` cleared in both this repo and AudioManager.
+
+  Files changed - SpotifyTools (commit `54e7f20`): `CLAUDE.md`, `README.md` (added sibling-import clarifying note; also fixed a stale `src/` listing left over from Task 1), `docs/HISTORY.md`, `docs/References/DevContext.md`, `docs/SpotifyAPI_Reference.md`, `docs/spotifyplaylistgen.md`, `scripts/open_playlist.bat`, `scripts/run.bat`, `scripts/run.sh` (also fixed stale `src/` module paths left over from Task 1), `spotify_tools/main.py`, `spotify_tools/report_generator.py`.
+
+  Files changed - AudioManager (commit `49576213` code, `224cc45b` docs): `gui/config.py` (`SPOTIFYGEN_ROOT` string only, per plan - Task 2's env-var helper is still separate/undone), `gui/tabs/acquire.py`, `gui/tests/test_acquire.py` (sibling `sys.path.insert` target), `docs/Development/HISTORY.md`, `docs/Development/IDEAS.md`, `docs/References/AudioMirror-Format.md`, `docs/References/GUI-Architecture.md`, `docs/References/Music-Discovery-Workflow.md`. Left `docs/Historical/WorkflowExecution-2026-04-26/STAGE_2_ACQUIRING_(DONE).md` untouched - dated post-mortem, accurate as written.
+
+  Files changed - the personal notes/index mentioned above (repo index + dev-environment reference doc, in the private workspace tracked separately from this repo, also fixed a pre-existing stale exact test count while touching that line). Session-archive/phase/log entries there left untouched as historical record.
+
+  Tests: SpotifyTools `python -m pytest tests/ -q` - all pass. AudioManager `python -m pytest gui/tests/test_acquire.py -q` - all pass.
+
+  New GitHub URL: https://github.com/DavoDC/SpotifyTools
 
 Superseded by this plan: the "SpotifyTools generalize - DEFERRED indefinitely" note below (its premise - no second Python consumer - is false; AudioManager's Python GUI is a real, actively-developed consumer) and the "MusicLibPlaylistSyncer" rename idea (narrower name, predates the AudioManager coupling, doesn't reflect current scope).
 
