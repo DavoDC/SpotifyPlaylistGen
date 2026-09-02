@@ -32,6 +32,8 @@ Do ONE task at a time, verify before moving to the next. Do NOT batch.
 
   New GitHub URL: https://github.com/DavoDC/SpotifyTools
 
+  Follow-up 2026-09-02: `spotify_tools/` had been placed directly at the repo root, flattening the standard `src/` layout used elsewhere in this workspace. Re-nested it to `src/spotify_tools/` (`git mv`, history preserved) to match the workspace convention while keeping the namespaced `from spotify_tools.X import Y` imports AudioManager needs. Added `pytest.ini` (`pythonpath = src`) so tests still resolve the package; `scripts/run.sh` and `scripts/open_playlist.bat` now `cd` into `src/` before `python -m spotify_tools.X`. AudioManager's `gui/tabs/acquire.py` and `gui/tests/test_acquire.py` sys.path inserts updated to append `/ "src"`. SpotifyTools commit `624d88c`, AudioManager commit `8736476c`. Both test suites pass (SpotifyTools 214, AudioManager's `test_acquire.py` 17).
+
 Superseded by this plan: the "SpotifyTools generalize - DEFERRED indefinitely" note below (its premise - no second Python consumer - is false; AudioManager's Python GUI is a real, actively-developed consumer) and the "MusicLibPlaylistSyncer" rename idea (narrower name, predates the AudioManager coupling, doesn't reflect current scope).
 
 ---
