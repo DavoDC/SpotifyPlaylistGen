@@ -1,4 +1,4 @@
-# SpotifyPlaylistGen - Change History
+# SpotifyTools - Change History
 
 ## 2026-03-24 / 2026-03-25
 
